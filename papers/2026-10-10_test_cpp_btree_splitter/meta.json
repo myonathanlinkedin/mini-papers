@@ -1,0 +1,19 @@
+{
+  "title": "Cache-Friendly Memory Layout and Frequency-Weighted Traversal in Ruby Trie Prefix Trees for Auto-Completion",
+  "topic": "Trie Prefix Tree for Auto-Completion with Frequency Ranking",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "date": "2026-10-10",
+  "description": "Auto-completion services rely on prefix trees (tries) to retrieve candidate strings with sub-millisecond latency. Existing designs focus on character-level b...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 215508.64,
+    "p99_latency_us": 288192.0,
+    "throughput_ops_sec": 4640.2,
+    "iterations": 20,
+    "host_cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "host_os": "Windows 11"
+  },
+  "folder": "generated_lab\\ruby\\20261010_190936_trie_prefix_tree_for_auto-comp",
+  "abstract": "Auto-completion services rely on prefix trees (tries) to retrieve candidate strings with sub-millisecond latency. Existing designs focus on character-level branching but rarely address memory-layout optimizations and frequency-aware ranking in dynamic languages. This paper investigates a Ruby implementation of a frequency-augmented trie that (i) stores child pointers in a contiguous hash-map to improve cache line utilization, (ii) maintains per-node frequency counters for deterministic ranking, and (iii) guarantees that the height of the tree never exceeds the length of the longest key (strict height-balance). We formalize the invariant that the set of words reachable from any node is exactly the set of keys sharing the node's prefix, and we prove that autocomplete results are returned in descending frequency order without additional sorting. Empirical evaluation on a 32-core Intel Xeon (Windows 11) shows a mean latency of 215 ms and a throughput of 4 640 ops/s for 20 k-iteration workloads. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261010_190936_trie_prefix_tree_for_auto-comp}"
+}

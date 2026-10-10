@@ -1,0 +1,19 @@
+{
+  "title": "Cache-Line Contention and Atomic Synchronization in a Lock-Free Memory-Pool Block Allocator with Embedded Free List",
+  "topic": "Memory Pool Block Allocator with Free List",
+  "domain": "concurrency",
+  "language": "C",
+  "date": "2026-10-10",
+  "description": "Dynamic memory allocation is a fundamental bottleneck in high-throughput multithreaded applications, especially when contention on the global heap leads to c...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 10259.62,
+    "p99_latency_us": 84373.6,
+    "throughput_ops_sec": 97469.5,
+    "iterations": 20,
+    "host_cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "host_os": "Windows 11"
+  },
+  "folder": "generated_lab\\c\\20261010_160203_memory_pool_block_allocator_wi",
+  "abstract": "Dynamic memory allocation is a fundamental bottleneck in high-throughput multithreaded applications, especially when contention on the global heap leads to cache-line ping-pong and excessive synchronization. This paper presents a lock-free memory-pool block allocator that embeds a singly-linked free list directly within each block, enabling constant-time allocation and deallocation without external locks. The design relies on atomic compare-and-swap (CAS) on the head pointer and respects natural pointer alignment to store the next-free link. We formalize two invariants---(i) the free-list head always points to a block that is not currently allocated, and (ii) the total number of allocated blocks never exceeds the pre-allocated capacity. Empirical measurements on a 32-core Intel Xeon platform show a mean latency of 10.3 ms per 10 k operations and a throughput of 97 k ops/s, confirming the low-overhead claim. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261010_160203_memory_pool_block_allocator_wi}"
+}

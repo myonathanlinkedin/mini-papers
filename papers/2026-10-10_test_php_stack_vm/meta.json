@@ -1,0 +1,19 @@
+{
+  "title": "Layered Distance Propagation and Cache-Line Locality in Zig-Based Hopcroft-Karp Matching",
+  "topic": "Hopcroft-Karp Bipartite Matching Algorithm",
+  "domain": "",
+  "language": "Zig",
+  "date": "2026-10-10",
+  "description": "We present a systems-level implementation of the Hopcroft-Karp maximum bipartite matching algorithm in the Zig programming language, focusing on memory layou...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "host_os": "Windows 11"
+  },
+  "folder": "generated_lab\\zig\\20261010_090710_hopcroft-karp_bipartite_matchi",
+  "abstract": "We present a systems-level implementation of the Hopcroft-Karp maximum bipartite matching algorithm in the Zig programming language, focusing on memory layout efficiency and structural invariants. While the algorithmic complexity is established as $O(E\\sqrt{V})$, practical performance is heavily influenced by the spatial locality of distance-layer traversals and the overhead of dynamic memory allocation. We formalize the BFS/DFS phase invariants and analyze the impact of contiguous adjacency list storage on cache-line utilization. Our implementation utilizes a custom graph representation to minimize pointer chasing during the breadth-first search phase. We validate the correctness of the matching against known bounds and analyze the structural complexity of the search tree. The results demonstrate that careful memory management in Zig reduces allocation overhead compared to garbage-collected counterparts, offering a deterministic performance profile for real-time matching applications. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261010_090710_hopcroft-karp_bipartite_matchi}."
+}
