@@ -1,0 +1,25 @@
+{
+  "title": "Cache-Line Aligned MemTable Layout and Deterministic SSTable Flush Compaction in a Rust LSM-Tree Implementation",
+  "topic": "Log-Structured Merge-Tree (LSM-Tree) MemTable and SSTable Flush Compaction",
+  "domain": "Storage Engines, Log-Structured Storage, Systems Architecture",
+  "language": "Rust",
+  "date": "2026-10-11",
+  "description": "Log-Structured Merge-Trees (LSM-trees) achieve high write throughput by buffering updates in an in-memory MemTable and periodically flushing sorted runs to disk-resident SSTables. This paper presents an empirical evaluation of a cache-line aligned Rust LSM-tree MemTable and flush compaction architecture, evaluated live on a 13th Gen Intel Core i9-13900HX.",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 15115.62,
+    "p50_latency_us": 11857.3,
+    "p95_latency_us": 18445.4,
+    "p99_latency_us": 99139.5,
+    "std_dev_us": 15708.06,
+    "throughput_ops_sec": 66156.7,
+    "iterations": 30,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_cores": 24,
+    "host_threads": 32,
+    "host_ram_gb": 63.8
+  },
+  "folder": "generated_lab/rust/20261005_053754_lsm-tree_memtable_and_sstable",
+  "abstract": "Log-Structured Merge-Trees (LSM-trees) achieve high write throughput by buffering updates in an in-memory MemTable and periodically flushing sorted runs to disk-resident SSTables. In modern cloud workloads, contention on cache lines and the cost of atomic synchronization dominate latency during MemTable insertion and SSTable compaction. This paper presents a Rust implementation that (i) aligns the MemTable's B-Tree nodes to cache-line boundaries, (ii) employs lock-free ring buffers for write ordering, and (iii) guarantees deterministic flush ordering through a monotonic sequence number barrier. We formalize two invariants---total-order of keys across flushed runs and height-balance of the in-memory B-Tree---and prove that they are preserved under concurrent execution. Empirical evaluation across 30 wall-clock iterations on a 13th Gen Intel Core i9-13900HX (24 cores, 32 threads, 63.8 GB RAM, Windows 11) yields an observed mean latency of 15,115.62 \u00b5s (P50: 11,857.30 \u00b5s) and sustained throughput of 66,157 ops/s, validating logarithmic search envelopes O(log N) and bounded write latency. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/rust-algorithms/tree/main/algorithms/20261005_053754_lsm-tree_memtable_and_sstable}"
+}

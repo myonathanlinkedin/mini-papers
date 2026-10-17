@@ -1,0 +1,22 @@
+{
+  "title": "Cache-Line Contention and Atomic Synchronization in a Lock-Free Memory-Pool Block Allocator with Embedded Free List (C)",
+  "topic": "Memory Pool Block Allocator with Free List",
+  "domain": "concurrency",
+  "language": "C",
+  "date": "2026-10-11",
+  "description": "Dynamic memory management in high-concurrency workloads is often limited by cache-line traffic and synchronization overhead. This work presents a lock-free m...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 492.32,
+    "p99_latency_us": 677.04,
+    "throughput_ops_sec": 2031184.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261010_160203_memory_pool_block_allocator_wi",
+  "abstract": "Dynamic memory management in high-concurrency workloads is often limited by cache-line traffic and synchronization overhead. This work presents a lock-free memory-pool block allocator that embeds a singly-linked free list directly inside each block and uses atomic compare-and-swap (CAS) primitives to mediate concurrent acquire and release. The design guarantees that the invariant \\textit{used + free = capacity} holds under sequential consistency, and that each operation is linearizable. Empirical evaluation on a Microsoft Azure virtual machine powered by an AMD EPYC 9V45 (96-core) host processor (1 physical core / 2 logical threads, 7.8 GB RAM) under Linux shows a mean allocation latency of \\textbf{492.32 \\textmu{}s} ($\\sigma$ = 39.63 \\textmu{}s) and a sustained throughput of \\textbf{2,031,185 ops/s} over 30 benchmark iterations. These results demonstrate that the allocator achieves predictable performance despite contention on a shared free-list pointer. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261010_160203_memory_pool_block_allocator_wi}"
+}

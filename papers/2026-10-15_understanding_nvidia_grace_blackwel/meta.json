@@ -1,0 +1,25 @@
+{
+  "title": "Axiom-Placement Guided Balanced Search in Aether-Compute Chronos-Arch Stratum-Memory",
+  "topic": "Understanding NVIDIA Grace-Blackwell Unified Memory Through Placement-Controlled",
+  "domain": "concurrency",
+  "language": "Zig",
+  "date": "2026-10-15",
+  "release_timestamp": "20261015_080329",
+  "created_at": "2026-10-15T08:03:29.285946+00:00",
+  "published_at": "2026-10-15",
+  "description": "We investigate a Zig-based balanced search structure that co-optimizes placement of contiguous node buffers across CPU and GPU memory pools. The design prese...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/zig/20261015_070136_understanding_nvidia_grace-bla",
+  "abstract": "We investigate a Zig-based balanced search structure that co-optimizes placement of contiguous node buffers across CPU and GPU memory pools. The design preserves strict height-balance and key-ordering invariants while enabling dynamic migration of sub-trees. Formal analysis shows that point and range queries, as well as insertions and rebalancings, run in $O(\\log N)$ time, and that the total auxiliary memory consumption is $O(N)$. The implementation is verified by static AST inspection and by a formal invariant proof that holds for all allocation and migration operations. No empirical wall-clock measurements are reported; the evaluation relies solely on static analysis of the Zig source. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261015_070136_understanding_nvidia_grace-bla}."
+}

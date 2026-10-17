@@ -1,0 +1,25 @@
+{
+  "title": "Pointer-Indirection Invariants and Amortized Constant-Time Dispatch in a C Zero-Copy Byte Packet Ring Buffer",
+  "topic": "Zero-Copy Byte Packet Ring Buffer Dispatcher",
+  "domain": "zero-copy",
+  "language": "C",
+  "date": "2026-10-15",
+  "release_timestamp": "20261015_140457",
+  "created_at": "2026-10-15T14:04:57.952871+00:00",
+  "published_at": "2026-10-15",
+  "description": "High-throughput network data planes require efficient packet dispatch mechanisms that minimize memory allocation overhead. This work presents a zero-copy byt...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261015_110110_zero-copy_byte_packet_ring_buf",
+  "abstract": "High-throughput network data planes require efficient packet dispatch mechanisms that minimize memory allocation overhead. This work presents a zero-copy byte packet ring buffer dispatcher implemented in C, utilizing a power-of-two capacity constraint to enable bitwise masking for index resolution. The system stores packet metadata pointers rather than payload bytes, ensuring zero-copy semantics during enqueue and dequeue operations. We formally define the state transition invariants governing the head and tail indices, proving that the buffer maintains strict FIFO ordering and prevents overflow under concurrent access assumptions. Static Abstract Syntax Tree (AST) inspection verifies the structural complexity, confirming an amortized $O(1)$ time complexity for push and pop operations. The implementation avoids dynamic memory allocation for the buffer structure itself during operation, relying on contiguous node layout for spatial memory hierarchy efficiency. We analyze the trade-offs between pointer indirection and payload copying, demonstrating that the zero-copy approach reduces memory bandwidth pressure in high-frequency dispatch scenarios. This investigation addresses three research questions regarding asymptotic bounds, invariant preservation, and structural dynamics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261015_110110_zero-copy_byte_packet_ring_buf}."
+}

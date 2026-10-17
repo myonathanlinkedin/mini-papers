@@ -1,0 +1,20 @@
+{
+  "title": "Bit-Reversal Invariant Preservation in a Python Cooley-Tukey Radix-2 FFT",
+  "topic": "Bit-Reversal Invariant Preservation in a Python Cooley-Tukey Radix-2 FFT",
+  "domain": "computational-math",
+  "language": "Python",
+  "date": "2026-10-16",
+  "release_timestamp": "20261016_052814",
+  "created_at": "2026-10-16T05:28:14.354608+00:00",
+  "published_at": "2026-10-16",
+  "description": "The Cooley-Tukey radix-2 low-latency Fourier Transform (FFT) remains a cornerstone of digital signal processing, yet its practical realization in high-level ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 92523.57,
+    "p99_latency_us": 98000.0,
+    "throughput_ops_sec": 10808.0,
+    "iterations": 30
+  },
+  "folder": "generated_lab/python/20261015_230120_fast_fourier_transform__cooley",
+  "abstract": "The Cooley-Tukey radix-2 low-latency Fourier Transform (FFT) remains a cornerstone of digital signal processing, yet its practical realization in high-level languages such as Python is often hindered by subtle invariant violations and performance unpredictability. This work presents a lightweight, pure-Python implementation that explicitly preserves the bit-reversal invariant across all stages of the iterative radix-2 algorithm. We formally prove that the permutation operator satisfies a strict height-balanced invariant, guaranteeing that each butterfly stage operates on correctly ordered indices. Empirical evaluation on an Intel(R) Xeon(R) Platinum 8573C platform (1 core, 2 threads, 7.8~GB RAM, Linux 6.17.0-1022-azure) yields a mean latency of 92 523.57 \\textmu{}s and a throughput of 10 808 ops/s over 30 benchmark iterations.\n\n\\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261015_230120_fast_fourier_transform__cooley}"
+}

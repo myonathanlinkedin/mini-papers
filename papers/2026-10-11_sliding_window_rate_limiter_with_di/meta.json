@@ -1,0 +1,25 @@
+{
+  "title": "Lock-Synchronized Sliding-Window Rate Limiter with Distributed Token-Bucket State in Go",
+  "topic": "Sliding Window Rate Limiter with Distributed Token Bucket",
+  "domain": "concurrency",
+  "language": "Go",
+  "date": "2026-10-11",
+  "release_timestamp": "20261011_200328",
+  "created_at": "2026-10-11T20:03:28.389392+00:00",
+  "published_at": "2026-10-11",
+  "description": "API gateways and micro-service meshes must enforce request quotas while preserving low-latency concurrency. We present a Go implementation that combines a cl...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/go/20261011_030524_sliding_window_rate_limiter_wi",
+  "abstract": "API gateways and micro-service meshes must enforce request quotas while preserving low-latency concurrency. We present a Go implementation that combines a classic token-bucket regulator with a fixed-size sliding-window filter, and distributes the bucket state across a set of replica nodes using a deterministic hash of the client identifier. The design relies on a single-writer mutex to guarantee sequential consistency of token accounting, while the sliding-window timestamps are stored in a bounded circular buffer. We formalize two invariants: (i) the total number of granted tokens never exceeds the bucket capacity, and (ii) the number of requests observed inside any window of length $W$ never exceeds the configured limit. Both invariants are proved by induction on the Allow operation. Asymptotic analysis shows amortized $O(1)$ time for token refill and request admission, and $O(N)$ bounded memory where $N$ is the window size. The source code is publicly available. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261011_030524_sliding_window_rate_limiter_wi}"
+}

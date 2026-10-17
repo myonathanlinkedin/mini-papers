@@ -1,0 +1,22 @@
+{
+  "title": "Height-Balanced Invariant Enforcement in a C Implementation of the Runge-Kutta 4th-Order Numerical ODE Integrator",
+  "topic": "Runge-Kutta 4th Order Numerical ODE Integrator",
+  "domain": "",
+  "language": "C",
+  "date": "2026-10-11",
+  "description": "The fourth-order Runge-Kutta (RK4) method remains the work-horse for time-domain simulation of ordinary differential equations (ODEs) in embedded and scienti...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261011_080213_runge-kutta_4th_order_numerica",
+  "abstract": "The fourth-order Runge-Kutta (RK4) method remains the work-horse for time-domain simulation of ordinary differential equations (ODEs) in embedded and scientific software. This work presents a compact C library that isolates the RK4 step in a reusable integrator object, explicitly documents its memory layout, and proves two structural invariants: (i) the state vector remains index-ordered throughout integration, and (ii) each RK4 step preserves the height-balanced property of the underlying contiguous index structure, guaranteeing $O(\\log N)$ search cost for any auxiliary lookup. Formal asymptotic analysis shows the integrator's per-step arithmetic cost is $O(d)$ where $d$ is the system dimension, while static AST inspection yields a source-line count of 120 and a single function block. No empirical timing data are reported; verification relies on automated AST inspection and deductive proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261011_080213_runge-kutta_4th_order_numerica}"
+}

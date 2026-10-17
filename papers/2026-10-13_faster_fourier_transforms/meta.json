@@ -1,0 +1,25 @@
+{
+  "title": "Balanced Binary Indexing Invariants for a Python Faster Fourier Transform",
+  "topic": "Faster Fourier Transforms",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-13",
+  "release_timestamp": "20261013_170421",
+  "created_at": "2026-10-13T17:04:21.566303+00:00",
+  "published_at": "2026-10-13",
+  "description": "low-latency Fourier Transform (FFT) kernels dominate many signal-processing pipelines, yet their Python implementations often hide algorithmic structure behi...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261013_130111_faster_fourier_transforms",
+  "abstract": "low-latency Fourier Transform (FFT) kernels dominate many signal-processing pipelines, yet their Python implementations often hide algorithmic structure behind high-level abstractions. This work isolates the radix-2 Cooley-Tukey FFT as a balanced binary indexing structure and formalizes three invariants: (i) strict height-balance of the implicit recursion tree, (ii) preservation of key-ordered bit-reversed indices, and (iii) deterministic traversal order guaranteeing $O(N\\log N)$ arithmetic work. By inspecting the abstract syntax tree (AST) of a compact open-source module, we derive exact structural metrics (209 source lines, 14 function blocks) and prove that the implementation respects the invariants under any power-of-two input length. The analysis yields a provable asymptotic bound of $T(N)=\\Theta(N\\log N)$ without resorting to empirical timing. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261013_130111_faster_fourier_transforms}."
+}

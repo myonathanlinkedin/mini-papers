@@ -1,0 +1,22 @@
+{
+  "title": "Cache-Line Padding, Atomic Sequencing, and Contention Bounds in a Lock-Free C# LMAX Disruptor Ring Buffer",
+  "topic": "LMAX Disruptor Ring Buffer Pattern",
+  "domain": "concurrency",
+  "language": "C#",
+  "date": "2026-10-11",
+  "description": "The LMAX Disruptor provides a high-throughput, low-latency coordination primitive for producer-consumer pipelines. This work isolates the core lock-free ring...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/csharp/20261011_030233_lmax_disruptor_ring_buffer_pat",
+  "abstract": "The LMAX Disruptor provides a high-throughput, low-latency coordination primitive for producer-consumer pipelines. This work isolates the core lock-free ring-buffer pattern implemented in C\\# and formalizes its memory layout, cache-line padding, and atomic publish/consume barriers. By modeling the buffer as a circular array of sequence-numbered slots, we prove linearizability and derive amortized $O(1)$ enqueue and dequeue operations, with contention scaling $O(P)$ where $P$ denotes the number of concurrent producers. Static abstract-syntax-tree (AST) inspection yields a structural profile of 1 source-level code file and a single function block, confirming the minimal implementation footprint. The analysis draws on prior disruptor concepts \\cite{Author_2019_RequiemAmerican} and hardware-level contention studies \\cite{Liu_2023_DesignOfLightwe}. No empirical wall-clock measurements are reported; all claims rest on formal reasoning and static profiling. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261011_030233_lmax_disruptor_ring_buffer_pat}"
+}

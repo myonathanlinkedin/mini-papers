@@ -1,0 +1,22 @@
+{
+  "title": "Cache-Line Aligned Safe Optimistic Lock Coupling for Concurrent Linked Lists in Rust",
+  "topic": "Safe Optimistic Lock Coupling",
+  "domain": "optimistic, concurrency",
+  "language": "Rust",
+  "date": "2026-10-11",
+  "description": "Optimistic lock coupling reduces contention by validating a tentative traversal before committing updates, yet na\u00efve implementations suffer from cache-line f...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/rust/20261011_070218_safe_optimistic_lock_coupling",
+  "abstract": "Optimistic lock coupling reduces contention by validating a tentative traversal before committing updates, yet na\u00efve implementations suffer from cache-line false sharing and memory-order violations on modern multicore CPUs. This work presents a Rust implementation of a singly-linked ordered list that couples optimistic traversal with a cache-line padded predecessor lock, guaranteeing linearizability without resorting to heavyweight atomic primitives. The design relies on a sentinel node, per-node \\texttt{Mutex<Option<Arc<Node>>>} guards, and a two-phase validation that respects Rust's ownership model. Formal invariants are proved by induction over list operations, establishing that the abstract set of keys evolves atomically. Static analysis on an AMD EPYC 7763 (1 core, 2 threads, 7.8~GB RAM, Linux 6.17) yields an AST of 173 SLOC and 11 function blocks, confirming O(1) amortized update cost and O(1) contention-scaled lookup. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/rust-algorithms/tree/main/algorithms/20261011_070218_safe_optimistic_lock_coupling}"
+}

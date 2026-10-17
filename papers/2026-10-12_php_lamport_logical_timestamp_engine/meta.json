@@ -1,0 +1,14 @@
+{
+  "title": "Lamport Logical Timestamp Synchronization Engine in php: Causal Clock Verification and Execution Dynamics",
+  "topic": "Lamport Logical Timestamp Synchronization Engine",
+  "domain": "Systems Engineering",
+  "language": "php",
+  "date": "2026-10-12",
+  "release_timestamp": "20261013_060951",
+  "created_at": "2026-10-13T06:09:51.289339+00:00",
+  "published_at": "2026-10-12",
+  "description": "Lamport logical clocks are a cornerstone for establishing causal order in distributed systems, yet practical implementations in high-level scripting language...",
+  "benchmark_metrics": {},
+  "folder": "generated_lab/php/20261011_094516_lamport_logical_timestamp_sync",
+  "abstract": "Lamport logical clocks are a cornerstone for establishing causal order in distributed systems, yet practical implementations in high-level scripting languages remain under-explored. This paper presents a PHP-based Lamport Logical Timestamp Synchronization Engine that integrates a height-balanced search index for event logging. We formalize three research questions concerning (RQ1) the asymptotic complexity of timestamp-driven insertions, (RQ2) the preservation of a strict monotonicity invariant across remote updates, and (RQ3) the empirical throughput and latency profile on a modern multi-core workstation. The engine is built from verified source files (engine.php, types.php, main.php) and evaluated over 30 benchmark iterations on a 13th Gen Intel Core i9-13900HX (24 cores/32 threads, 63.8~GB RAM, Windows 11). Measured mean latency is 60 300.89 \\textmu{}s with a throughput of 16 584 ops/s. Results confirm that the balanced index maintains $O(\\log n)$ insertion cost while respecting Lamport's causal ordering. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261011_094516_lamport_logical_timestamp_sync}."
+}

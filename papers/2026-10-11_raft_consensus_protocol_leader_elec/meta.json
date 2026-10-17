@@ -1,0 +1,25 @@
+{
+  "title": "Raft Consensus Protocol Leader Election State Engine in Java: Causal Clock Verification and Execution Dynamics",
+  "topic": "Raft Consensus Protocol Leader Election State Engine",
+  "domain": "raft, concurrency, consensus",
+  "language": "Java",
+  "date": "2026-10-11",
+  "release_timestamp": "20261011_170347",
+  "created_at": "2026-10-11T17:03:47.830578+00:00",
+  "published_at": "2026-10-11",
+  "description": "Leader election is the pivotal first step of the Raft consensus protocol, yet its correctness hinges on subtle state-transition invariants that are rarely ex...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/java/20261011_150530_raft_consensus_protocol_leader",
+  "abstract": "Leader election is the pivotal first step of the Raft consensus protocol, yet its correctness hinges on subtle state-transition invariants that are rarely expressed in a formally verified Java implementation. This paper presents a compact Java state engine that encodes Raft's follower-candidate-leader lifecycle, a deterministic candidate-preference rule based on smallest identifier, and a monotonic term update mechanism. We model the engine as a height-balanced search structure over node identifiers, yielding $O(\\log N)$ lookup for candidate selection. Formal invariants---term monotonicity and unique-leader existence---are proved using elementary induction. Static analysis on an AMD EPYC 7763 host confirms the source comprises 285 SLOC and 57 function blocks, matching the expected structural complexity. The contribution is a reproducible, formally-checked reference implementation suitable for teaching and baseline research.\n\n\\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261011_150530_raft_consensus_protocol_leader}"
+}

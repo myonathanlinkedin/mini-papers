@@ -1,0 +1,25 @@
+{
+  "title": "Causal Order Preservation and Height-Balanced Indexing in a Go Compiler Bootstrapping Pipeline",
+  "topic": "Compiler bootstrapping depends on more than you might think",
+  "domain": "",
+  "language": "Go",
+  "date": "2026-10-14",
+  "release_timestamp": "20261014_140324",
+  "created_at": "2026-10-14T14:03:24.324470+00:00",
+  "published_at": "2026-10-14",
+  "description": "Bootstrapping a compiler entails repeatedly parsing, interpreting, and compiling source fragments until a self-hosting binary is produced. While the function...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/go/20261014_110136_compiler_bootstrapping_depends",
+  "abstract": "Bootstrapping a compiler entails repeatedly parsing, interpreting, and compiling source fragments until a self-hosting binary is produced. While the functional correctness of each phase is well studied, the underlying data-structural mechanisms that guarantee deterministic progress are less understood. This paper examines a balanced search and indexing structure implemented in Go that underpins symbol table management during bootstrapping. We formalize the height-balanced and key-ordered invariants, derive an amortized logarithmic bound for insertion and lookup, and verify these properties through static abstract-syntax-tree (AST) inspection. The analysis confirms that the structure scales as $O(\\log N)$ for point and range queries and requires linear auxiliary memory. No empirical wall-clock measurements are reported; all evidence is derived from formal reasoning and structural profiling. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261014_110136_compiler_bootstrapping_depends}."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Aether-Spinor Guided Self-Balancing AVL Tree: Height-Balanced Invariants and PHP Implementation",
+  "topic": "Self-Balancing AVL Tree with Full Rotation Engine",
+  "domain": "",
+  "language": "PHP",
+  "date": "2026-10-15",
+  "release_timestamp": "20261015_110353",
+  "created_at": "2026-10-15T11:03:53.095738+00:00",
+  "published_at": "2026-10-15",
+  "description": "Self-balancing binary search trees remain a cornerstone of in-memory indexing, yet their practical deployment in dynamic scripting runtimes is under-explored...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 41348.24,
+    "p99_latency_us": 50337.57,
+    "throughput_ops_sec": 24184.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/php/20261015_054850_self-balancing_avl_tree_with_f",
+  "abstract": "Self-balancing binary search trees remain a cornerstone of in-memory indexing, yet their practical deployment in dynamic scripting runtimes is under-explored. We present a PHP implementation of an AVL tree augmented with an Aether-Spinor rotation scheduler that preserves strict height-balance while minimizing pointer indirection. The algorithm guarantees $O(\\log n)$ amortized cost for insert, delete, and search operations, as formalized in Theorem 1. Empirical evaluation on an AMD EPYC 9V74 80-core processor (1 physical core, 2 logical threads) yields a mean latency of 41 348.24 \\textmu{}s and a throughput of 24 185 ops/s over 30 benchmark iterations. These results demonstrate that PHP can sustain high-performance balanced tree operations with minimal overhead. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261015_054850_self-balancing_avl_tree_with_f}"
+}

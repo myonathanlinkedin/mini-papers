@@ -1,0 +1,22 @@
+{
+  "title": "Augmenting Path Complexity and Correctness Invariants of the Hopcroft--Karp Bipartite Matching Algorithm in Zig",
+  "topic": "Hopcroft-Karp Bipartite Matching Algorithm",
+  "domain": "",
+  "language": "Zig",
+  "date": "2026-10-11",
+  "description": "The Hopcroft--Karp algorithm remains the canonical method for computing maximum cardinality matchings in bipartite graphs with a worst-case time bound of \ud835\udc42(\ud835\udc38...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "None (Static Verification)",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/zig/20261010_090710_hopcroft-karp_bipartite_matchi",
+  "abstract": "The Hopcroft--Karp algorithm remains the canonical method for computing maximum cardinality matchings in bipartite graphs with a worst-case time bound of \ud835\udc42(\ud835\udc38\u221a\ud835\udc15) \\cite{Hopcroft_1971_AN52AlgorithmFo,Hopcroft_1973_AnN52Algori}. This work presents a compact, lock-free implementation in the systems language Zig that exploits contiguous adjacency storage and a single-pass breadth-first search (BFS) layer construction to minimise cache-line contention. Formal invariants guarantee that each BFS iteration yields a set of vertex-disjoint shortest augmenting paths, while depth-first search (DFS) respects the same layering without back-tracking. Static analysis of the source (138 SLOC, 4 function blocks) confirms the asymptotic memory usage of \ud835\udc42(\ud835\udc15+\ud835\udc38). No empirical wall-clock measurements are reported; instead, correctness is established through exhaustive unit tests and proof-carrying code inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261010_090710_hopcroft-karp_bipartite_matchi}"
+}

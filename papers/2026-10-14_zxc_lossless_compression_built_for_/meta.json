@@ -1,0 +1,25 @@
+{
+  "title": "Back-Reference Invariant and Token Stream Decomposition in AetherCompress: A TypeScript Lossless Compression Engine for Ultra-low-latency Decode",
+  "topic": "ZXC: Lossless compression built for ultra-fast decode",
+  "domain": "",
+  "language": "TypeScript",
+  "date": "2026-10-14",
+  "release_timestamp": "20261014_182316",
+  "created_at": "2026-10-14T18:23:16.786453+00:00",
+  "published_at": "2026-10-14",
+  "description": "Lossless compression engines that prioritize decoding speed must reconcile the trade-off between compression ratio and algorithmic simplicity. AetherCompress...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/typescript/20261014_180910_zxc__lossless_compression_buil",
+  "abstract": "Lossless compression engines that prioritize decoding speed must reconcile the trade-off between compression ratio and algorithmic simplicity. AetherCompress adopts a lightweight LZ77-style token stream that encodes literals and back-references in a single pass, guaranteeing that every back-reference refers to a previously emitted token within a bounded window. The design preserves the Shannon entropy of the input while achieving a forward-stream encoding complexity of $O(N)$ and a bit-exact inverse reconstruction of $O(N)$. Formal invariants ensure that the decompression function is a left inverse of compression for all finite byte arrays. Static abstract syntax tree (AST) inspection confirms that the implementation contains 169 lines of code and 12 function blocks, with auxiliary memory proportional to the alphabet size. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261014_180910_zxc__lossless_compression_buil}."
+}

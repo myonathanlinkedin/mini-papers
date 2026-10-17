@@ -1,0 +1,22 @@
+{
+  "title": "Memory-Layout, Cache-Line Contention, and Bit-Exact Invariants in a Low-Level C Huffman Encoder/Decoder",
+  "topic": "Huffman Coding Lossless Compression and Decompression",
+  "domain": "huffman",
+  "language": "C",
+  "date": "2026-10-11",
+  "description": "Lossless Huffman coding remains a cornerstone of byte-wise compression in embedded and high-performance systems, yet its deterministic behavior on modern cac...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261010_223712_huffman_coding_lossless_compre",
+  "abstract": "Lossless Huffman coding remains a cornerstone of byte-wise compression in embedded and high-performance systems, yet its deterministic behavior on modern cache-centric CPUs is rarely examined at the source-code level. This work presents a self-contained C implementation that builds a frequency-ordered binary tree using an O(N\u00b2) priority queue, encodes symbols into a bit-packed stream, and reconstructs the original data without auxiliary metadata. Formal invariants guarantee prefix-freeness and bit-exact reversibility, while asymptotic analysis confirms linear-time encoding and decoding (O(|S|+|$\\Sigma$|)) and O(|$\\Sigma$|) auxiliary memory for the codebook. The implementation is verified through static abstract-syntax-tree inspection and formal proof rather than empirical timing. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261010_223712_huffman_coding_lossless_compre}"
+}

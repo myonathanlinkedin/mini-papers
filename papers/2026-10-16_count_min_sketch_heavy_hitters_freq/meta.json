@@ -1,0 +1,12 @@
+{
+  "title": "Count-Min Sketch Heavy-Hitter Extraction via Balanced Hash-Table Invariants",
+  "topic": "Count-Min Sketch Heavy Hitters Frequency Estimator",
+  "domain": "Probabilistic Data Structures & Streaming Algorithms",
+  "language": "Kotlin",
+  "date": "2026-10-16",
+  "release_timestamp": "20261016_140330",
+  "created_at": "2026-10-16T14:03:30.000000+00:00",
+  "published_at": "2026-10-16",
+  "description": "Empirical evaluation, formal invariant verification, and frequency estimation bounds of Count-Min Sketch in Kotlin.",
+  "folder": "generated_lab/kotlin/20261016_050124_count-min_sketch_heavy_hitters"
+}

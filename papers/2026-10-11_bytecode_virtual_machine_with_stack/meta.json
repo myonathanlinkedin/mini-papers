@@ -1,0 +1,22 @@
+{
+  "title": "Cache-Line Contention and Stack-Frame Layout in a PHP Bytecode Virtual Machine with Balanced Indexing",
+  "topic": "Bytecode Virtual Machine with Stack Evaluation Engine",
+  "domain": "",
+  "language": "PHP",
+  "date": "2026-10-11",
+  "description": "A lightweight stack-based bytecode virtual machine (VM) written in PHP is examined for its interaction with modern server-class hardware. The VM implements a...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 40501.52,
+    "p99_latency_us": 42055.96,
+    "throughput_ops_sec": 24690.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/php/20261010_150519_bytecode_virtual_machine_with",
+  "abstract": "A lightweight stack-based bytecode virtual machine (VM) written in PHP is examined for its interaction with modern server-class hardware. The VM implements a balanced search tree to index bytecode offsets, enabling constant-time stack manipulation while preserving logarithmic lookup for jump targets. Formal invariants guarantee stack height balance and key-ordered indexing, which are proved in Section 4. Empirical evaluation on an AMD EPYC 7763 (1 core / 2 threads, 7.8~GB RAM, Linux 6.17) shows a mean latency of 40 501.52 \\textmu{}s ($\\sigma$ = 606.14 \\textmu{}s) and a throughput of 24 690 ops/s over 30 runs. These results illustrate the impact of cache-line contention on a high-level language VM and provide a reproducible baseline for future optimizations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261010_150519\\_bytecode\\_virtual\\_machine\\_with}."
+}
