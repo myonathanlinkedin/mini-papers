@@ -1,0 +1,25 @@
+{
+  "title": "Bounded Buffer Synchronization and Invariant Horizons in High-Throughput Chronos-Buffer Ring Buffer Pattern (Java)",
+  "topic": "High-Throughput Disruptor Ring Buffer Pattern",
+  "domain": "concurrency",
+  "language": "Java",
+  "date": "2026-10-17",
+  "release_timestamp": "20261017_140330",
+  "created_at": "2026-10-17T14:03:30.007347+00:00",
+  "published_at": "2026-10-17",
+  "description": "The Chronos-Buffer Ring implements a lock-free, single-producer, single-consumer queue with a power-of-two sized circular buffer. Its core invariant is that ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/java/20261017_130144_high-throughput_disruptor_ring",
+  "abstract": "The Chronos-Buffer Ring implements a lock-free, single-producer, single-consumer queue with a power-of-two sized circular buffer. Its core invariant is that the producer sequence monotonically increases while the consumer sequence never overtakes it, guaranteeing sequential consistency without locks. Enqueue operations perform a single atomic increment and a bounded busy-spin on the gating sequence, yielding an amortized $O(1)$ cost. Dequeue operations read the next sequence and rely on a single compare-and-swap to advance the consumer cursor, achieving $O(1)$ amortized cost with contention bounded by the number of producers $P$. Formal proofs establish linearizability with respect to a FIFO specification. Static analysis confirms a structural complexity of $O(N)$ auxiliary memory and a verified AST metric of 142 SLOC and 26 function blocks. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261017_130144_high-throughput_disruptor_ring}"
+}
