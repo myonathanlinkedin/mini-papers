@@ -1,0 +1,30 @@
+{
+  "title": "Inductive Invariant Proofs and State Space Limits in Least Recently Used (LRU) Cache with Doubly Linked List (TypeScript)",
+  "topic": "Least Recently Used (LRU) Cache with Doubly Linked List",
+  "domain": "",
+  "language": "TypeScript",
+  "date": "2026-10-16",
+  "release_timestamp": "20261016_060834",
+  "created_at": "2026-10-16T06:08:34.261734+00:00",
+  "published_at": "2026-10-16",
+  "description": "Least Recently Used (LRU) caches are ubiquitous in systems that require bounded memory footprints. This work presents a formally verified TypeScript implemen...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/typescript/20261016_051602_least_recently_used__lru__cach",
+  "abstract": "Least Recently Used (LRU) caches are ubiquitous in systems that require bounded memory footprints. This work presents a formally verified TypeScript implementation that couples a hash map with a doubly linked list to achieve constant-time access, insertion, and deletion. We establish a precise invariant that the list order always reflects recency of use, and we prove that the invariant is preserved under all public operations. The algorithmic complexity is shown to be $O(1)$ per operation, while the static abstract syntax tree (AST) analysis confirms a structural complexity of $O(N)$ auxiliary memory and a balanced search-style insertion cost of $O(\\log N)$. The source code is publicly available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261016_051602_least_recently_used__lru__cach}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-16",
+  "year": "2026"
+}

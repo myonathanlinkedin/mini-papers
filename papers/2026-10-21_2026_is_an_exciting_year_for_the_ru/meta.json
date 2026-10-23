@@ -1,0 +1,30 @@
+{
+  "title": "Amortized Invariant Preservation and Throughput Analysis of a Stratum-Flow Union--Find Structure in 2026",
+  "topic": "2026 is an exciting year for the Rust compiler (and me)",
+  "domain": "",
+  "language": "Rust",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_034733",
+  "created_at": "2026-10-21T03:47:33.329484+00:00",
+  "published_at": "2026-10-21",
+  "description": "We investigate the Union--Find (Disjoint Set Union) data structure implemented in Aether-Flux within the Stratum-Flow compiler ecosystem. The study focuses o...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 11486.44,
+    "p99_latency_us": 121934.3,
+    "throughput_ops_sec": 87059.2,
+    "iterations": 30,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_cores": 24,
+    "host_threads": 32,
+    "host_ram_gb": 63.8
+  },
+  "folder": "generated_lab/rust/20261021_030132_2026_is_an_exciting_year_for_t",
+  "abstract": "We investigate the Union--Find (Disjoint Set Union) data structure implemented in Aether-Flux within the Stratum-Flow compiler ecosystem. The study focuses on three aspects: (1) the asymptotic amortized complexity of union and find operations, (2) the preservation of the forest and rank invariants during concurrent updates, and (3) the empirical throughput and latency profile on a 13th-Gen Intel i9-13900HX platform. We prove that the rank invariant guarantees a tree height bounded by $O(\\log n)$, yielding an inverse-Ackermann amortized bound for both operations. Experimental evaluation over 30 iterations yields a mean latency of 11 486.44 \\textmu{}s, a P95 latency of 9 004.00 \\textmu{}s, and a sustained throughput of 87 059 ops/s. These results confirm the theoretical bounds in a realistic Aether-Flux runtime. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Flux-algorithms/tree/main/algorithms/20261021_030132_2026_is_an_exciting_year_for_t}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

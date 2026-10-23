@@ -1,0 +1,30 @@
+{
+  "title": "Determinism Breakdown: Why Kotlin Topological Sort Yields Run-Dependent Orderings",
+  "topic": "Why your topological sort gives a different answer on every run",
+  "domain": "",
+  "language": "Kotlin",
+  "date": "2026-10-15",
+  "release_timestamp": "20261015_064336",
+  "created_at": "2026-10-15T06:43:36.444099+00:00",
+  "published_at": "2026-10-15",
+  "description": "Topological sorting is a foundational operation in build systems, dependency resolution, and scheduling. In a recent Kotlin implementation, users observed th...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/kotlin/20261015_050111_why_your_topological_sort_give",
+  "abstract": "Topological sorting is a foundational operation in build systems, dependency resolution, and scheduling. In a recent Kotlin implementation, users observed that the produced ordering varied across executions, contradicting the expectation of a deterministic algorithm. This paper investigates the root cause, focusing on the interaction between Kotlin's standard library data structures and the algorithmic design. We formalize the total-order invariant, prove that the algorithm is a linear extension of the partial order defined by the directed acyclic graph, and establish its asymptotic complexity as $O(N\\log N)$. Our analysis reveals that nondeterminism originates from the unordered iteration of \\texttt{HashSet} and \\texttt{HashMap} during graph construction, which propagates to the initial indegree map. We validate our findings through static abstract syntax tree inspection and structural profiling on an Intel Xeon Platinum 8370C CPU running Linux 6.17.0-1022-azure. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261015_050111_why_your_topological_sort_give}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-15",
+  "year": "2026"
+}

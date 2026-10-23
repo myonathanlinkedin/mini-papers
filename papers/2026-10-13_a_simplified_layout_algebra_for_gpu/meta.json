@@ -1,0 +1,36 @@
+{
+  "title": "Huge Inductive Invariant Proofs and State Space Limits in A Simplified Layout Algebra for GPU Kernels (C)",
+  "topic": "A Simplified Layout Algebra for GPU Kernels",
+  "domain": "Parallel Computing & GPU Systems",
+  "language": "C++",
+  "date": "2026-10-13",
+  "release_timestamp": "20261013_123428",
+  "created_at": "2026-10-13T12:34:28.562324+00:00",
+  "published_at": "2026-10-13",
+  "description": "Formal layout algebra and dimension mapping invariants for GPU tensor kernels.",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8,
+    "ast_structural_metrics": {
+      "source_lines_of_code": 184,
+      "modular_files_count": 2,
+      "function_block_count": 3,
+      "cyclomatic_complexity_estimate": 3
+    }
+  },
+  "folder": "generated_lab/c++/20261013_layout_algebra_gpu",
+  "abstract": "Modern deep learning workloads require complex multidimensional tensor manipulations on GPU architectures. This paper formalizes a simplified layout algebra for GPU kernels, proving height-balance and bijective dimension mapping invariants.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-13",
+  "year": "2026"
+}

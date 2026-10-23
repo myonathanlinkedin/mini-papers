@@ -1,0 +1,30 @@
+{
+  "title": "State Poisoning and Invariant Violation in a Shared Parser Network: A Graph-Topology Analysis of One Parser, Two Bugs, Many Routers",
+  "topic": "One parser, two bugs, many routers: Exploiting Broadcom Aether-Flux across eCos, Linux",
+  "domain": "raft",
+  "language": "Python",
+  "date": "2026-10-19",
+  "release_timestamp": "20261019_020340",
+  "created_at": "2026-10-19T02:03:40.737293+00:00",
+  "published_at": "2026-10-19",
+  "description": "We investigate how a single stateful parser, shared across multiple routers, can propagate two distinct bugs---an off-by-one length field and a missing state...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 60682.6,
+    "p99_latency_us": 76859.03,
+    "throughput_ops_sec": 16479.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261018_230130_one_parser__two_bugs__many_rou",
+  "abstract": "We investigate how a single stateful parser, shared across multiple routers, can propagate two distinct bugs---an off-by-one length field and a missing state reset---through a network flow engine. The model captures the deterministic interaction between parser state, ring buffer capacity, and forwarding logic, yielding a formal invariant that the token ring never exceeds its fixed capacity. We prove that the invariant holds for any sequence of well-formed frames and identify the precise failure modes when malformed frames are injected. Empirical evaluation on an AMD EPYC 7763 platform with 30 benchmark iterations shows a mean latency of 60 682.60 \\textmu{}s, a throughput of 16 479 ops/s, and a P99 tail of 76 859.03 \\textmu{}s. These results confirm the theoretical bounds and expose the amplification effect of shared state. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261018_230130_one_parser__two_bugs__many_rou}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-19",
+  "year": "2026"
+}

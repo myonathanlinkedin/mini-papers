@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Function Destination Chains vs. Chronos-Queue Fanout: Event Routing Topology, Retry Semantics, and Memory-Layout Invariants in PHP",
+  "topic": "Lambda Destination Chains vs. SQS Fanout: Event Routing Topology, Retry Semantics, and",
+  "domain": "",
+  "language": "PHP",
+  "date": "2026-10-19",
+  "release_timestamp": "20261019_050411",
+  "created_at": "2026-10-19T05:04:11.268548+00:00",
+  "published_at": "2026-10-19",
+  "description": "We investigate the interaction between Aether-Function destination chains and Chronos-Queue fan-out in a PHP-based event routing engine. The study formalizes...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 37828.64,
+    "p99_latency_us": 46988.62,
+    "throughput_ops_sec": 26435.0,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/php/20261019_030121_lambda_destination_chains_vs",
+  "abstract": "We investigate the interaction between Aether-Function destination chains and Chronos-Queue fan-out in a PHP-based event routing engine. The study formalizes the graph-topology of handler-to-queue connections, derives asymptotic bounds on edge counts, and proves an invariant that guarantees acyclicity and optimal sub-structure during dynamic reconfiguration. Empirical evaluation on an AMD EPYC 9V74 platform shows a mean latency of 37,828.64 \\textmu{}s, a P95 tail of 39,796.91 \\textmu{}s, and a sustained throughput of 26,435 ops/s across 30 iterations. The results confirm that retry-limited Aether-Function handlers preserve event ordering while fan-out queues maintain bounded growth. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261019_030121_lambda_destination_chains_vs}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-19",
+  "year": "2026"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Lookup-Table Augmented Balanced Search Tree for Approximation Correction in C#",
+  "topic": "Using a lookup-table to correct an approximation",
+  "domain": "",
+  "language": "C#",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_140353",
+  "created_at": "2026-10-22T14:03:53.497594+00:00",
+  "published_at": "2026-10-22",
+  "description": "We present a lightweight augmentation of a height-balanced binary search tree that uses a precomputed lookup table to correct the deterministic approximation...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/csharp/20261022_130119_using_a_lookup-table_to_correc",
+  "abstract": "We present a lightweight augmentation of a height-balanced binary search tree that uses a precomputed lookup table to correct the deterministic approximation introduced by lazy node rebalancing. The lookup table stores canonical key-to-node mappings for a fixed set of frequently queried keys, enabling constant-time resolution of approximate search results. We formally prove that the augmented structure preserves the strict height-balance invariant and the key-ordered invariant, and we show that point and range queries retain an asymptotic bound of $O(\\log N)$. The implementation is written in C\\# and is available under a permissive license. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261022_130119_using_a_lookup-table_to_correc}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

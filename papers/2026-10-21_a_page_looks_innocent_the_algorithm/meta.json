@@ -1,0 +1,30 @@
+{
+  "title": "Dynamic Line-Breaking Invariants in PHP: A Balanced Search Perspective",
+  "topic": "A page looks innocent: the algorithms behind a typeset page",
+  "domain": "",
+  "language": "PHP",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_170319",
+  "created_at": "2026-10-21T17:03:19.366923+00:00",
+  "published_at": "2026-10-21",
+  "description": "We investigate the algorithmic core of a PHP-based line-breaking engine that transforms a sequence of word widths into optimally justified text. The implemen...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 35955.91,
+    "p99_latency_us": 40855.79,
+    "throughput_ops_sec": 27811.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/php/20261021_150213_a_page_looks_innocent__the_alg",
+  "abstract": "We investigate the algorithmic core of a PHP-based line-breaking engine that transforms a sequence of word widths into optimally justified text. The implementation employs a quadratic-time dynamic programming routine that preserves a strict height-balanced invariant over the DP table, ensuring optimality of the badness metric. We formally prove that the recurrence yields a globally minimal total badness and that the algorithm maintains a monotonic DP frontier. Empirical evaluation on an AMD EPYC 9V45 96-Core processor (1 physical core, 2 logical threads) yields a mean latency of 35 956 \\textmu{}s and a throughput of 27 812 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261021_150213_a_page_looks_innocent__the_alg}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

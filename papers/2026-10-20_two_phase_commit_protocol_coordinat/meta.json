@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving State Transitions in a Go Two-Phase Commit Coordinator and Participant Machine",
+  "topic": "Two-Phase Commit Protocol Coordinator and Participant State Machine",
+  "domain": "concurrency",
+  "language": "Go",
+  "date": "2026-10-20",
+  "release_timestamp": "20261020_230414",
+  "created_at": "2026-10-20T23:04:14.875794+00:00",
+  "published_at": "2026-10-20",
+  "description": "Two-Phase Commit (2PC) remains the canonical protocol for coordinating distributed transactions. We present a Go implementation that models the coordinator a...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 1939.31,
+    "p99_latency_us": 4111.13,
+    "throughput_ops_sec": 515646.7,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/go/20261020_210212_two-phase_commit_protocol_coor",
+  "abstract": "Two-Phase Commit (2PC) remains the canonical protocol for coordinating distributed transactions. We present a Go implementation that models the coordinator and participant as lightweight goroutines communicating over buffered channels. The design enforces strict state invariants: the coordinator transitions from \\texttt{CoordInit} to \\texttt{CoordWaiting} after broadcasting \\texttt{MsgPrepare}, then to \\texttt{CoordCommitted} or \\texttt{CoordAborted} based on unanimous votes. Participants move from \\texttt{PartInit} to \\texttt{PartPrepared} upon receipt of \\texttt{MsgPrepare}, then to \\texttt{PartCommitted} or \\texttt{PartAborted} following the coordinator's decision. Formal proofs establish that a committed coordinator guarantees all participants are committed, and an aborted coordinator guarantees all participants are aborted. Empirical evaluation on an AMD EPYC 9V74 80-Core system yields a mean latency of 1939.31 \\textmu{}s and a throughput of 515,647 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261020_210212_two-phase_commit_protocol_coor}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-20",
+  "year": "2026"
+}
