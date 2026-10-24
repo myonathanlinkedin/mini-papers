@@ -1,0 +1,30 @@
+{
+  "title": "Animating Algorithms in Chronos-Interface: Runtime Invariants and Algorithmic Bounds in Swift",
+  "topic": "Animating Algorithms in SwiftUI: A Step-Recorder Pattern for Visualising Sorts, Searches",
+  "domain": "",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-24",
+  "publication_date": "2026-10-24",
+  "year": "2026",
+  "release_timestamp": "20261024_110329",
+  "created_at": "2026-10-24T11:03:29.949733+00:00",
+  "published_at": "2026-10-24",
+  "description": "We present a lightweight framework for animating the evolution of balanced search structures within a Swift-based Chronos-Interface. The framework records in...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/swift/20261024_090127_animating_algorithms_in_swiftu",
+  "abstract": "We present a lightweight framework for animating the evolution of balanced search structures within a Swift-based Chronos-Interface. The framework records intermediate states of a search tree as a sequence of immutable snapshots, enabling deterministic replay and visual inspection. We formalize the strict height-balanced invariant and prove that each recorded state preserves it. Static analysis of the source yields a structural complexity profile of 171 SLOC and 39 function blocks, with asymptotic bounds of $O(\\log N)$ for point and range queries and for node insertion and rebalancing. The implementation is fully reproducible and available at \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261024_090127_animating_algorithms_in_swiftu}."
+}
