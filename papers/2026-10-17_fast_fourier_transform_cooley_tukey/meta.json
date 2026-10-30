@@ -1,0 +1,30 @@
+{
+  "title": "Bit-Reversal Ordering and Butterfly Stage Semantics in a Python Cooley-Tukey Radix-2 low-latency Fourier Transform",
+  "topic": "Fast Fourier Transform (Cooley-Tukey Radix-2) Signal Processing",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-17",
+  "release_timestamp": "20261017_110330",
+  "created_at": "2026-10-17T11:03:30.028127+00:00",
+  "published_at": "2026-10-17",
+  "description": "The Cooley-Tukey radix-2 algorithm remains the canonical method for computing the discrete Fourier transform in signal-processing pipelines. This work presen...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261017_030131_fast_fourier_transform__cooley",
+  "abstract": "The Cooley-Tukey radix-2 algorithm remains the canonical method for computing the discrete Fourier transform in signal-processing pipelines. This work presents a formally verified Python implementation that preserves the bit-reversal ordering invariant and the butterfly-stage correctness invariant across all iterative stages. We prove that the algorithm maintains a strict height-balanced state of the underlying index mapping, guaranteeing $O(N\\log N)$ arithmetic operations for any power-of-two input length $N$. The implementation is validated against a na\u00efve DFT kernel and an inverse transform, achieving element-wise equality within $10^{-7}$. The source code is available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261017_030131_fast_fourier_transform__cooley}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-17",
+  "year": "2026"
+}

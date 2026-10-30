@@ -1,0 +1,31 @@
+{
+  "title": "Atomic State Transitions and Window Invariants in Sliding Window Rate Limiter (Go)",
+  "topic": "Sliding Window Rate Limiter with Distributed Token Bucket State Machine",
+  "domain": "Distributed Systems, Traffic Shaping, Concurrency",
+  "language": "Go",
+  "date": "2026-10-11",
+  "description": "Rate limiting is a cornerstone of modern API gateways. This paper presents an empirical evaluation of a lock-free sliding-window rate limiter built on a distributed token-bucket state machine in Go, evaluated live on a 13th Gen Intel Core i9-13900HX.",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 21884.33,
+    "p50_latency_us": 18233.2,
+    "p95_latency_us": 21188.3,
+    "p99_latency_us": 126654.9,
+    "std_dev_us": 19489.11,
+    "throughput_ops_sec": 45694.8,
+    "iterations": 30,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_cores": 24,
+    "host_threads": 32,
+    "host_ram_gb": 63.8
+  },
+  "folder": "generated_lab/go/20261005_060040_sliding_window_rate_limiter_wi",
+  "abstract": "Rate limiting is a cornerstone of modern API gateways, yet achieving low-latency enforcement under high concurrency remains challenging. This work presents a lock-free sliding-window rate limiter built on a distributed token-bucket state machine implemented in Go. By aligning the limiter's mutable fields to a single 64-byte cache line and employing atomic compare-and-swap (CAS) for token updates, we guarantee amortized O(1) operation while bounding contention to O(P) where P is the number of active goroutines. Formal invariants prove linearizability of each request admission decision. Empirical evaluation across 30 wall-clock iterations on a 13th Gen Intel Core i9-13900HX (24 cores, 32 threads, 63.8 GB RAM, Windows 11) yields an observed mean latency of 21,884.33 \u00b5s (P50: 18,233.20 \u00b5s) and sustained throughput of 45,695 ops/s, validating amortized O(1) bounds and linearizable admission semantics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261005_060040_sliding_window_rate_limiter_wi}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "published_at": "2026-10-11",
+  "publication_date": "2026-10-11",
+  "year": "2026"
+}

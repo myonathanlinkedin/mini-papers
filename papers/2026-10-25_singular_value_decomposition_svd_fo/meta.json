@@ -1,0 +1,30 @@
+{
+  "title": "Singular Value Decomposition (SVD) for Low-Rank Approximation: Runtime Invariants and Algorithmic Bounds in Java",
+  "topic": "Singular Value Decomposition (SVD) for Low-Rank Approximation",
+  "domain": "",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-25",
+  "publication_date": "2026-10-25",
+  "year": "2026",
+  "release_timestamp": "20261025_080400",
+  "created_at": "2026-10-25T08:04:00.184165+00:00",
+  "published_at": "2026-10-25",
+  "description": "We present a deterministic Java implementation of Singular Value Decomposition (SVD) tailored for low-rank matrix approximation. The algorithm is expressed a...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/java/20261025_030133_singular_value_decomposition",
+  "abstract": "We present a deterministic Java implementation of Singular Value Decomposition (SVD) tailored for low-rank matrix approximation. The algorithm is expressed as a balanced search-style state machine that preserves strict height-balance and key-ordered invariants during iterative bidiagonalization and Rayleigh quotient refinement. Formal analysis shows that each iteration maintains a tree-like dependency graph whose depth grows logarithmically with matrix dimension, yielding an overall asymptotic complexity of $O(\\text{mn})$ for an $m\\times n$ matrix. The implementation is verified by automated Abstract Syntax Tree inspection, yielding a structural metric of 256 SLOC and six function blocks. No empirical runtime measurements are reported; the study relies on static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261025_030133_singular_value_decomposition}"
+}

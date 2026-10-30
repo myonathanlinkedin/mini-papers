@@ -1,0 +1,30 @@
+{
+  "title": "Maximum Cardinality Invariants and Verification of Vector Graphics in Aether-Alpha in C",
+  "topic": "Vector Graphics in Lil",
+  "domain": "",
+  "language": "C",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_020355",
+  "created_at": "2026-10-22T02:03:55.136572+00:00",
+  "published_at": "2026-10-22",
+  "description": "Vector graphics rendering in low-level C demands deterministic graph traversal and flow computation to guarantee visual correctness and performance. We prese...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/c/20261021_230121_vector_graphics_in_lil",
+  "abstract": "Vector graphics rendering in low-level C demands deterministic graph traversal and flow computation to guarantee visual correctness and performance. We present a compact engine that models drawing primitives as a directed acyclic graph (DAG) and applies breadth-first search for rasterization while maintaining a residual network for dynamic path optimization. Formal invariants enforce acyclicity and optimal substructure, enabling incremental updates without recomputation. Static analysis of the source yields a worst-case traversal cost of $O(|V|+|E|)$ and a flow relaxation cost of $O((|V|+|E|)\\log |V|)$. No empirical timing measurements are reported; the analysis is purely structural. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261021_230121_vector_graphics_in_lil}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

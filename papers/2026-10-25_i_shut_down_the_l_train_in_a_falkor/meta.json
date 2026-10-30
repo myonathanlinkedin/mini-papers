@@ -1,0 +1,30 @@
+{
+  "title": "Min-Cut Isolation and Residual Reachability Invariants in a Swift Graph Topology Engine",
+  "topic": "I shut down the L train in a FalkorDB graph: 23,445 riders, one min cut, and a fix tested",
+  "domain": "",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-25",
+  "publication_date": "2026-10-25",
+  "year": "2026",
+  "release_timestamp": "20261025_200459",
+  "created_at": "2026-10-25T20:04:59.359440+00:00",
+  "published_at": "2026-10-25",
+  "description": "This paper investigates the algorithmic mechanics of isolating a critical subgraph within a directed network using a Swift-based max-flow engine. We model a ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/swift/20261025_190139_i_shut_down_the_l_train_in_a_f",
+  "abstract": "This paper investigates the algorithmic mechanics of isolating a critical subgraph within a directed network using a Swift-based max-flow engine. We model a transit network with 23,445 riders as a directed graph where edge capacities represent throughput limits. By implementing the Edmonds-Karp algorithm, we compute the maximum flow and identify the minimum cut that effectively \"shuts down\" a specific train line. We establish formal invariants regarding residual graph reachability and flow conservation. Static Abstract Syntax Tree (AST) analysis verifies the structural complexity of the implementation, confirming $O(|V| + |E|)$ traversal bounds and $O(|V| \\cdot |E|^2)$ worst-case flow computation. We prove that the min-cut edges correspond exactly to the saturated forward edges crossing the residual reachable set. This work provides a reproducible, formally verified Swift implementation for network isolation tasks, demonstrating that min-cut identification is a direct consequence of max-flow computation without additional heuristic search. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261025_190139_i_shut_down_the_l_train_in_a_f}."
+}

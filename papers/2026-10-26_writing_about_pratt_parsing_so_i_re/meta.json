@@ -1,0 +1,30 @@
+{
+  "title": "Pratt Parsing as a Balanced Search & Indexing Structure: State Transitions and Invariant Maintenance",
+  "topic": "writing about pratt parsing so I remember it",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-26",
+  "publication_date": "2026-10-26",
+  "year": "2026",
+  "release_timestamp": "20261026_200351",
+  "created_at": "2026-10-26T20:03:51.046151+00:00",
+  "published_at": "2026-10-26",
+  "description": "Pratt parsing, a top-down operator-precedence technique, offers a compact and uniform method for constructing abstract syntax trees (ASTs) for arithmetic exp...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261026_170147_writing_about_pratt_parsing_so",
+  "abstract": "Pratt parsing, a top-down operator-precedence technique, offers a compact and uniform method for constructing abstract syntax trees (ASTs) for arithmetic expressions. This paper formalises the Pratt parser as a balanced search \\& indexing structure, proving that the depth of the produced AST is bounded by $O(\\log N)$ where $N$ is the number of tokens, and that the parser preserves the key-ordered invariant of the expression tree. We present a Python implementation that achieves linear time parsing and linear auxiliary space, and we verify the invariants through static AST inspection and formal reasoning. The source code is available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261026_170147_writing_about_pratt_parsing_so}."
+}

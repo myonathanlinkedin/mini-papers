@@ -1,0 +1,30 @@
+{
+  "title": "Lock-Free Aether-Cache Ring Buffer: Invariant-Preserving Push/Pop with O(1) Complexity",
+  "topic": "High-Throughput Chronos-Buffer Ring Buffer Pattern",
+  "domain": "concurrency",
+  "language": "C",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_050335",
+  "created_at": "2026-10-22T05:03:35.539670+00:00",
+  "published_at": "2026-10-22",
+  "description": "We present a lock-free ring buffer that achieves high throughput by exploiting a contiguous node layout and atomic index arithmetic. The design guarantees li...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 64950.19,
+    "p99_latency_us": 70974.51,
+    "throughput_ops_sec": 15396.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261022_030138_high-throughput_chronos-buffer",
+  "abstract": "We present a lock-free ring buffer that achieves high throughput by exploiting a contiguous node layout and atomic index arithmetic. The design guarantees linearizability under a single-producer single-consumer model while maintaining $O(1)$ amortized complexity for push and pop operations. A formal invariant ensures that the buffer never overflows or underflows, and a concise proof demonstrates that the head and tail indices remain within a bounded difference. Empirical evaluation on an AMD EPYC 7763 processor (1 core, 2 threads) yields a mean latency of 64.95 ms and a throughput of 15 396 ops/s over 30 iterations. The implementation is publicly available at \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261022_030138_high-throughput_chronos-buffer}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

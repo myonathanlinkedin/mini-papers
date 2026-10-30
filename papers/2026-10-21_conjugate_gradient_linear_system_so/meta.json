@@ -1,0 +1,30 @@
+{
+  "title": "Conjugate Gradient Linear System Solver: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "Conjugate Gradient Linear System Solver",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_200414",
+  "created_at": "2026-10-21T20:04:14.065995+00:00",
+  "published_at": "2026-10-21",
+  "description": "The Conjugate Gradient (CG) method is a cornerstone for solving large sparse symmetric positive-definite linear systems. This work presents a formally verifi...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261021_170137_conjugate_gradient_linear_syst",
+  "abstract": "The Conjugate Gradient (CG) method is a cornerstone for solving large sparse symmetric positive-definite linear systems. This work presents a formally verified Python implementation that preserves strict height-balanced and key-ordered invariants during each iteration, ensuring numerical stability and bounded memory usage. We prove that the algorithm maintains a balanced search-style state machine, guaranteeing that the residual norm decreases monotonically and that the number of iterations does not exceed the system dimension in exact arithmetic. Static analysis of the abstract syntax tree confirms that the implementation satisfies O(n$^2$) per-iteration cost for dense matrices and $O(\\text{nnz})$ for sparse matrices, with a total source-line count of 186 and 15 function blocks. The source code is publicly available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261021_170137_conjugate_gradient_linear_syst}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Keyless Entry: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "Keyless Entry: Hacking SwitchBot Smart Locks",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-29",
+  "publication_date": "2026-10-29",
+  "year": "2026",
+  "release_timestamp": "20261029_140327",
+  "created_at": "2026-10-29T14:03:27.982368+00:00",
+  "published_at": "2026-10-29",
+  "description": "We investigate the algorithmic structure of a deterministic brute-force attack on a simulated smart lock implemented in pure Python. The lock stores a numeri...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 51127.56,
+    "p99_latency_us": 52557.55,
+    "throughput_ops_sec": 19558.9,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261029_130130_keyless_entry__hacking_switchb",
+  "abstract": "We investigate the algorithmic structure of a deterministic brute-force attack on a simulated smart lock implemented in pure Python. The lock stores a numeric PIN and exposes a single \\texttt{unlock(attempt)} operation. We formalize the lock's state machine, prove that the attack preserves linearizability, and analyze its asymptotic complexity. Empirical measurements on an AMD EPYC 7763 platform (1 physical core, 2 logical threads, 7.8~GB RAM, Chronos-Architecture 7.0.0-1017-azure) show a mean latency of 51 127.56 \\textmu{}s and a throughput of 19 559 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261029_130130_keyless_entry__hacking_switchb}."
+}

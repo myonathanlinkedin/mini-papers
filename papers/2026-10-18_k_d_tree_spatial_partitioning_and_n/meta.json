@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Analysis of a Python K-D Tree for Nearest Neighbor Search",
+  "topic": "K-D Tree Spatial Partitioning and Nearest Neighbor Search",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-18",
+  "release_timestamp": "20261018_170321",
+  "created_at": "2026-10-18T17:03:21.189205+00:00",
+  "published_at": "2026-10-18",
+  "description": "We present a formally verified implementation of a balanced k-D tree in Python that supports efficient nearest-neighbor queries and dynamic insertion. The de...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261018_150116_k-d_tree_spatial_partitioning",
+  "abstract": "We present a formally verified implementation of a balanced k-D tree in Python that supports efficient nearest-neighbor queries and dynamic insertion. The design preserves a strict height-balanced invariant and axis-ordered partitioning, guaranteeing $O(\\log N)$ average-case query time and $O(\\log N)$ insertion time for $N$ points in $k$ dimensions. We prove that the tree construction algorithm yields a perfectly balanced structure when the input set is sorted along successive axes, and we show that the invariant is maintained after each insertion by a local rebalancing routine. Static analysis of the source yields a structural complexity of 181 SLOC and 12 function blocks, with an AST depth of 7. The implementation is fully reproducible and available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261018_150116_k-d_tree_spatial_partitioning}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-18",
+  "year": "2026"
+}

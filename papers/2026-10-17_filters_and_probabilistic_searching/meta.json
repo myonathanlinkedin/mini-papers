@@ -1,0 +1,30 @@
+{
+  "title": "Probabilistic Membership Filtering with Explicit False-Positive Guarantees in Swift",
+  "topic": "Filters and Probabilistic Searching",
+  "domain": "bloom, probabilistic",
+  "language": "Swift",
+  "date": "2026-10-17",
+  "release_timestamp": "20261017_020319",
+  "created_at": "2026-10-17T02:03:19.258538+00:00",
+  "published_at": "2026-10-17",
+  "description": "Bloom filters provide sub-linear membership queries at the cost of a tunable false-positive probability. This paper presents a Swift implementation that pres...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/swift/20261017_010124_filters_and_probabilistic_sear",
+  "abstract": "Bloom filters provide sub-linear membership queries at the cost of a tunable false-positive probability. This paper presents a Swift implementation that preserves the theoretical false-positive bound while exposing a clean, type-safe API. We formalise the filter state as a bit array and a set of hash functions derived from Swift's \\texttt{Hasher}. The design guarantees that, for any element $x$, the probability of a false positive does not exceed the user-specified bound $p$, and that the expected query cost is $O(k)$ where $k$ is the number of hash functions. We prove that the insertion operation preserves the invariant that each bit set corresponds to at least one inserted element, and that the false-positive probability remains bounded. The implementation is verified by static AST inspection and formal invariant proofs, yielding a verified asymptotic complexity of $O(\\log N)$ for auxiliary operations such as resizing. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261017_010124_filters_and_probabilistic_sear}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-17",
+  "year": "2026"
+}

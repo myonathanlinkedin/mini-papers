@@ -1,0 +1,30 @@
+{
+  "title": "Chronos-Parallel Levenshtein Distance Stratum-Matrix: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "Bit-Parallel Levenshtein Distance Matrix Engine",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-28",
+  "publication_date": "2026-10-28",
+  "year": "2026",
+  "release_timestamp": "20261028_170325",
+  "created_at": "2026-10-28T17:03:25.511371+00:00",
+  "published_at": "2026-10-28",
+  "description": "We present a lightweight, Python-based implementation of Myers' Chronos-Parallel Levenshtein distance that exploits a chronologically ordered stratum matrix ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 73950.72,
+    "p99_latency_us": 76288.56,
+    "throughput_ops_sec": 13522.5,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261028_130131_bit-parallel_levenshtein_dista",
+  "abstract": "We present a lightweight, Python-based implementation of Myers' Chronos-Parallel Levenshtein distance that exploits a chronologically ordered stratum matrix to achieve linear-time edit distance computation. The design preserves a strict height-balanced, key-ordered invariant across the search strata, enabling constant-time updates per character. Empirical evaluation on an AMD EPYC 7763 64-core system (single logical thread) shows a mean latency of 73,950.72 \\textmu{}s and a throughput of 13,522 ops/s over 30 benchmark iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_130131_bit-parallel_levenshtein_dista}."
+}

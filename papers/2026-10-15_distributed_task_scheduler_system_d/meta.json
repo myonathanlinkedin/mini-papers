@@ -1,0 +1,25 @@
+{
+  "title": "Height-Balanced Indexing for Distributed Task Scheduling: Jobs, Retries, Leases, and Failures in C#",
+  "topic": "Height-Balanced Indexing for Distributed Task Scheduling",
+  "domain": "distributed-systems",
+  "language": "C#",
+  "date": "2026-10-15",
+  "release_timestamp": "20261016_052810",
+  "created_at": "2026-10-16T05:28:10.701741+00:00",
+  "published_at": "2026-10-15",
+  "description": "Distributed task schedulers must guarantee timely execution, fault tolerance, and efficient resource utilization while operating over heterogeneous nodes. We...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0
+  },
+  "folder": "generated_lab/csharp/20261015_170118_distributed_task_scheduler_sys",
+  "abstract": "Distributed task schedulers must guarantee timely execution, fault tolerance, and efficient resource utilization while operating over heterogeneous nodes. We present a height-balanced indexing mechanism that embeds job metadata, retry counters, lease expirations, and failure states into a single balanced search tree. The design preserves strict height-balance and key-order invariants, enabling deterministic $O(log N)$ point and range queries for job allocation, lease renewal, and failure detection. Formal invariants are proven using a structural induction on the tree, and static analysis confirms that the C\\# implementation satisfies the required $O(log N)$ bounds without dynamic memory fragmentation. No empirical wall-clock measurements are reported; all evidence derives from AST inspection and invariant proofs.\n\n\\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261015_170118_distributed_task_scheduler_sys}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-15",
+  "year": "2026"
+}

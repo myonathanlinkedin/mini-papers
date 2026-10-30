@@ -1,0 +1,30 @@
+{
+  "title": "Probe-Bounded Open-Addressing Hash Table with Load Factor 0.9: Invariant Preservation and Static Complexity Analysis",
+  "topic": "Your hash table runs at 0.9. Its probe budget binds at 0.277. The load factor is not the",
+  "domain": "lsm",
+  "language": "C++",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_110356",
+  "created_at": "2026-10-21T11:03:56.385864+00:00",
+  "published_at": "2026-10-21",
+  "description": "We present a lightweight open-addressing hash table that enforces a probe budget of 0.277 while operating at a load factor of 0.9. The design employs linear ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/cpp/20261021_090202_your_hash_table_runs_at_0_9__i",
+  "abstract": "We present a lightweight open-addressing hash table that enforces a probe budget of 0.277 while operating at a load factor of 0.9. The design employs linear probing with a prime-size table and a deterministic rehash policy triggered when the load factor exceeds the threshold. We formally prove that the table preserves the invariant that the number of occupied slots never exceeds the capacity multiplied by the load-factor bound, and that each key resides within the probe budget. Static analysis of the C++ implementation yields a structural complexity of $O(N)$ auxiliary memory and $O(1)$ average-case lookup, with worst-case $O(N)$ bounds. Theoretical bounds are corroborated by AST inspection, revealing 126 SLOC and a single function block. No empirical runtime measurements are reported; the evaluation is purely static. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261021_090202_your_hash_table_runs_at_0_9__i}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

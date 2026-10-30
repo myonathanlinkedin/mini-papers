@@ -1,0 +1,30 @@
+{
+  "title": "Growing Trees in Python: Structural Tree Invariants and Bounded Search Complexity",
+  "topic": "Growing Trees",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-26",
+  "publication_date": "2026-10-26",
+  "year": "2026",
+  "release_timestamp": "20261026_170340",
+  "created_at": "2026-10-26T17:03:40.342258+00:00",
+  "published_at": "2026-10-26",
+  "description": "We present a lightweight Python implementation of deterministic random recursive trees (RRTs), a balanced search and indexing structure that supports efficie...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 153503.17,
+    "p99_latency_us": 165400.9,
+    "throughput_ops_sec": 6514.5,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261026_110153_growing_trees",
+  "abstract": "We present a lightweight Python implementation of deterministic random recursive trees (RRTs), a balanced search and indexing structure that supports efficient depth and subtree queries. The construction algorithm attaches each new node to a uniformly random existing parent, yielding a uniformly random labelled tree on $n$ vertices. We formally prove that the expected depth of a node is $O(\\log n)$ and that the tree satisfies a strict height-balanced invariant with probability one. Empirical evaluation on an AMD EPYC 9V45 96-Core Processor (1 physical core, 2 logical threads) shows a mean construction latency of 153 503.17 \\textmu{}s, a P95 latency of 162 873.83 \\textmu{}s, and a sustained throughput of 6 514 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261026_110153_growing_trees}."
+}

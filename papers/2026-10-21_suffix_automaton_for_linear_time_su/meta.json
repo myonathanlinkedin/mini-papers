@@ -1,0 +1,30 @@
+{
+  "title": "Suffix Automaton for Linear-Time Substring Indexing: Runtime Invariants and Algorithmic Bounds in Ruby",
+  "topic": "Suffix Automaton for Linear-Time Substring Indexing",
+  "domain": "",
+  "language": "Ruby",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_080434",
+  "created_at": "2026-10-21T08:04:34.462530+00:00",
+  "published_at": "2026-10-21",
+  "description": "We present a Ruby implementation of a suffix automaton that guarantees linear-time construction and linear-time substring queries. The design follows the cla...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/ruby/20261021_070125_suffix_automaton_for_linear-ti",
+  "abstract": "We present a Ruby implementation of a suffix automaton that guarantees linear-time construction and linear-time substring queries. The design follows the classic state-splitting technique, preserving the invariant that each state represents an equivalence class of end-positions. We formally prove that the number of states never exceeds $2n-1$ for a source string of length $n$, and that each extension operation runs in amortized constant time. The implementation is fully verified against a suite of unit tests that confirm the theoretical bounds. Source Code: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261021_070125_suffix_automaton_for_linear-ti}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

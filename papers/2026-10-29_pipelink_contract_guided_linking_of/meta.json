@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Dependency Trees for Contract-Guided Linking of GPU Kernel Components",
+  "topic": "PipeLink: Contract-Guided Linking of GPU Kernel Components",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-29",
+  "publication_date": "2026-10-29",
+  "year": "2026",
+  "release_timestamp": "20261029_020328",
+  "created_at": "2026-10-29T02:03:28.708806+00:00",
+  "published_at": "2026-10-29",
+  "description": "We present AetherLink, a Python framework that composes GPU kernel components through explicit input--output contracts and indexes them with a height-balance...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261028_210122_pipelink__contract-guided_link",
+  "abstract": "We present AetherLink, a Python framework that composes GPU kernel components through explicit input--output contracts and indexes them with a height-balanced binary search tree. The tree guarantees $O(log N)$ insertion, lookup, and rebalancing, ensuring that contract satisfaction is verified in a deterministic order. We formalize the strict height-balanced invariant and prove its preservation under component addition and removal. Static abstract-syntax-tree inspection confirms that the implementation satisfies the theoretical bounds and that the source code contains 197 SLOC and 22 function blocks. No empirical timing measurements are reported; the analysis is purely static. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_210122_pipelink__contract-guided_link}"
+}

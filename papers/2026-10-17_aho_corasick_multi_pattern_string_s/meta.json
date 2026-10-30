@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in a Swift Aho-Corasick Multi-Pattern Automaton",
+  "topic": "Aho-Corasick Multi-Pattern String Searching Automaton",
+  "domain": "",
+  "language": "Swift",
+  "date": "2026-10-17",
+  "release_timestamp": "20261017_230311",
+  "created_at": "2026-10-17T23:03:11.064423+00:00",
+  "published_at": "2026-10-17",
+  "description": "The Aho-Corasick automaton is a canonical solution for simultaneous pattern matching, yet its practical deployment in modern systems demands rigorous guarant...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/swift/20261017_150116_aho-corasick_multi-pattern_str",
+  "abstract": "The Aho-Corasick automaton is a canonical solution for simultaneous pattern matching, yet its practical deployment in modern systems demands rigorous guarantees on structural balance and failure-link propagation. We present a Swift implementation that constructs a height-balanced trie and computes failure links while preserving a strict height-balanced invariant. The design guarantees that each node's depth is bounded by $O(\\log N)$, where $N$ is the number of patterns, and that the failure-link graph remains a directed acyclic graph with bounded fan-in. Formal invariants are proven using automated AST inspection and static analysis on an AMD EPYC 9V45 platform. The resulting automaton achieves linear-time construction and $O(|T|)$ search, with verified asymptotic bounds and a concise source code repository. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261017_150116_aho-corasick_multi-pattern_str}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-17",
+  "year": "2026"
+}

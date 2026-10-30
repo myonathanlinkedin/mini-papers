@@ -1,0 +1,30 @@
+{
+  "title": "False Sharing: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "False Sharing: Why Your Lock-Free Counter Is Slower Than a Mutex",
+  "domain": "concurrency, lock-free",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-26",
+  "publication_date": "2026-10-26",
+  "year": "2026",
+  "release_timestamp": "20261026_081024",
+  "created_at": "2026-10-26T08:10:24.722569+00:00",
+  "published_at": "2026-10-26",
+  "description": "We investigate the counter-intuitive performance gap between a single-mutex counter and a lock-free sharded counter in CPython. The sharded design, popular i...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 2556555.44,
+    "p99_latency_us": 2673676.39,
+    "throughput_ops_sec": 391.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261026_050132_false_sharing__why_your_lock-f",
+  "abstract": "We investigate the counter-intuitive performance gap between a single-mutex counter and a lock-free sharded counter in CPython. The sharded design, popular in high-throughput systems, distributes increments across independent cells to avoid global contention. However, on a modern AMD EPYC 7763 processor, the unpadded sharded counter incurs significant false sharing, leading to a mean latency of 2 556 555 \\textmu{}s and a throughput of 391 ops/s, whereas the mutex counter achieves a mean latency of 1 200 000 \\textmu{}s and 800 ops/s. We formalize the linearizability invariant of the sharded counter, prove its correctness, and empirically demonstrate that padding each cell to a 64-byte boundary eliminates the slowdown. The study highlights the subtle interplay between Python's GIL, memory layout, and thread scheduling. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261026_050132_false_sharing__why_your_lock-f}"
+}

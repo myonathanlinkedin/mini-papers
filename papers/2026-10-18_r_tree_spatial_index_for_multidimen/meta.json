@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariants and Search Complexity in a Python R-Tree for Multidimensional Bounding Boxes",
+  "topic": "R-Tree Spatial Index for Multidimensional Bounding Boxes",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-18",
+  "release_timestamp": "20261018_050352",
+  "created_at": "2026-10-18T05:03:52.216744+00:00",
+  "published_at": "2026-10-18",
+  "description": "Spatial indexing of high-dimensional bounding boxes is central to computer vision, geographic information systems, and robotics. We present a compact, height...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261017_070131_r-tree_spatial_index_for_multi",
+  "abstract": "Spatial indexing of high-dimensional bounding boxes is central to computer vision, geographic information systems, and robotics. We present a compact, height-balanced R-Tree implementation in Python that preserves strict MBR invariants during insertion, deletion, and node splitting. The design guarantees that every node's minimum bounding rectangle (MBR) encloses all descendant rectangles, and that the tree height remains logarithmic in the number of stored objects. Formal proofs establish that point and range queries, as well as insertions, execute in $O(\\log N)$ time, while the memory footprint is linear. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261017_070131_r-tree_spatial_index_for_multi}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-18",
+  "year": "2026"
+}

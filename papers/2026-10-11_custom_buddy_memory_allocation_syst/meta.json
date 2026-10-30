@@ -1,0 +1,28 @@
+{
+  "title": "Invariant-Preserving Sub-Allocator Composition in a Rust Custom Buddy Memory Allocation System",
+  "topic": "Custom Buddy Memory Allocation System",
+  "domain": "concurrency",
+  "language": "Rust",
+  "date": "2026-10-11",
+  "description": "We present a Rust implementation of a custom buddy memory allocator that composes multiple sub-allocators into dynamic memory pools. The design enforces two ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 598.4,
+    "p99_latency_us": 696.53,
+    "throughput_ops_sec": 1671113.5,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6973P-C",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/rust/20261011_150203_custom_buddy_memory_allocation",
+  "abstract": "We present a Rust implementation of a custom buddy memory allocator that composes multiple sub-allocators into dynamic memory pools. The design enforces two invariants: (i) no double-free of any block and (ii) contiguous arena preservation across split-merge operations. Allocation and deallocation are shown to run in amortized $\\mathcal{O}(\\log N)$ time, where $N$ is the number of blocks. Empirical evaluation on an Intel\\textregistered{} Xeon\\textregistered{} 6973P-C processor (1 core, 2 logical threads, 7.8~GB RAM, Linux 6.17) reports a mean latency of 598.40 \\textmu{}s (Std Dev $\\pm$ 42.76 \\textmu{}s) and a throughput of 1 671 114 operations per second over 30 benchmark iterations. The results confirm that the invariant-driven composition does not degrade performance relative to a monolithic buddy allocator. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/rust-algorithms/tree/main/algorithms/20261011_150203_custom_buddy_memory_allocation}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "published_at": "2026-10-11",
+  "publication_date": "2026-10-11",
+  "year": "2026"
+}

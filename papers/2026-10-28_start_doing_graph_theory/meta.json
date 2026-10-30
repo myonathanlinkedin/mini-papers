@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving Graph Traversal and Flow in Python: Complexity, Safety, and Empirical Performance",
+  "topic": "Start Doing Graph Theory",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-28",
+  "publication_date": "2026-10-28",
+  "year": "2026",
+  "release_timestamp": "20261028_200421",
+  "created_at": "2026-10-28T20:04:21.436766+00:00",
+  "published_at": "2026-10-28",
+  "description": "This paper presents a lightweight Python engine for graph traversal and flow that preserves formal invariants while delivering predictable performance. We im...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 33117.52,
+    "p99_latency_us": 35919.53,
+    "throughput_ops_sec": 30195.5,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261028_170131_start_doing_graph_theory",
+  "abstract": "This paper presents a lightweight Python engine for graph traversal and flow that preserves formal invariants while delivering predictable performance. We implement breadth-first search, depth-first search, Dijkstra's shortest-path algorithm, topological sorting, and connected-component detection on a generic adjacency-list graph. Formal proofs establish that the topological sort respects acyclicity and that Dijkstra's relaxation maintains the optimal-substructure invariant. Empirical evaluation on an AMD EPYC 7763 system with 1 physical core and 2 logical threads shows a mean latency of 33 117.52 \\textmu{}s and a throughput of 30 196 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_170131_start_doing_graph_theory}."
+}

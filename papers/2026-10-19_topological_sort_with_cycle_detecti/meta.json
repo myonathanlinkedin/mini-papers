@@ -1,0 +1,30 @@
+{
+  "title": "Incremental Topological Ordering with On-the-Fly Cycle Detection in a C Graph Engine",
+  "topic": "Topological Sort with Cycle Detection in Directed Graphs",
+  "domain": "",
+  "language": "C",
+  "date": "2026-10-19",
+  "release_timestamp": "20261019_230354",
+  "created_at": "2026-10-19T23:03:54.459888+00:00",
+  "published_at": "2026-10-19",
+  "description": "We present a lightweight C implementation of topological sorting that simultaneously detects cycles in directed graphs. The algorithm augments Kahn's breadth...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 707.4,
+    "p99_latency_us": 770.08,
+    "throughput_ops_sec": 1413621.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261019_210135_topological_sort_with_cycle_de",
+  "abstract": "We present a lightweight C implementation of topological sorting that simultaneously detects cycles in directed graphs. The algorithm augments Kahn's breadth-first traversal with an on-the-fly indegree counter, yielding an asymptotic complexity of $O(V+E)$ while preserving the acyclic invariant throughout execution. We formally prove that the partial order maintained by the queue remains a topological ordering of the processed subgraph, and we demonstrate that any back-edge discovered immediately terminates the algorithm with a cycle flag. Empirical evaluation on an AMD EPYC 7763 platform (1 physical core, 2 logical threads) shows a mean latency of 707.40 \\textmu{}s ($\\pm$32.22 \\textmu{}s) and a throughput of 1,413,621 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261019_210135_topological_sort_with_cycle_de}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-19",
+  "year": "2026"
+}

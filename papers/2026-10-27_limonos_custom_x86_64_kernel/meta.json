@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Search Tree Invariants in a Python Chronos-Architecture Custom x86-64 Kernel",
+  "topic": "LimonOS Custom x86-64 Kernel",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-27",
+  "publication_date": "2026-10-27",
+  "year": "2026",
+  "release_timestamp": "20261027_140354",
+  "created_at": "2026-10-27T14:03:54.960790+00:00",
+  "published_at": "2026-10-27",
+  "description": "We present a lightweight kernel module written in Python that embeds a height-balanced binary search tree to manage process descriptors within a custom x86-6...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 51265.42,
+    "p99_latency_us": 52528.53,
+    "throughput_ops_sec": 19506.3,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261027_110134_limonos_custom_x86-64_kernel",
+  "abstract": "We present a lightweight kernel module written in Python that embeds a height-balanced binary search tree to manage process descriptors within a custom x86-64 execution environment. The module implements a round-robin scheduler that operates on the tree nodes, preserving strict height-balance and key-ordering invariants while providing deterministic $O(\\log n)$ insertion and deletion. We prove that the tree remains height-balanced after each operation, yielding amortized $O(\\log n)$ complexity per scheduling step, as established by Tarjan's amortized analysis \\cite{Tarjan_1985_AmortizedComplexity}. Empirical evaluation on an AMD EPYC 7763 platform shows a mean latency of 51 265.42 \\textmu{}s and a throughput of 19 506 ops/s for 30 benchmark iterations. These results confirm that a Python-based kernel can achieve competitive performance on modern x86-64 hardware. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261027_110134_limonos_custom_x86-64_kernel}"
+}
