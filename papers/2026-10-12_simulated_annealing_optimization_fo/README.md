@@ -1,6 +1,6 @@
 # Invariant-Preserving Simulated Annealing for Hamiltonian-Cycle Optimization in Haskell Graph Engines
 
-[![Publication PDF](https://img.shields.io/badge/Download-Paper_PDF-DC2626?style=flat-square&logo=adobeacrobatreader)](./2026-10-12_simulated_annealing_optimization_fo.pdf)
+[![Publication PDF](https://img.shields.io/badge/Download-Paper_PDF-DC2626?style=flat-square&logo=adobeacrobatreader)](./2026-10-12_simulated_annealing_optimization_fo_fixed.pdf)
 
 ---
 
@@ -40,7 +40,7 @@ This mini-paper presents a focused, empirical systems characterization of **Simu
 ---
 
 ## 📥 Artifacts & Downloads
-* 📄 **Download Publication PDF:** [`2026-10-12_simulated_annealing_optimization_fo.pdf`](./2026-10-12_simulated_annealing_optimization_fo.pdf)
+* 📄 **Download Publication PDF:** [`2026-10-12_simulated_annealing_optimization_fo_fixed.pdf`](./2026-10-12_simulated_annealing_optimization_fo_fixed.pdf)
 
 ---
 
