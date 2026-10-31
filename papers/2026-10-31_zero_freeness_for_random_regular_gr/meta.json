@@ -1,0 +1,30 @@
+{
+  "title": "Zero-Freeness of Independence Polynomials in Random Regular Graphs up to the Replica Symmetry Breaking Threshold",
+  "topic": "Zero-freeness for Random Regular Graphs up to the Replica Symmetry Breaking Threshold",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-31",
+  "publication_date": "2026-10-31",
+  "year": "2026",
+  "release_timestamp": "20261031_140358",
+  "created_at": "2026-10-31T14:03:58.783004+00:00",
+  "published_at": "2026-10-31",
+  "description": "We investigate the absence of real zeros in the independence polynomial of random d-regular graphs for degrees up to the replica symmetry breaking (RSB) th...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 33504.14,
+    "p99_latency_us": 36158.92,
+    "throughput_ops_sec": 29847.1,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261030_230123_zero-freeness_for_random_regul",
+  "abstract": "We investigate the absence of real zeros in the independence polynomial of random $d$-regular graphs for degrees up to the replica symmetry breaking (RSB) threshold. The study combines a deterministic graph-generation routine, a Durand--Kerner root-finding implementation, and a Python-based zero-detection routine. We prove that the algorithm preserves an acyclic directed-acyclic-graph invariant during the iterative refinement of candidate roots, guaranteeing that no spurious real roots are introduced. Empirical evaluation on an AMD EPYC 9V45 platform yields a mean latency of 33 504.14 \\textmu{}s and a throughput of 29 847 ops/s over 30 benchmark iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261030_230123_zero-freeness_for_random_regul}."
+}
