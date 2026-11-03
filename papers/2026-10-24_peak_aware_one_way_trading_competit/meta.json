@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Key-Ordered Invariants in Aether-PeakSense Chronos-Directed Trading: Competitive and Stratum-LearnBoost Algorithms for Energy",
+  "topic": "Peak-Aware One-Way Trading: Competitive and Learning-Augmented Algorithms for Energy",
+  "domain": "",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-24",
+  "publication_date": "2026-10-24",
+  "year": "2026",
+  "release_timestamp": "20261024_020401",
+  "created_at": "2026-10-24T02:04:01.428042+00:00",
+  "published_at": "2026-10-24",
+  "description": "We present a lightweight, height-balanced search structure that underpins the Aether-PeakSense Chronos-Directed Trading engine. The core algorithm maintains ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/cpp/20261023_230245_peak-aware_one-way_trading__co",
+  "abstract": "We present a lightweight, height-balanced search structure that underpins the Aether-PeakSense Chronos-Directed Trading engine. The core algorithm maintains strict height balance and key ordering while supporting one-pass Aether-PeakSense profit computation. Formal invariants guarantee that each node satisfies $|h(L)-h(R)|\\le 1$ and that all keys in the left subtree are strictly smaller than the node key, which in turn is strictly smaller than all keys in the right subtree. We prove that all operations run in $O(\\log N)$ time and that the structure occupies linear auxiliary memory. The implementation is in idiomatic C++17, leveraging contiguous node layout for spatial locality. No empirical wall-clock measurements are reported; all claims are supported by static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261023_230245_peak-aware_one-way_trading__co}"
+}

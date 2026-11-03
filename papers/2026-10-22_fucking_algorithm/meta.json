@@ -1,0 +1,30 @@
+{
+  "title": "Fucking Algorithm: Runtime Invariants and Algorithmic Bounds in Java",
+  "topic": "Fucking Algorithm",
+  "domain": "",
+  "language": "Java",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_080342",
+  "created_at": "2026-10-22T08:03:42.341111+00:00",
+  "published_at": "2026-10-22",
+  "description": "We present a concise Java implementation of Kruskal's Minimum Spanning Tree (MST) algorithm, termed the Fucking Algorithm, and analyze its algorithmic comple...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/java/20261022_070113_fucking_algorithm",
+  "abstract": "We present a concise Java implementation of Kruskal's Minimum Spanning Tree (MST) algorithm, termed the Fucking Algorithm, and analyze its algorithmic complexity, invariant preservation, and static verification profile. The algorithm sorts edges, employs a union--find structure, and incrementally builds an acyclic forest until all vertices are connected. We formally prove that the selected edge set remains cycle-free and that the algorithm terminates with a spanning tree of size $n-1$. Static analysis of the source yields a structural complexity of $O(E\\log E)$ and an AST metric of 211 SLOC and 34 function blocks. No runtime benchmarks were performed; all evidence is derived from static inspection and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261022_070113_fucking_algorithm}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

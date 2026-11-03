@@ -1,0 +1,30 @@
+{
+  "title": "Optimal Substructure Invariants in a Zig-Based Multimodal Travel Planner for a 228,060-Edge Graph",
+  "topic": "Engineering a Multimodal Travel Planner on a 228,060-Edge Graph",
+  "domain": "",
+  "language": "Zig",
+  "date": "2026-10-18",
+  "release_timestamp": "20261018_230319",
+  "created_at": "2026-10-18T23:03:19.369813+00:00",
+  "published_at": "2026-10-18",
+  "description": "We present a lightweight, mode-aware path engine implemented in Zig that computes shortest multimodal routes on a 228,060-edge urban graph. The engine augmen...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/zig/20261018_210120_engineering_a_multimodal_trave",
+  "abstract": "We present a lightweight, mode-aware path engine implemented in Zig that computes shortest multimodal routes on a 228,060-edge urban graph. The engine augments a standard adjacency array with a mode tag and applies Dijkstra's algorithm restricted to user-supplied mode sets. We formally prove that the returned path satisfies the optimal substructure invariant and that the algorithm runs in $O(|V|+|E|)$ for traversal and $O((|V|+|E|)\\log |V|)$ for relaxation. Static analysis of the source yields 164 SLOC and eight function blocks, confirming the modest code footprint. No empirical runtime measurements are reported; all claims are supported by formal proofs and AST inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261018_210120_engineering_a_multimodal_trave}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-18",
+  "year": "2026"
+}

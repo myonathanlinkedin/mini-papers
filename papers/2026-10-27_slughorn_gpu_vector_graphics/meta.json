@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Render: Graph-Based Rasterization Engine for GPU Vector Graphics",
+  "topic": "slughorn \u2014 GPU Vector Graphics",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-27",
+  "publication_date": "2026-10-27",
+  "year": "2026",
+  "release_timestamp": "20261027_230423",
+  "created_at": "2026-10-27T23:04:23.054957+00:00",
+  "published_at": "2026-10-27",
+  "description": "We present Aether-Render, a Python-based GPU vector graphics engine that constructs a directed acyclic rendering graph and executes it via a network-flow sty...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261027_150130_slughorn__gpu_vector_graphics",
+  "abstract": "We present Aether-Render, a Python-based GPU vector graphics engine that constructs a directed acyclic rendering graph and executes it via a network-flow style scheduler. The engine guarantees that each rendering pass is processed in topological order, preserving invariant safety while achieving an asymptotic traversal cost of $O(|V|+|E|)$ and a flow-optimization cost of $O((|V|+|E|)\\log |V|)$. Formal proofs establish that the graph remains acyclic after each insertion and that the cumulative weight of all edges is bounded by $|E|\\cdot W_{\\max}$. The implementation is verified through static abstract syntax tree inspection and structural complexity profiling on an AMD EPYC 9V74 platform. Source Code: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261027_150130_slughorn__gpu_vector_graphics}"
+}

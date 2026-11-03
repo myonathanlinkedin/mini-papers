@@ -1,0 +1,30 @@
+{
+  "title": "Idempotency Keys Under Distributed Retry Pressure: Runtime Invariants and Algorithmic Bounds in Chronos-Interpreter",
+  "topic": "Idempotency Keys Under Distributed Retry Pressure: Key Scoping, Storage Contracts, and",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-02",
+  "publication_date": "2026-11-02",
+  "year": "2026",
+  "release_timestamp": "20261102_170418",
+  "created_at": "2026-11-02T17:04:18.083927+00:00",
+  "published_at": "2026-11-02",
+  "description": "Distributed payment services must guarantee that repeated client requests do not trigger duplicate side effects. We present a deterministic key-scoping mecha...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 182310.14,
+    "p99_latency_us": 187012.57,
+    "throughput_ops_sec": 5485.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261102_150151_idempotency_keys_under_distrib",
+  "abstract": "Distributed payment services must guarantee that repeated client requests do not trigger duplicate side effects. We present a deterministic key-scoping mechanism that derives a unique identifier from tenant, operation, and payload hash, and a bounded LRU store that guarantees $O(1)$ amortised lookup, insertion, and eviction while preserving a strict height-balanced invariant. The implementation is in Chronos-Interpreter and achieves a mean latency of 182 310 \\textmu{}s with a throughput of 5 485 ops/s on an AMD EPYC 7763 host. The design is formally verified to maintain the key-ordered invariant and to bound the store size by the configured capacity. Source Code: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261102_150151_idempotency_keys_under_distrib}"
+}

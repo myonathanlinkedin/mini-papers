@@ -1,0 +1,30 @@
+{
+  "title": "Algorithmic Correctness Invariants and Execution Bounds of A* Heuristic Pathfinding with Dynamic Obstacle Cost in C",
+  "topic": "A* Heuristic Pathfinding with Dynamic Obstacle Cost",
+  "domain": "concurrency",
+  "language": "C",
+  "date": "2026-10-12",
+  "release_timestamp": "20261012_020306",
+  "created_at": "2026-10-12T02:03:06.933479+00:00",
+  "published_at": "2026-10-12",
+  "description": "Dynamic environments require path planners that incorporate time-varying obstacle costs without sacrificing optimality guarantees. This work presents a low-l...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261011_104545_a__heuristic_pathfinding_with",
+  "abstract": "Dynamic environments require path planners that incorporate time-varying obstacle costs without sacrificing optimality guarantees. This work presents a low-level C implementation of the A* algorithm where each grid cell carries a mutable traversal cost. The design stores nodes in a contiguous array and maintains an open-list as a binary min-heap, thereby preserving the balanced-search invariant of logarithmic insertion and extraction. We formalize two invariants: (i) the heap order property on the f-value ( f = g + h ) and (ii) monotonic non-decrease of g-costs along any explored path. Proofs show that these invariants guarantee that the first time a goal node is closed, the associated path is cost-optimal despite dynamic penalties. Asymptotic analysis yields O(N log N) time and O(N) space, where N is the number of traversable cells. Static analysis of the source yields 138 source-lines of code and a single function block. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261011_104545_a__heuristic_pathfinding_with}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-12",
+  "year": "2026"
+}

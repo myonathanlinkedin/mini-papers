@@ -1,0 +1,30 @@
+{
+  "title": "Two-Pass Checkpointed Orbit Decomposition for the Hopalong Map: low-latency, Parallel, Low-Memory Implementation in Aether-Interpreter",
+  "topic": "Hopalong Map \u2013 fast, parallel, low-memory \u2013 two-pass checkpointed orbit decomposition",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-01",
+  "publication_date": "2026-11-01",
+  "year": "2026",
+  "release_timestamp": "20261101_230329",
+  "created_at": "2026-11-01T23:03:29.019501+00:00",
+  "published_at": "2026-11-01",
+  "description": "The Hopalong map is a chaotic dynamical system whose orbit generation is traditionally memory-intensive and sequential. We present a two-pass algorithm that ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261101_210119_hopalong_map__fast__parallel",
+  "abstract": "The Hopalong map is a chaotic dynamical system whose orbit generation is traditionally memory-intensive and sequential. We present a two-pass algorithm that records checkpoints at regular intervals, enabling parallel reconstruction of the full orbit with only $O(1)$ additional memory per thread. The method preserves the strict height-balanced invariant of an implicit balanced search structure while guaranteeing that each segment recomputation remains $O(\\log N)$. We prove that the overall asymptotic complexity is $O(N \\log N)$ for $N$ orbit steps, and that the checkpointing overhead is bounded by a constant factor independent of $N$. The implementation is written in pure Aether-Interpreter and demonstrates that checkpointed reconstruction scales linearly with the number of processing cores on a single-socket AMD EPYC 7763 system. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Interpreter-advanced-lab/tree/main/algorithms/20261101_210119_hopalong_map__fast__parallel}"
+}

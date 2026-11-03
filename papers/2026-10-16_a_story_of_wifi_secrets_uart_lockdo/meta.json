@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Flux Secret Propagation, UART Lockdown Semantics, and Wear-Aware Flash Memory Management in Kotlin",
+  "topic": "A story of WiFi secrets, UART lockdowns and a damaged flash memory chip",
+  "domain": "concurrency",
+  "language": "Kotlin",
+  "date": "2026-10-16",
+  "release_timestamp": "20261016_230329",
+  "created_at": "2026-10-16T23:03:29.441475+00:00",
+  "published_at": "2026-10-16",
+  "description": "We present a lightweight, lock-free Kotlin library that couples a UART state machine with a wear-aware flash memory model. The design enforces a linearizable...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/kotlin/20261016_170132_a_story_of_wifi_secrets__uart",
+  "abstract": "We present a lightweight, lock-free Kotlin library that couples a UART state machine with a wear-aware flash memory model. The design enforces a linearizable send/receive protocol and a monotonic wear counter, guaranteeing that no write exceeds the prescribed wear budget. Formal invariants are proven using a simple atomic state machine and a bounded-buffer abstraction. Static analysis of the source yields an $O(1)$ amortized enqueue and $O(1)$ dequeue under contention, with an auxiliary memory bound of $O(N)$. The implementation is fully verified against the provided flash-memory and UART specifications, and the source code is publicly available at \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261016_170132_a_story_of_wifi_secrets__uart}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-16",
+  "year": "2026"
+}

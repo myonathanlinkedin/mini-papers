@@ -1,0 +1,36 @@
+{
+  "title": "Huge Strict Height-Balanced Indexing Invariants in a C++ Benchmarking Suite for Content-Defined Chunking Algorithms",
+  "topic": "Benchmarking Content-Defined Chunking Algorithms for Data Deduplication",
+  "domain": "Algorithms & Systems",
+  "language": "C++",
+  "date": "2026-10-13",
+  "release_timestamp": "20261013_120928",
+  "created_at": "2026-10-13T12:09:28.606053+00:00",
+  "published_at": "2026-10-13",
+  "description": "Strict Height-Balanced Indexing Invariants in a C++ Benchmarking Suite for Content-Defined Chunking Algorithms.",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8,
+    "ast_structural_metrics": {
+      "source_lines_of_code": 157,
+      "modular_files_count": 2,
+      "function_block_count": 1,
+      "cyclomatic_complexity_estimate": 2
+    }
+  },
+  "folder": "generated_lab/c++/20261012_170112_benchmarking_content-defined_c",
+  "abstract": "Content-defined chunking (CDC) underpins modern deduplication pipelines. This paper proves strict invariants on a C++ benchmark harness using formal AST metrics.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-13",
+  "year": "2026"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Cache-Line Aligned Lock-Free Memory-Pool Block Allocator with Embedded Free-List Management in C",
+  "topic": "Memory Pool Block Allocator with Embedded Free List Management",
+  "domain": "Memory Systems, Low-Latency Allocation, Operating Systems",
+  "language": "C",
+  "date": "2026-10-11",
+  "description": "Fixed-size memory pools are a cornerstone of deterministic embedded software, yet concurrent access to a shared pool often incurs cache-line contention and h...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 11435.09,
+    "p99_latency_us": 103137.2,
+    "throughput_ops_sec": 87450.1,
+    "iterations": 30,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_ram_gb": 63.8,
+    "host_threads": 32
+  },
+  "folder": "generated_lab\\c\\20261006_120526_memory_pool_block_allocator_wi",
+  "abstract": "Fixed-size memory pools are a cornerstone of deterministic embedded software, yet concurrent access to a shared pool often incurs cache-line contention and hidden synchronization costs. This paper presents a lock-free block allocator that embeds a singly-linked free list directly inside each block, aligns blocks to the processor's cache line, and uses atomic compare-and-swap (CAS) to update the head pointer. We formalize two invariants: (i) the free-list always contains exactly the set of unallocated blocks, and (ii) each CAS operation linearizes at a single memory access, guaranteeing sequential consistency. From these invariants we derive an O(1) worst-case bound for both allocation and deallocation. Empirical evaluation on a 13th Gen Intel\u00ae Core\u2122 i9-13900HX (24 cores/32 threads, Windows 11) shows a mean latency of 11.4 ms per 10 k operations and a throughput of 87.5 k ops/s, confirming the theoretical expectations. The implementation, benchmark harness, and reproducibility scripts are released under an open-source license. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261006_120526_memory_pool_block_allocator_wi}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "published_at": "2026-10-11",
+  "publication_date": "2026-10-11",
+  "year": "2026"
+}

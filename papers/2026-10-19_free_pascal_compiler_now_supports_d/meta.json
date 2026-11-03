@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Dependency Graphs in a Ruby Aether-Compiler Dynamic Package System",
+  "topic": "Free Pascal compiler now supports dynamic packages",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "date": "2026-10-19",
+  "release_timestamp": "20261019_140346",
+  "created_at": "2026-10-19T14:03:46.046639+00:00",
+  "published_at": "2026-10-19",
+  "description": "Dynamic package support in the Aether-Compiler introduces a dependency-aware resolution mechanism that must preserve structural invariants while maintaining ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/ruby/20261019_130140_free_pascal_compiler_now_suppo",
+  "abstract": "Dynamic package support in the Aether-Compiler introduces a dependency-aware resolution mechanism that must preserve structural invariants while maintaining logarithmic lookup performance. We embed a height-balanced binary search tree within the PackageRegistry to index package names, enabling $O(\\log N)$ point and range queries for dependency resolution. The tree is augmented with a cycle-detection stack that guarantees acyclic dependency graphs. We prove that the tree remains strictly height-balanced after each insertion and rebalancing step, ensuring that the depth of the registry never exceeds $\\lceil \\log_2 N \\rceil + 1$. The implementation is fully expressed in Ruby, leveraging immutable package descriptors and lazy loading. No runtime benchmarks are reported; all evidence derives from static AST inspection and formal invariant proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261019_130140_free_pascal_compiler_now_suppo}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-19",
+  "year": "2026"
+}

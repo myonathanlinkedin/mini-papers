@@ -1,0 +1,30 @@
+{
+  "title": "Vector Clock Distributed Event Ordering Mechanism in Python: Causal Clock Verification and Execution Dynamics",
+  "topic": "Vector Clock Distributed Event Ordering Mechanism",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-01",
+  "publication_date": "2026-11-01",
+  "year": "2026",
+  "release_timestamp": "20261101_050339",
+  "created_at": "2026-11-01T05:03:39.730650+00:00",
+  "published_at": "2026-11-01",
+  "description": "Vector clocks provide a lightweight, lock-free mechanism for capturing causal relationships in distributed systems. This work presents a pure-Python implemen...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261101_030122_vector_clock_distributed_event",
+  "abstract": "Vector clocks provide a lightweight, lock-free mechanism for capturing causal relationships in distributed systems. This work presents a pure-Python implementation that preserves the causal invariant while offering deterministic, side-effect-free operations except for explicit local increments. We formally prove that the comparison operator implements a partial order, that the increment operation preserves linearizability, and that the merge operation is associative and commutative. The algorithm achieves $O(1)$ amortized time for local updates and $O(P)$ contention-aware time for merges, where $P$ is the number of participating processes. The source code is available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261101_030122_vector_clock_distributed_event}."
+}

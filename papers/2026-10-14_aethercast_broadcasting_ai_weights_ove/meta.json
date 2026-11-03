@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Tree Invariants for TypeScript AetherCast-LLM: Radio-Broadcasted Weight Streaming Enabling Memory-Free Edge LLM Inference",
+  "topic": "AetherCast-LLM: Broadcasting AI Weights over Radio for Memory-Free Edge LLM Inference via RF",
+  "domain": "",
+  "language": "TypeScript",
+  "date": "2026-10-14",
+  "release_timestamp": "20261014_104128",
+  "created_at": "2026-10-14T10:41:28.587124+00:00",
+  "published_at": "2026-10-14",
+  "description": "Edge devices often lack the DRAM capacity required to store full large-language-model (LLM) weight matrices. This work investigates a radio-broadcast streami...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/typescript/20261014_090117_aethercast_broadcasting_ai_weigh",
+  "abstract": "Edge devices often lack the DRAM capacity required to store full large-language-model (LLM) weight matrices. This work investigates a radio-broadcast streaming approach---AetherCast-LLM---where each weight row is transmitted as a packet, indexed in a balanced binary search tree, and applied to the input vector without ever materialising the complete matrix. We formalise the state machine that consumes packets, prove that the tree remains height-balanced and key-ordered after each insertion, and derive asymptotic bounds for packet lookup, insertion and output computation. Static analysis of the TypeScript implementation yields a structural complexity of $O(\\log N)$ per packet and an AST profile of 187 source-lines across 14 functions. The results demonstrate that AetherCast-LLM can guarantee memory-free inference while preserving deterministic computational complexity. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261014_090117_aethercast_broadcasting_ai_weigh}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-14",
+  "year": "2026"
+}

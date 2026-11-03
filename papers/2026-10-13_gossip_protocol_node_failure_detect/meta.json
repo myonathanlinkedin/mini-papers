@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Indexing Invariants and Latency Bounds in a Go Gossip-Protocol Node Failure Detector",
+  "topic": "Gossip Protocol Node Failure Detector",
+  "domain": "",
+  "language": "Go",
+  "date": "2026-10-13",
+  "release_timestamp": "20261013_125033",
+  "created_at": "2026-10-13T12:50:33.553786+00:00",
+  "published_at": "2026-10-13",
+  "description": "Gossip-based failure detection is a cornerstone of large-scale distributed systems, yet rigorous analysis of its indexing structure and latency characteristi...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 1439.71,
+    "p99_latency_us": 2326.53,
+    "throughput_ops_sec": 694585.6,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/go/20261013_050111_gossip_protocol_node_failure_d",
+  "abstract": "Gossip-based failure detection is a cornerstone of large-scale distributed systems, yet rigorous analysis of its indexing structure and latency characteristics remains scarce. We present a Go implementation that couples a balanced search index with the classic gossip heartbeat exchange. The design maintains a strict height-balanced, key-ordered invariant on each node's view table, enabling deterministic detection after a configurable failure\\_threshold of missed rounds. Formal invariants are proved using state-transition reasoning, and asymptotic complexity is shown to be $O(N)$ per round for $N$ participants. Empirical evaluation on an AMD EPYC 7763 (1 core / 2 threads, 7.8~GB RAM, Linux 6.17) over 30 iterations yields a mean latency of 1 439.71 \\textmu{}s (Std Dev $\\pm$ 454.70 \\textmu{}s) and a throughput of 694 586 ops/s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261013_050111_gossip_protocol_node_failure_d}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-13",
+  "year": "2026"
+}

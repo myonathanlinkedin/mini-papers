@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in TypeScript Parser Combinators",
+  "topic": "Parser Combinators",
+  "domain": "",
+  "language": "TypeScript",
+  "date": "2026-10-18",
+  "release_timestamp": "20261018_200340",
+  "created_at": "2026-10-18T20:03:40.943917+00:00",
+  "published_at": "2026-10-18",
+  "description": "Parser combinators provide a declarative mechanism for constructing complex parsers from simple primitives. In a TypeScript implementation, the combinator co...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/typescript/20261018_170119_parser_combinators",
+  "abstract": "Parser combinators provide a declarative mechanism for constructing complex parsers from simple primitives. In a TypeScript implementation, the combinator composition naturally forms a binary parse tree whose height determines the worst-case number of sequential parsing steps. This paper formalises the height-balance invariant of such trees, proves that the height grows logarithmically with the number of combinator nodes, and demonstrates that the key-ordering invariant of the underlying parsing graph is preserved under all combinator operators. The analysis is carried out by static abstract syntax tree inspection and formal reasoning, without any empirical timing measurements. The resulting bounds guarantee that point and range queries over the parse tree execute in $O(\\log N)$ time, while insertions and rebalancing remain $O(\\log N)$. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261018_170119_parser_combinators}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-18",
+  "year": "2026"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Constructive Arboricity in Almost-Linear Time for Dense Graphs Using a Zig-Based Network-Flow Engine",
+  "topic": "Constructive Arboricity in Almost-Linear Time for Dense Graphs",
+  "domain": "",
+  "language": "Zig",
+  "date": "2026-10-14",
+  "release_timestamp": "20261014_041528",
+  "created_at": "2026-10-14T04:15:28.457901+00:00",
+  "published_at": "2026-10-14",
+  "description": "The arboricity of a graph--- the minimum number of edge-disjoint forests covering all edges--- is a fundamental combinatorial parameter with applications in ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_cores": 24,
+    "host_threads": 32,
+    "host_ram_gb": 63.8
+  },
+  "folder": "generated_lab/zig/20261013_190129_constructive_arboricity_in_alm",
+  "abstract": "The arboricity of a graph--- the minimum number of edge-disjoint forests covering all edges--- is a fundamental combinatorial parameter with applications in scheduling, network design, and parallel processing. We present a constructive algorithm that computes an optimal forest decomposition for dense simple graphs in almost-linear time, i.e., $O(|E|\\log |V|)$, by exploiting a Zig implementation of a network-flow engine combined with a degeneracy-ordering pre-processing step. The algorithm maintains a global acyclic-DAG invariant and incrementally augments flow paths to respect the optimal bound $\\lceil \\Delta/2\\rceil$, where $\\Delta$ is the maximum degree. Formal proofs of correctness and invariant preservation are given, and static analysis of the source reveals a structural complexity of 273 source-lines and 16 function blocks. No empirical timing data are reported; evaluation relies on asymptotic analysis and AST-based profiling. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261013_190129_constructive_arboricity_in_alm}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-14",
+  "year": "2026"
+}

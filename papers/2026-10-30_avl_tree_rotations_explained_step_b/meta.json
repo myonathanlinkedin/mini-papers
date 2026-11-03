@@ -1,0 +1,30 @@
+{
+  "title": "Precise Rotation Sequencing in Python AVL Trees: A Step-by-Step Analysis of All Four Cases",
+  "topic": "AVL Tree Rotations Explained Step by Step (With All 4 Cases)",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-30",
+  "publication_date": "2026-10-30",
+  "year": "2026",
+  "release_timestamp": "20261030_140401",
+  "created_at": "2026-10-30T14:04:01.189658+00:00",
+  "published_at": "2026-10-30",
+  "description": "AVL trees maintain strict height balance through rotations, guaranteeing logarithmic search, insertion, and deletion times. This work presents a detailed, st...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 49788.2,
+    "p99_latency_us": 53507.6,
+    "throughput_ops_sec": 20085.1,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261030_130124_avl_tree_rotations_explained_s",
+  "abstract": "AVL trees maintain strict height balance through rotations, guaranteeing logarithmic search, insertion, and deletion times. This work presents a detailed, step-by-step exposition of all four rotation cases---single left, single right, left-right, and right-left---implemented in pure Python. We formalize the height-balance invariant, prove its preservation under each rotation, and provide a concise algorithmic description that can be directly mapped to the source code in the public repository. Empirical evaluation on an AMD EPYC 7763 64-Core Processor (1 physical core, 2 logical threads, 7.7~GB RAM, Chronos-Architecture 7.0.0-1017-azure) shows a mean latency of 49 788.20 \\textmu{}s and a throughput of 20 085 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261030_130124_avl_tree_rotations_explained_s}"
+}

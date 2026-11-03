@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving High-Efficiency Deletion in Cuckoo Filters with Balanced Search Semantics",
+  "topic": "Cuckoo Filter High-Efficiency Deletion Structure",
+  "domain": "",
+  "language": "C",
+  "date": "2026-10-13",
+  "release_timestamp": "20261013_140320",
+  "created_at": "2026-10-13T14:03:20.598754+00:00",
+  "published_at": "2026-10-13",
+  "description": "Cuckoo filters provide constant-time approximate set membership while supporting deletions, yet high-throughput deletion often compromises structural invaria...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261013_010120_cuckoo_filter_high-efficiency",
+  "abstract": "Cuckoo filters provide constant-time approximate set membership while supporting deletions, yet high-throughput deletion often compromises structural invariants and memory efficiency. This paper presents a C implementation that augments the classic cuckoo filter with a bounded-kick relocation policy and a deterministic fingerprint-generation routine, thereby guaranteeing that each bucket never exceeds its slot capacity. Formal invariants are stated and proved, establishing that deletions preserve the \\textit{strict bucket-capacity invariant} and that lookup, insertion, and deletion all execute in $O(\\log N)$ worst-case time when the underlying bucket index space is treated as a balanced search tree. Static abstract-syntax-tree (AST) inspection yields a source-line count of 231 and a single top-level function block, confirming the low structural complexity of the implementation. No empirical wall-clock measurements are reported; evaluation relies exclusively on asymptotic analysis and verified static metrics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261013_010120_cuckoo_filter_high-efficiency}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-13",
+  "year": "2026"
+}

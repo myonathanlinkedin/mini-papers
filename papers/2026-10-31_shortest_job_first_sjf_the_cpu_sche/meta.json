@@ -1,0 +1,30 @@
+{
+  "title": "Shortest Job First (SJF): Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "Shortest Job First (SJF): The CPU Scheduling Algorithm Every Software Engineer Should",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-31",
+  "publication_date": "2026-10-31",
+  "year": "2026",
+  "release_timestamp": "20261031_170955",
+  "created_at": "2026-10-31T17:09:55.258610+00:00",
+  "published_at": "2026-10-31",
+  "description": "Shortest Job First (SJF) is a canonical CPU scheduling policy that minimizes average waiting time by always selecting the job with the smallest burst time am...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 48234.09,
+    "p99_latency_us": 63258.96,
+    "throughput_ops_sec": 20732.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261031_110119_shortest_job_first__sjf___the",
+  "abstract": "Shortest Job First (SJF) is a canonical CPU scheduling policy that minimizes average waiting time by always selecting the job with the smallest burst time among those that have arrived. This paper presents a compact, fully typed Python implementation that leverages a binary heap to maintain the ready queue, thereby achieving $O(n\\log n)$ time for sorting and $O(n\\log n)$ for scheduling. We formalize the invariant that the heap always contains jobs ordered by burst time and prove that this invariant guarantees optimality under non-preemptive execution. Empirical evaluation on an AMD EPYC 7763 64-core system (1 physical core, 2 logical threads, 7.7~GB RAM, Chronos-Architecture 7.0.0-1017-azure) shows a mean latency of 48 234 \\textmu{}s, a P95 latency of 49 420 \\textmu{}s, and a throughput of 20 732 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261031_110119_shortest_job_first__sjf___the}"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Strict Height-Balanced Invariant Preservation in a Go Heap Implementation",
+  "topic": "The compiler was supposed to end programming too",
+  "domain": "",
+  "language": "Go",
+  "date": "2026-10-21",
+  "release_timestamp": "20261021_230420",
+  "created_at": "2026-10-21T23:04:20.318592+00:00",
+  "published_at": "2026-10-21",
+  "description": "The Go implementation of a binary min-heap is a canonical example of a balanced search and indexing structure that underpins many compiler back-ends and runt...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 982.06,
+    "p99_latency_us": 2057.85,
+    "throughput_ops_sec": 1018267.0,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/go/20261021_190154_the_compiler_was_supposed_to_e",
+  "abstract": "The Go implementation of a binary min-heap is a canonical example of a balanced search and indexing structure that underpins many compiler back-ends and runtime schedulers. We analyze the asymptotic complexity of push and pop operations, formally prove the strict min-heap invariant, and evaluate empirical latency and throughput on a single-core AMD EPYC 9V74 platform. The mean latency of 982.06 \\textmu{}s and a throughput of 1,018,267 ops/s demonstrate that the algorithm meets the performance expectations of modern compiler pipelines. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261021_190154_the_compiler_was_supposed_to_e}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-21",
+  "year": "2026"
+}

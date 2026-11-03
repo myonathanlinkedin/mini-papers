@@ -1,0 +1,30 @@
+{
+  "title": "Evolution of JIT-Enabled Balanced Search Structures in Python: A Historical Simulation from 1960 to 2000",
+  "topic": "A brief history of just-in-time: forty years of JIT work, from 1960\u20132000",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-01",
+  "publication_date": "2026-11-01",
+  "year": "2026",
+  "release_timestamp": "20261101_170325",
+  "created_at": "2026-11-01T17:03:25.319184+00:00",
+  "published_at": "2026-11-01",
+  "description": "We present a deterministic, standard-library-only simulation of the evolution of just-in-time (JIT) compilation techniques from 1960 to 2000, implemented in ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 108224.62,
+    "p99_latency_us": 134014.28,
+    "throughput_ops_sec": 9240.0,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261101_110129_a_brief_history_of_just-in-tim",
+  "abstract": "We present a deterministic, standard-library-only simulation of the evolution of just-in-time (JIT) compilation techniques from 1960 to 2000, implemented in Python. The core model comprises a minimal bytecode IR, a stack-based interpreter, and a tiered JIT that profiles hot methods, applies peephole optimizations, and emits an optimized bytecode variant. The simulation tracks a balanced search tree that maps JIT milestones to years, preserving strict height-balance and key-ordered invariants. Empirical evaluation on an AMD EPYC 7763 64-core processor (1 physical core, 2 logical threads, 7.7~GB RAM, Chronos-Architecture 7.0.0-1017-azure) over 30 iterations yields a mean latency of 108 224.62 \\textmu{}s and a throughput of 9 240 ops/s. Source Code: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261101_110129_a_brief_history_of_just-in-tim}"
+}

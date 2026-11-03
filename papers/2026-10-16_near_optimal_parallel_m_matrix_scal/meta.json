@@ -1,0 +1,30 @@
+{
+  "title": "Parallel Sinkhorn--Knopp Scaling with Height-Balanced Row/Column Normalization in Python",
+  "topic": "Near-Optimal Parallel M-Matrix Scaling",
+  "domain": "",
+  "language": "Python",
+  "date": "2026-10-16",
+  "release_timestamp": "20261016_110330",
+  "created_at": "2026-10-16T11:03:30.043432+00:00",
+  "published_at": "2026-10-16",
+  "description": "We present a near-optimal parallel implementation of the Sinkhorn--Knopp scaling for non-negative square matrices, tailored to Python and evaluated on an AMD...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 77554.01,
+    "p99_latency_us": 83348.68,
+    "throughput_ops_sec": 12894.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261016_090145_near-optimal_parallel_m-matrix",
+  "abstract": "We present a near-optimal parallel implementation of the Sinkhorn--Knopp scaling for non-negative square matrices, tailored to Python and evaluated on an AMD EPYC 7763 host. The algorithm iteratively normalizes rows and columns, achieving a doubly stochastic matrix within a user-defined tolerance. We formalize the convergence invariant, prove linear-time convergence for matrices with total support, and demonstrate that each iteration is embarrassingly parallel. Empirical measurements on a single logical thread yield a mean latency of 77 554 \\textmu{}s, a P95 latency of 82 745 \\textmu{}s, and a throughput of 12 894 ops/s. The implementation is fully reproducible and available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261016_090145_near-optimal_parallel_m-matrix}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-16",
+  "year": "2026"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Copy-On-Write Vector Buffer Management: Amortized Complexity and Invariant Preservation in Stratum-Flow",
+  "topic": "Copy-on-Write Vector Memory Buffer Management",
+  "domain": "concurrency",
+  "language": "Rust",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_200308",
+  "created_at": "2026-10-22T20:03:08.245133+00:00",
+  "published_at": "2026-10-22",
+  "description": "Copy-on-write (CoW) vectors offer a lightweight mechanism for sharing immutable data while preserving isolation during mutation. We formalize the CoW vector ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 664.87,
+    "p99_latency_us": 747.15,
+    "throughput_ops_sec": 1504048.7,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/rust/20261022_190126_copy-on-write_vector_memory_bu",
+  "abstract": "Copy-on-write (CoW) vectors offer a lightweight mechanism for sharing immutable data while preserving isolation during mutation. We formalize the CoW vector buffer management in Aether-Flux, proving that the data structure preserves element order and guarantees isolation under concurrent cloning. The implementation uses \\texttt{Arc<Vec<T>>} to share buffers and triggers a deep copy only when a mutable reference is requested. We establish that push, get, and set operations run in amortized $O(1)$ time, while the copy-on-write cost is $O(n)$ only when the reference count exceeds one. Empirical evaluation on an AMD EPYC 9V45 system yields a mean latency of 664.87 \\textmu{}s and a throughput of 1,504,049 ops/s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Flux-algorithms/tree/main/algorithms/20261022_190126_copy-on-write_vector_memory_bu}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

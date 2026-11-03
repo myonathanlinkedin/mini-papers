@@ -1,0 +1,30 @@
+{
+  "title": "Retries Are a Distributed Systems Bug Waiting to Happen: Runtime Invariants and Algorithmic Bounds in Go",
+  "topic": "Retries Are a Distributed Systems Bug Waiting to Happen: Designing Idempotent APIs",
+  "domain": "concurrency",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-24",
+  "publication_date": "2026-10-24",
+  "year": "2026",
+  "release_timestamp": "20261024_140330",
+  "created_at": "2026-10-24T14:03:30.244289+00:00",
+  "published_at": "2026-10-24",
+  "description": "Retries in distributed services often expose hidden race conditions and state inconsistencies. We present a Go-based engine that enforces idempotent request ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 1399.27,
+    "p99_latency_us": 2361.11,
+    "throughput_ops_sec": 714658.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/go/20261024_110150_retries_are_a_distributed_syst",
+  "abstract": "Retries in distributed services often expose hidden race conditions and state inconsistencies. We present a Go-based engine that enforces idempotent request handling by coupling a synchronized idempotency map with a lightweight resource store. The engine guarantees that each unique idempotency key maps deterministically to a single response, thereby eliminating duplicate side effects even under concurrent retries. We formalize the causal ordering invariant that the engine preserves a strict height-balanced key-ordered structure for the idempotency map, ensuring $O(\\log n)$ lookup and insertion. Empirical evaluation on an AMD EPYC 7763 host yields a mean latency of 1399.27 \\textmu{}s, a P95 latency of 2287.16 \\textmu{}s, and a throughput of 714,659 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261024_110150_retries_are_a_distributed_syst}."
+}

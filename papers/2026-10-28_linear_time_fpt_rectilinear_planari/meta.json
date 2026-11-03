@@ -1,0 +1,30 @@
+{
+  "title": "Linear-Time FPT Decomposition of Series-Parallel Graphs via Orthogonal Embedding Reduction",
+  "topic": "Linear-Time FPT Rectilinear Planarity Testing of Series-Parallel Graphs",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-28",
+  "publication_date": "2026-10-28",
+  "year": "2026",
+  "release_timestamp": "20261028_140403",
+  "created_at": "2026-10-28T14:04:03.708822+00:00",
+  "published_at": "2026-10-28",
+  "description": "We present a deterministic, linear-time, fixed-parameter tractable (FPT) algorithm for testing rectilinear planarity of series-parallel (SP) graphs in pure P...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/python/20261028_110120_linear-time_fpt_rectilinear_pl",
+  "abstract": "We present a deterministic, linear-time, fixed-parameter tractable (FPT) algorithm for testing rectilinear planarity of series-parallel (SP) graphs in pure Python. The method reduces the problem to SP recognition and a degree-constraint check, both solvable in $O(|V|+|E|)$ time using a union-find structure \\cite{Tarjan_1975_UnionFind}. The algorithm guarantees that an SP graph admits a rectilinear embedding iff its maximum degree does not exceed four, a condition verified by a single pass over the adjacency list. Formal invariants are established for the SP decomposition tree and the degree-constraint propagation. The implementation, available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_110120_linear-time_fpt_rectilinear_pl}, is fully reproducible and accompanied by a unit-test suite that covers canonical SP constructions and random recursive compositions. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_110120_linear-time_fpt_rectilinear_pl}"
+}

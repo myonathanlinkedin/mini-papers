@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Atlas Tree Management: Height-Balanced Invariant Maintenance in Kotlin",
+  "topic": "Google illegally cut down 250K trees in Finland for data center",
+  "domain": "raft",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-24",
+  "publication_date": "2026-10-24",
+  "year": "2026",
+  "release_timestamp": "20261024_170413",
+  "created_at": "2026-10-24T17:04:13.106114+00:00",
+  "published_at": "2026-10-24",
+  "description": "Aether-Atlas is a lightweight in-memory index designed to support rapid provisioning of data-center resources in a Finnish deployment that required the remov...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/kotlin/20261024_150207_google_illegally_cut_down_250k",
+  "abstract": "Aether-Atlas is a lightweight in-memory index designed to support rapid provisioning of data-center resources in a Finnish deployment that required the removal of 250 k trees. The core of Aether-Atlas is a height-balanced binary search tree (BST) implemented in Kotlin, which guarantees $O(\\log N)$ point and range queries while preserving strict key ordering and height balance after each insertion or deletion. We formally prove that the tree height never exceeds $\\lfloor\\log_2(N+1)\\rfloor$ and that all operations maintain the BST invariant. Static abstract-syntax-tree (AST) analysis confirms a structural complexity of 108 SLOC and six function blocks, with auxiliary memory $O(N)$. No empirical runtime measurements were performed; the analysis relies solely on static verification and theoretical bounds. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261024_150207_google_illegally_cut_down_250k}"
+}

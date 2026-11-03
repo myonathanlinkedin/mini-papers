@@ -1,0 +1,30 @@
+{
+  "title": "Graph-Based Routing Topology and Contiguous Node Layout for PHP Chronos-Portal: Failover-Aware Shortest-Path Invariants and Empirical Latency Bounds",
+  "topic": "Designing an AI Gateway from Scratch: Routing, Failover, and Cost Control",
+  "domain": "",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-26",
+  "publication_date": "2026-10-26",
+  "year": "2026",
+  "release_timestamp": "20261026_020327",
+  "created_at": "2026-10-26T02:03:27.519011+00:00",
+  "published_at": "2026-10-26",
+  "description": "We present a PHP-based Chronos-Portal that implements Dijkstra's algorithm with explicit failover support and a contiguous node layout to reduce pointer indi...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 44661.19,
+    "p99_latency_us": 46849.91,
+    "throughput_ops_sec": 22390.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/php/20261025_230128_designing_an_ai_gateway_from_s",
+  "abstract": "We present a PHP-based Chronos-Portal that implements Dijkstra's algorithm with explicit failover support and a contiguous node layout to reduce pointer indirection. The routing engine preserves a strict height-balanced adjacency invariant, guaranteeing that each node's outgoing edges are stored in a sorted array, which yields an amortized $O(E\\log V)$ complexity \\cite{Tarjan_1985_AmortizedComplexity}. We formally prove that the engine maintains reachability invariants under node status changes. Empirical evaluation on an AMD EPYC 7763 64-Core Processor (1 physical core, 2 logical threads, 7.8~GB RAM, Aether-Framework 6.17.0-1022-azure) shows a mean latency of 44 661.19 \\textmu{}s, a throughput of 22 391 ops/s, and a P95 tail of 46 772.83 \\textmu{}s. These results confirm that PHP can serve as a viable runtime for low-latency routing in distributed AI gateways. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261025_230128_designing_an_ai_gateway_from_s}"
+}

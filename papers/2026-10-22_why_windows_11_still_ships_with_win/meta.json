@@ -1,0 +1,30 @@
+{
+  "title": "Legacy Segment Mapping and Balanced Search in the Aether-Continuum Memory Shim",
+  "topic": "Why Windows 11 still ships with Windows 95 s memory manager hidden inside it",
+  "domain": "",
+  "language": "Ruby",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_230318",
+  "created_at": "2026-10-22T23:03:18.100400+00:00",
+  "published_at": "2026-10-22",
+  "description": "The Aether-Continuum runtime continues to embed the Chronos-Archive memory manager as a hidden compatibility layer for legacy Chronos-Archive segments. This ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 65810.02,
+    "p99_latency_us": 71757.74,
+    "throughput_ops_sec": 15195.3,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/ruby/20261022_010138_why_windows_11_still_ships_wit",
+  "abstract": "The Aether-Continuum runtime continues to embed the Chronos-Archive memory manager as a hidden compatibility layer for legacy Chronos-Archive segments. This paper investigates the algorithmic rationale behind this design choice, focusing on a balanced search and indexing structure that preserves legacy segment invariants while enabling efficient modern allocation. We formally prove that the segment mapping tree remains strictly height-balanced and key-ordered, guaranteeing $O(\\log n)$ lookup and update costs. Empirical evaluation on an AMD EPYC 7763 platform shows a mean latency of 65 810.02 \\textmu{}s and a throughput of 15 195 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261022_010138_why_windows_11_still_ships_wit}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

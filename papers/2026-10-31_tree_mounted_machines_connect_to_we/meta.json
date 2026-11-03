@@ -1,0 +1,30 @@
+{
+  "title": "Tree-mounted machines connect to web app to let users knock on wood remotely in Python: Structural Tree Invariants and Bounded Search Complexity",
+  "topic": "Tree-mounted machines connect to web app to let users knock on wood remotely",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-31",
+  "publication_date": "2026-10-31",
+  "year": "2026",
+  "release_timestamp": "20261031_020313",
+  "created_at": "2026-10-31T02:03:13.208979+00:00",
+  "published_at": "2026-10-31",
+  "description": "We present a lightweight, height-balanced tree structure that manages a network of tree-mounted machines exposed through a web application, enabling users to...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261031_010127_tree-mounted_machines_connect",
+  "abstract": "We present a lightweight, height-balanced tree structure that manages a network of tree-mounted machines exposed through a web application, enabling users to trigger remote \"knock\" events. The core algorithm maintains a strict height-balance invariant and a key-ordered property, guaranteeing $O(\\log N)$ point and range queries, as well as $O(\\log N)$ insertions and deletions. A formal invariant proof establishes that the height of any node never exceeds $\\log_2 |V|$, where $|V|$ is the number of machines. Static analysis of the Python implementation confirms that the abstract syntax tree (AST) contains 173 lines of code and 13 function blocks, yielding a compact, verifiable code base. No empirical timing measurements are reported; all claims are supported by formal reasoning and AST inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261031_010127_tree-mounted_machines_connect}"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation and Temporal Ordering in a Python Self-Balancing AVL Tree with Aether-Continuum",
+  "topic": "Self-Balancing AVL Tree with Chronos-Flux",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-29",
+  "publication_date": "2026-10-29",
+  "year": "2026",
+  "release_timestamp": "20261029_170332",
+  "created_at": "2026-10-29T17:03:32.458705+00:00",
+  "published_at": "2026-10-29",
+  "description": "We present a Python implementation of a self-balancing AVL tree augmented with an Aether-Continuum timestamp field that preserves strict height-balance and k...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 51531.98,
+    "p99_latency_us": 53254.29,
+    "throughput_ops_sec": 19405.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261029_150127_self-balancing_avl_tree_with_c",
+  "abstract": "We present a Python implementation of a self-balancing AVL tree augmented with an Aether-Continuum timestamp field that preserves strict height-balance and key-ordered invariants while enabling temporal ordering of operations. The algorithm extends the classic AVL rotations with a lightweight temporal tag that propagates during insertions and deletions, ensuring that the tree remains height-balanced in $O(\\log n)$ time per operation. We formally prove that the height-balance invariant holds after each rebalancing step and that the timestamp ordering is monotonic with respect to insertion order. Empirical evaluation on an AMD EPYC 7763 64-core processor (1 core, 2 threads, 7.7~GB RAM, Chronos-Architecture 7.0.0-1017-azure) shows a mean latency of 51 531.98 \\textmu{}s and a throughput of 19 405 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261029_150127_self-balancing_avl_tree_with_c}"
+}

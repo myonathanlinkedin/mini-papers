@@ -1,0 +1,28 @@
+{
+  "title": "Cache-Line Aligned Mailbox Processing in a Lock-Free Actor Concurrency Engine (Java)",
+  "topic": "Actor Model Concurrency Engine with Mailbox Processing",
+  "domain": "concurrency",
+  "language": "Java",
+  "date": "2026-10-11",
+  "description": "The actor model decouples computation through asynchronous message passing, yet high-throughput Java implementations must contend with cache-line false shari...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/java/20261010_030454_actor_model_concurrency_engine",
+  "abstract": "The actor model decouples computation through asynchronous message passing, yet high-throughput Java implementations must contend with cache-line false sharing and atomic synchronization overheads. This work presents a lock-free mailbox engine built on a bounded \\texttt{LinkedBlockingQueue} with explicit cache-line padding and \\texttt{AtomicBoolean} control. We formalize sequential-consistency and linearizability invariants for enqueue/dequeue operations and derive amortized $O(1)$ bounds for both enqueue and dequeue under bounded contention. Static analysis on a Microsoft Azure virtual machine hosted on an AMD EPYC 7763 processor (1 physical core / 2 logical threads, 7.8 GB RAM, Linux 6.17) yields an AST structural profile of 172 SLOC and 23 functional blocks. In accordance with zero-fabrication principles, no runtime wall-clock measurements were conducted; evaluation relies strictly on AST inspection and formal proof. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261010_030454_actor_model_concurrency_engine}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "published_at": "2026-10-11",
+  "publication_date": "2026-10-11",
+  "year": "2026"
+}

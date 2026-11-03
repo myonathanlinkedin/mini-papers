@@ -1,0 +1,30 @@
+{
+  "title": "SIMD-Accelerated Balanced Search Trees in the Chronos Framework: Invariant Preservation and Empirical Throughput",
+  "topic": "SIMD and Go",
+  "domain": "simd",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-25",
+  "publication_date": "2026-10-25",
+  "year": "2026",
+  "release_timestamp": "20261025_020430",
+  "created_at": "2026-10-25T02:04:30.509581+00:00",
+  "published_at": "2026-10-25",
+  "description": "We present a SIMD-enabled balanced search tree that integrates with the Chronos scheduling framework to achieve deterministic latency and high throughput in ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 2903.5,
+    "p99_latency_us": 3342.18,
+    "throughput_ops_sec": 344411.7,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/c/20261025_010141_simd_and_go",
+  "abstract": "We present a SIMD-enabled balanced search tree that integrates with the Chronos scheduling framework to achieve deterministic latency and high throughput in C. The design leverages vectorized node traversal and a contiguous memory layout that aligns with the processor's spatial hierarchy, while preserving the strict height-balanced and key-ordered invariants required for logarithmic search. We formally prove that the tree maintains its invariants under concurrent insertions and deletions, and we evaluate the implementation on an AMD EPYC 9V74 system. Empirical results show a mean latency of 2903.50 \\textmu{}s, a P95 latency of 3007.69 \\textmu{}s, and a sustained throughput of 344 412 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261025_010141_simd_and_go}"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced State-Machine Tokenizer and Lexical Parser in TypeScript: Invariant-Preserving Tokenization and AST Construction",
+  "topic": "Finite State Machine Tokenizer and Lexical Parser",
+  "domain": "",
+  "language": "TypeScript",
+  "date": "2026-10-15",
+  "release_timestamp": "20261015_050332",
+  "created_at": "2026-10-15T05:03:32.070611+00:00",
+  "published_at": "2026-10-15",
+  "description": "We present a deterministic finite-state machine (FSM) tokenizer coupled with a recursive-descent parser implemented in TypeScript. The tokenizer operates on ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/typescript/20261015_030124_finite_state_machine_tokenizer",
+  "abstract": "We present a deterministic finite-state machine (FSM) tokenizer coupled with a recursive-descent parser implemented in TypeScript. The tokenizer operates on a single pass over the source, emitting a stream of tokens that satisfy a strict lexical invariant: every token corresponds to a maximal prefix of the input that matches a terminal of the grammar. The parser consumes this stream to construct an abstract syntax tree (AST) while maintaining a height-balanced binary search tree for identifier resolution, guaranteeing that lookup, insertion, and rebalancing remain $O(\\log N)$. Formal invariants are proven for both the FSM and the balanced tree, and static analysis confirms the absence of runtime errors on the target platform. The source code is available at \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261015_030124_finite_state_machine_tokenizer}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-15",
+  "year": "2026"
+}

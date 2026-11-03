@@ -1,0 +1,30 @@
+{
+  "title": "Chronos-Atlas Docs System Design: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "Aether-Atlas Docs System Design: Real-Time Editing, OT, CRDT & Scale",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-28",
+  "publication_date": "2026-10-28",
+  "year": "2026",
+  "release_timestamp": "20261028_230333",
+  "created_at": "2026-10-28T23:03:33.704197+00:00",
+  "published_at": "2026-10-28",
+  "description": "We present a lock-free hybrid of Operational Transformation (OT) and Conflict-Free Replicated Data Types (CRDT) for real-time collaborative editing in a Pyth...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261028_190123_aether-atlas_docs_system_desig",
+  "abstract": "We present a lock-free hybrid of Operational Transformation (OT) and Conflict-Free Replicated Data Types (CRDT) for real-time collaborative editing in a Python-based Chronos-Atlas Docs System. The design preserves causal order using Lamport timestamps \\cite{Lamport_1978_TimeClocks} and guarantees linearizability of local insert/delete operations via a rational-number identifier scheme. Static analysis of the implementation yields an amortized $O(1)$ complexity for local operations and $O(1)$ remote application under contention $O(P)$, where $P$ is the number of replicas. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261028_190123_aether-atlas_docs_system_desig}."
+}

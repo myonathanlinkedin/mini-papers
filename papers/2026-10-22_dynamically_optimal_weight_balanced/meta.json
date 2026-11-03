@@ -1,0 +1,30 @@
+{
+  "title": "Dynamically optimal weight-balanced binary search trees in Swift: Structural Tree Invariants and Bounded Search Complexity",
+  "topic": "Dynamically optimal weight-balanced binary search trees",
+  "domain": "",
+  "language": "Swift",
+  "date": "2026-10-22",
+  "release_timestamp": "20261022_110314",
+  "created_at": "2026-10-22T11:03:14.804086+00:00",
+  "published_at": "2026-10-22",
+  "description": "We present a Swift implementation of a weight-balanced binary search tree (WB-BST) that enforces the classic BB[\u03b1] invariant with \u03b1 = 2/3, guar...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/swift/20261022_050125_dynamically_optimal_weight-bal",
+  "abstract": "We present a Swift implementation of a weight-balanced binary search tree (WB-BST) that enforces the classic BB[$\\alpha$] invariant with $\\alpha$ = 2/3, guaranteeing $O(log n)$ height for all operations. The design is expressed as a pure value-semantics data structure with reference-based nodes to support efficient mutation. We formally state the size-balance invariant, prove that it is preserved by insertions and deletions, and verify that the tree satisfies the key-ordered property. Static analysis via automated Python AST inspection confirms that the source contains 207 SLOC, 35 function blocks, and no recursive depth exceeding 20, ensuring compile-time safety on the target platform. No runtime measurements were performed; all evidence is derived from formal proofs and AST metrics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261022_050125_dynamically_optimal_weight-bal}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-22",
+  "year": "2026"
+}

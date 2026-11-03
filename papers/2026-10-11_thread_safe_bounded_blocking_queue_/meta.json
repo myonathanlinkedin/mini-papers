@@ -1,0 +1,28 @@
+{
+  "title": "Cache-Line Aligned Condition-Variable Bounded Blocking Queue in Zig: Contention-Aware Design and Formal Guarantees",
+  "topic": "Thread-Safe Bounded Blocking Queue with Condition Variables",
+  "domain": "concurrency",
+  "language": "Zig",
+  "date": "2026-10-11",
+  "description": "Bounded blocking queues are a cornerstone of producer-consumer pipelines, yet achieving low latency on modern many-core CPUs requires careful handling of cache-line contention and memory ordering. This work presents a Zig implementation that couples a circular buffer with condition variables and a mutex to guarantee O(1) amortized enqueue/dequeue while preventing false sharing. We formalize two invariants---capacity preservation and linearizable ordering---and prove them under sequential consistency. Empirical evaluation on a 13th Gen Intel Core i9-13900HX processor (24 physical cores, 32 logical threads, 63.8 GB RAM, Windows 11) across N=30 iterations demonstrates a mean latency of 2217.02 us (P50: 2248.30 us, P99: 2496.20 us) and sustained throughput of 4.51 x 10^6 ops/s, confirming theoretical expectations and robust synchronization bounds.",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 2217.02,
+    "p99_latency_us": 2496.2,
+    "throughput_ops_sec": 4510552.4,
+    "iterations": 30,
+    "host_cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "host_os": "Windows 11",
+    "host_cores": 24,
+    "host_threads": 32,
+    "host_ram_gb": 63.8
+  },
+  "folder": "generated_lab/zig/20261010_200223_thread-safe_bounded_blocking_q",
+  "abstract": "Bounded blocking queues are a cornerstone of producer-consumer pipelines, yet achieving low latency on modern many-core CPUs requires careful handling of cache-line contention and memory ordering. This work presents a Zig implementation that couples a circular buffer with condition variables and a mutex to guarantee O(1) amortized enqueue/dequeue while preventing false sharing. We formalize two invariants---capacity preservation and linearizable ordering---and prove them under sequential consistency. Empirical evaluation on a 13th Gen Intel\u00ae Core\u2122 i9-13900HX processor (24 physical cores, 32 logical threads, 63.8 GB RAM, Windows 11) across N=30 iterations demonstrates a mean latency of 2217.02 us (P50: 2248.30 us, P99: 2496.20 us) and sustained throughput of 4.51 x 10^6 ops/s, confirming theoretical expectations and robust synchronization bounds. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261010_200223_thread-safe_bounded_blocking_q}.",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "published_at": "2026-10-11",
+  "publication_date": "2026-10-11",
+  "year": "2026"
+}

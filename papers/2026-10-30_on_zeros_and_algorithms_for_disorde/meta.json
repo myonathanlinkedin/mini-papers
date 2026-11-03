@@ -1,0 +1,30 @@
+{
+  "title": "On Zeros and Algorithms for Disordered Systems II: Runtime Invariants and Algorithmic Bounds in Python",
+  "topic": "On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-30",
+  "publication_date": "2026-10-30",
+  "year": "2026",
+  "release_timestamp": "20261030_110401",
+  "created_at": "2026-10-30T11:04:01.188731+00:00",
+  "published_at": "2026-10-30",
+  "description": "We present a Python implementation of the antiferromagnetic Ising model on a periodic 2-D square lattice that employs a height-balanced binary search tree to...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261030_090159_on_zeros_and_algorithms_for_di",
+  "abstract": "We present a Python implementation of the antiferromagnetic Ising model on a periodic 2-D square lattice that employs a height-balanced binary search tree to index lattice sites and their nearest-neighbour bonds. The tree guarantees $O(\\log N)$ search and update operations, where $N=L^{2}$ is the number of spins. We formally prove that the tree preserves the strict height-balance invariant and that the mapping from 2-D coordinates to linear indices is order-preserving, ensuring correct energy evaluation. Static abstract-syntax-tree analysis confirms a structural complexity of $O(N)$ memory and $O(\\log N)$ per-operation cost. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261030_090159_on_zeros_and_algorithms_for_di}."
+}

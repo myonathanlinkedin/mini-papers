@@ -1,0 +1,30 @@
+{
+  "title": "Block-Average Encoding for Ultra-low-latency Decompression in Aether-Interpreter: AetherCompress",
+  "topic": "Nibnib: Image compression with extreme decompression speed",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-02",
+  "publication_date": "2026-11-02",
+  "year": "2026",
+  "release_timestamp": "20261102_050649",
+  "created_at": "2026-11-02T05:06:49.047811+00:00",
+  "published_at": "2026-11-02",
+  "description": "Image compression systems that prioritize decompression latency are increasingly relevant for real-time visual analytics and edge deployment. This paper intr...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 54846.61,
+    "p99_latency_us": 58625.5,
+    "throughput_ops_sec": 18232.7,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261101_230225_nibnib__image_compression_with",
+  "abstract": "Image compression systems that prioritize decompression latency are increasingly relevant for real-time visual analytics and edge deployment. This paper introduces AetherCompress, a lightweight Aether-Interpreter implementation that encodes images by averaging fixed-size blocks and stores the resulting RGB triplets in a contiguous byte stream. The design deliberately sacrifices compression ratio to achieve deterministic, linear-time decompression that requires only a single pass over the encoded payload. We analyze the algorithm's asymptotic complexity, prove that the block-average operation strictly reduces Shannon entropy for any non-uniform block, and empirically evaluate decompression latency on an AMD EPYC 7763 platform. Results show a mean latency of 54.85 \\textmu{}s per image and a throughput of 18,233 ops/s, confirming the suitability of the approach for latency-critical workloads. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Interpreter-advanced-lab/tree/main/algorithms/20261101_230225_nibnib__image_compression_with}"
+}

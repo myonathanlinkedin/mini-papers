@@ -1,0 +1,30 @@
+{
+  "title": "Linearizable State Transitions and Queue Invariants in Redox Ring Buffers Project Summary (Python)",
+  "topic": "Redox Ring Buffers Project Summary",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-29",
+  "publication_date": "2026-10-29",
+  "year": "2026",
+  "release_timestamp": "20261029_230343",
+  "created_at": "2026-10-29T23:03:43.677099+00:00",
+  "published_at": "2026-10-29",
+  "description": "We present a lock-free implementation of a redox ring buffer in Python, designed to support high-throughput concurrent producers and consumers while preservi...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 84715.78,
+    "p99_latency_us": 89643.38,
+    "throughput_ops_sec": 11804.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261029_170128_redox_ring_buffers_project_sum",
+  "abstract": "We present a lock-free implementation of a redox ring buffer in Python, designed to support high-throughput concurrent producers and consumers while preserving strict sequential consistency. The buffer exposes constant-time push and pop operations and maintains a bounded capacity invariant. We formally prove that the buffer's state machine preserves the invariant $0 \\leq \\text{count} \\leq \\text{capacity}$ under any interleaving of push and pop operations. Empirical evaluation on an AMD EPYC 7763 64-core processor (1 physical core, 2 logical threads) yields a mean latency of 84 715.78 \\textmu{}s, a P95 latency of 85 725.67 \\textmu{}s, and a throughput of 11 804 ops/s over 30 benchmark iterations. These results demonstrate that the design achieves predictable latency while maintaining correctness guarantees. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261029_170128_redox_ring_buffers_project_sum}"
+}

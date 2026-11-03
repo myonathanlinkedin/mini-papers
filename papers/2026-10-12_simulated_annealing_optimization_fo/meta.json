@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving Simulated Annealing for Hamiltonian-Cycle Optimization in Haskell Graph Engines",
+  "topic": "Simulated Annealing Optimization for Combinatorial Graphs",
+  "domain": "",
+  "language": "Haskell",
+  "date": "2026-10-12",
+  "release_timestamp": "20261012_200319",
+  "created_at": "2026-10-12T20:03:19.035584+00:00",
+  "published_at": "2026-10-12",
+  "description": "Simulated annealing (SA) remains a cornerstone meta-heuristic for combinatorial graph problems such as the Hamiltonian-cycle (traveling-salesperson) formulat...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/haskell/20261011_210104_simulated_annealing_optimizati",
+  "abstract": "Simulated annealing (SA) remains a cornerstone meta-heuristic for combinatorial graph problems such as the Hamiltonian-cycle (traveling-salesperson) formulation. This work presents a pure-functional SA implementation in Haskell that respects a feasibility invariant (every candidate solution is a permutation of the vertex set) while exposing a provable cooling schedule and neighbor generation. We formalize the state transition relation, prove that the invariant is preserved across iterations, and derive asymptotic bounds for the core operations: neighbor construction $O(|V|)$, cost evaluation $O(|V|)$, and schedule update $O(1)$. Static analysis of the source yields $153$ source-level lines of code and a single top-level function block, confirming the structural simplicity of the engine. Theoretical analysis shows overall time complexity $O\\!\\bigl((|V|+|E|)\\log|V|\\bigr)$ for a full annealing run. All artifacts, including source code and reproducible test harness, are publicly available. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261011_210104_simulated_annealing_optimizati}",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "publication_date": "2026-10-12",
+  "year": "2026"
+}

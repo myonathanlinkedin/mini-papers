@@ -1,0 +1,30 @@
+{
+  "title": "Self-Healing Expression Evaluation via Balanced Operator Trees in Ruby",
+  "topic": "The Self-Healing Code Thesis: Compilers, AI, and the Next 10 Years of Software",
+  "domain": "",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-10-24",
+  "publication_date": "2026-10-24",
+  "year": "2026",
+  "release_timestamp": "20261024_200333",
+  "created_at": "2026-10-24T20:03:33.725851+00:00",
+  "published_at": "2026-10-24",
+  "description": "We present a self-healing expression evaluator that transforms malformed arithmetic expressions into syntactically correct forms using a balanced operator tr...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 103076.44,
+    "p99_latency_us": 106818.53,
+    "throughput_ops_sec": 9701.5,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 6.17.0-1022-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.8
+  },
+  "folder": "generated_lab/ruby/20261024_130133_the_self-healing_code_thesis",
+  "abstract": "We present a self-healing expression evaluator that transforms malformed arithmetic expressions into syntactically correct forms using a balanced operator tree. The evaluator is implemented in Ruby and integrates a lightweight parser, a shunting-yard conversion, and a recursive healing routine that preserves a strict height-balanced invariant. We formally prove that the tree remains height-balanced after each healing step, guaranteeing $O(\\log n)$ search and update costs. Empirical evaluation on an AMD EPYC 7763 64-Core Processor with 1 physical core and 2 logical threads yields a mean latency of 103 076.44 \\textmu{}s and a throughput of 9 702 ops/s over 30 iterations. This work demonstrates that compiler-level self-repair can be achieved without sacrificing performance. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261024_130133_the_self-healing_code_thesis}"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Metropolis-Weighted Consensus Dynamics: Amortized Convergence Bounds and Empirical Latency Profiles in Python",
+  "topic": "Nearly-Optimal Time-Sample Trade-off in Consensus Dynamics",
+  "domain": "consensus",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-01",
+  "publication_date": "2026-11-01",
+  "year": "2026",
+  "release_timestamp": "20261101_140339",
+  "created_at": "2026-11-01T14:03:39.096093+00:00",
+  "published_at": "2026-11-01",
+  "description": "We investigate the time-sample trade-off in distributed consensus dynamics, where a subset of nodes updates their state at each iteration. We implement a lin...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 32358.44,
+    "p99_latency_us": 50020.23,
+    "throughput_ops_sec": 30903.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": "generated_lab/python/20261101_130122_nearly-optimal_time-sample_tra",
+  "abstract": "We investigate the time-sample trade-off in distributed consensus dynamics, where a subset of nodes updates their state at each iteration. We implement a linear consensus algorithm using Metropolis-Hastings weights on undirected graphs, ensuring convergence to the initial average. We formalize the invariant preservation under stochastic sampling and derive amortized bounds on the consensus error decay. Empirical evaluation on a single-core AMD EPYC 9V45 processor demonstrates that the Python implementation achieves a mean latency of 32358.44 \\textmu{}s and a throughput of 30,904 ops/s. We analyze the impact of sample rate on convergence speed and tail latency, providing a reproducible baseline for lightweight consensus protocols. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/python-advanced-lab/tree/main/algorithms/20261101_130122_nearly-optimal_time-sample_tra}."
+}
