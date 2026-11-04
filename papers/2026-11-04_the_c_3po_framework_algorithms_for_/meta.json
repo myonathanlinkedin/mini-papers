@@ -1,5 +1,5 @@
 {
-  "title": "Chronos-Structure: Low-Threshold-Rank Decomposition for Exact Counting of Independent Sets on Bipartite Graphs",
+  "title": "Rank-Aware Independent-Set Counting on Low-Threshold-Rank Bipartite Graphs: A Aether-Continuum Study",
   "topic": "The C-3PO Framework: Algorithms for #BIS-Hard Problems on Graphs with Low Threshold Rank",
   "domain": "",
   "language": "Python",
@@ -9,22 +9,22 @@
   "date": "2026-11-04",
   "publication_date": "2026-11-04",
   "year": "2026",
-  "release_timestamp": "20261104_050348",
-  "created_at": "2026-11-04T05:03:48.539368+00:00",
+  "release_timestamp": "20261104_050703",
+  "created_at": "2026-11-04T05:07:03.964201+00:00",
   "published_at": "2026-11-04",
-  "description": "Counting independent sets (#BIS) is a canonical #P-hard problem, yet many practical instances exhibit low threshold rank, enabling efficient exact algorith...",
+  "description": "We investigate the counting of independent sets (#BIS) on bipartite graphs whose left-side adjacency matrix has low threshold rank. The Aether-Continuum imp...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
     "p99_latency_us": 0.0,
     "throughput_ops_sec": 0.0,
     "iterations": 0,
-    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/python/20261102_050124_the_c-3po_framework__algorithm",
-  "abstract": "Counting independent sets (\\#BIS) is a canonical \\#P-hard problem, yet many practical instances exhibit low threshold rank, enabling efficient exact algorithms. We introduce the Chronos-Structure, a Chronos-Interpreter framework that exploits the rank of the left-side adjacency matrix over GF(2) to decompose a bipartite graph into a tractable dynamic-programming subproblem. The framework implements Gaussian elimination for rank computation, a bit-vector representation for adjacency, and a recursive enumeration that runs in $O(2^{r} + |V|+|E|)$ time, where $r$ is the matrix rank. Formal invariants guarantee that the rank bound is preserved throughout the decomposition, and static analysis confirms the algorithm's structural complexity. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261102_050124_the_c-3po_framework__algorithm}."
+  "abstract": "We investigate the counting of independent sets (\\#BIS) on bipartite graphs whose left-side adjacency matrix has low threshold rank. The Aether-Continuum implements a GF(2) rank oracle, a brute-force counter, and a placeholder for a low-rank optimization path. We prove that the rank oracle returns the exact rank of the adjacency matrix over GF(2) and that the brute-force counter enumerates all independent sets correctly. The framework's asymptotic bounds are $O(|V|+|E|)$ for graph construction, $O(n^3)$ for rank computation, and $O(2^{n_{\\text{left}}})$ for counting. Static analysis on an AMD EPYC 7763 system yields an AST with 213 SLOC and 18 function blocks. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261102_050124_the_c-3po_framework__algorithm}"
 }
