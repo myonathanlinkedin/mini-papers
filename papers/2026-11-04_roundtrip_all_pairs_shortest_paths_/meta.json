@@ -1,0 +1,30 @@
+{
+  "title": "Roundtrip All-Pairs Shortest Paths in Directed Graphs: Invariant Preservation and Complexity Analysis in Chronos-Interpreter",
+  "topic": "Roundtrip All-Pairs Shortest Paths in Directed Graphs",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-04",
+  "publication_date": "2026-11-04",
+  "year": "2026",
+  "release_timestamp": "20261104_200317",
+  "created_at": "2026-11-04T20:03:17.536538+00:00",
+  "published_at": "2026-11-04",
+  "description": "We study the roundtrip all-pairs shortest-path (APSP) problem on directed weighted graphs, where the roundtrip distance from vertex i to j and back to i...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_170122_roundtrip_all-pairs_shortest_p",
+  "abstract": "We study the roundtrip all-pairs shortest-path (APSP) problem on directed weighted graphs, where the roundtrip distance from vertex $i$ to $j$ and back to $i$ is required. The core algorithm is a Floyd--Warshall implementation that maintains the optimal-substructure invariant across all intermediate-vertex sets, followed by a linear-time aggregation to obtain the roundtrip matrix. We formally prove that the algorithm preserves the invariant that after processing the first $k$ vertices, every entry $\\text{dist}[i][j]$ equals the shortest path from $i$ to $j$ using only intermediate vertices in $\\{0,\\dots,k\\}$. The asymptotic cost is $O(|V|^{3})$ for APSP and $O(|V|^{2})$ for the roundtrip matrix, with a static-analysis-derived structural complexity of 186 SLOC and 10 function blocks. No empirical timing data are reported; all claims are supported by formal proofs and AST inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_170122_roundtrip_all-pairs_shortest_p}"
+}
