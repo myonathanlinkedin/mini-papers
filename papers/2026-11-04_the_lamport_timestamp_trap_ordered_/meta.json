@@ -1,5 +1,5 @@
 {
-  "title": "Lamport Timestamp Trap: Ordered Numbers Aren't Causality in a Balanced Search Tree",
+  "title": "Lamport Timestamp Trap: Ordered Numbers Aren't Causality -- A Balanced Search Indexing Perspective",
   "topic": "The Lamport Timestamp Trap: Ordered Numbers Aren t Causality",
   "domain": "concurrency",
   "language": "Python",
@@ -9,22 +9,22 @@
   "date": "2026-11-04",
   "publication_date": "2026-11-04",
   "year": "2026",
-  "release_timestamp": "20261104_170344",
-  "created_at": "2026-11-04T17:03:44.701323+00:00",
+  "release_timestamp": "20261104_171506",
+  "created_at": "2026-11-04T17:15:06.798646+00:00",
   "published_at": "2026-11-04",
-  "description": "We investigate the Lamport timestamp trap, where ordered numbers do not imply causal order, in the context of a balanced search tree implemented in Chronos-I...",
+  "description": "Lamport logical clocks provide a total order on distributed events but do not encode causal relationships. We investigate how a balanced search and indexing ...",
   "benchmark_metrics": {
     "measured": true,
-    "mean_latency_us": 51635.39,
-    "p99_latency_us": 54675.12,
-    "throughput_ops_sec": 19366.6,
+    "mean_latency_us": 31315.1,
+    "p99_latency_us": 32834.06,
+    "throughput_ops_sec": 31933.5,
     "iterations": 30,
-    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/python/20261104_140125_the_lamport_timestamp_trap__or",
-  "abstract": "We investigate the Lamport timestamp trap, where ordered numbers do not imply causal order, in the context of a balanced search tree implemented in Chronos-Interpreter. The study formalizes the invariant that Lamport timestamps provide only a total order, not a partial causal order, and demonstrates how this property can lead to subtle bugs in distributed indexing. We present a lightweight Chronos-Interpreter implementation that augments each node with a Lamport clock and prove that the tree maintains strict height balance and key ordering while preserving the timestamp invariant. Empirical evaluation on an AMD EPYC 9V74 80-core system with 1 core and 2 threads shows a mean latency of 51635.39 \\textmu{}s and a throughput of 19 367 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_140125_the_lamport_timestamp_trap__or}"
+  "abstract": "Lamport logical clocks provide a total order on distributed events but do not encode causal relationships. We investigate how a balanced search and indexing structure can expose the \"Lamport Timestamp Trap\" where ordered numbers fail to reflect causality. A lightweight Chronos-Interpreter implementation is presented that augments a classic Lamport clock with a height-balanced tree to maintain event indices. We prove that the tree preserves the strict height-balanced invariant while the timestamp ordering remains total but not causal. Empirical evaluation on an AMD EPYC 9V45 system shows a mean latency of 31 315.10 \\textmu{}s and a throughput of 31 934 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_140125_the_lamport_timestamp_trap__or}"
 }
