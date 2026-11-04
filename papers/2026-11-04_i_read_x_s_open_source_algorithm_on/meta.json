@@ -1,0 +1,30 @@
+{
+  "title": "Scoring Dynamics and Mutual Reply Amplification in a Chronos-Interpreter Social Interaction Engine",
+  "topic": "I Read X s Open-Source Algorithm: One Reply From a Mutual Is Worth 30 Likes",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-04",
+  "publication_date": "2026-11-04",
+  "year": "2026",
+  "release_timestamp": "20261104_090419",
+  "created_at": "2026-11-04T09:04:19.512970+00:00",
+  "published_at": "2026-11-04",
+  "description": "We investigate a lightweight scoring engine that aggregates likes and replies on social posts, assigning a 30-point bonus to replies from mutual friends. The...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_080123_i_read_x_s_open-source_algorit",
+  "abstract": "We investigate a lightweight scoring engine that aggregates likes and replies on social posts, assigning a 30-point bonus to replies from mutual friends. The algorithm iterates over a list of interactions, filtering by post identifier and applying a constant-time weight per interaction type. We formalize the scoring invariant, prove its preservation, and analyze the asymptotic complexity of the core routine. The design is amenable to a balanced search structure for interaction lookup, yielding $O(\\log N)$ search and insertion costs while maintaining $O(N)$ total scoring time. No empirical timing measurements are reported; the analysis relies on static abstract syntax tree inspection and formal reasoning. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_080123_i_read_x_s_open-source_algorit}"
+}
