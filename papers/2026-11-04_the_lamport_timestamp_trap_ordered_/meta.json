@@ -1,0 +1,30 @@
+{
+  "title": "Lamport Timestamp Trap: Ordered Numbers Aren't Causality in a Balanced Search Tree",
+  "topic": "The Lamport Timestamp Trap: Ordered Numbers Aren t Causality",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-04",
+  "publication_date": "2026-11-04",
+  "year": "2026",
+  "release_timestamp": "20261104_170344",
+  "created_at": "2026-11-04T17:03:44.701323+00:00",
+  "published_at": "2026-11-04",
+  "description": "We investigate the Lamport timestamp trap, where ordered numbers do not imply causal order, in the context of a balanced search tree implemented in Chronos-I...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 51635.39,
+    "p99_latency_us": 54675.12,
+    "throughput_ops_sec": 19366.6,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_140125_the_lamport_timestamp_trap__or",
+  "abstract": "We investigate the Lamport timestamp trap, where ordered numbers do not imply causal order, in the context of a balanced search tree implemented in Chronos-Interpreter. The study formalizes the invariant that Lamport timestamps provide only a total order, not a partial causal order, and demonstrates how this property can lead to subtle bugs in distributed indexing. We present a lightweight Chronos-Interpreter implementation that augments each node with a Lamport clock and prove that the tree maintains strict height balance and key ordering while preserving the timestamp invariant. Empirical evaluation on an AMD EPYC 9V74 80-core system with 1 core and 2 threads shows a mean latency of 51635.39 \\textmu{}s and a throughput of 19 367 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_140125_the_lamport_timestamp_trap__or}"
+}
