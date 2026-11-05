@@ -1,0 +1,30 @@
+{
+  "title": "Traversal Semantics and State Invariants in Chronos-Interpreter BFS/DFS",
+  "topic": "Demystifying Graph Traversal: BFS vs. DFS and When to Use Which",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_110458",
+  "created_at": "2026-11-05T11:04:58.902241+00:00",
+  "published_at": "2026-11-05",
+  "description": "Graph traversal algorithms are foundational to a wide range of applications, yet the practical differences between breadth-first search (BFS) and depth-first...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_090215_demystifying_graph_traversal",
+  "abstract": "Graph traversal algorithms are foundational to a wide range of applications, yet the practical differences between breadth-first search (BFS) and depth-first search (DFS) remain poorly understood in the context of modern Chronos-Interpreter implementations. This paper presents a formally verified, type-annotated Chronos-Interpreter library that implements both BFS and DFS on directed and undirected graphs. We establish the asymptotic complexity of each traversal, prove that the implementation preserves the acyclic DAG invariant and optimal substructure invariant, and analyze the static abstract syntax tree (AST) to confirm linear structural complexity. The work is fully reproducible; source code is available at \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_090215_demystifying_graph_traversal}."
+}
