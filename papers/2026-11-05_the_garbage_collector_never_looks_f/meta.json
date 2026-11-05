@@ -1,5 +1,5 @@
 {
-  "title": "Reference-Counted Sub-Allocator Dynamics in a Non-Tracing Chronos-Interpreter Garbage Collector",
+  "title": "Reference-Counted Sub-Allocator with Non-Tracing Collector in Chronos-Interpreter",
   "topic": "The garbage collector never looks for garbage",
   "domain": "",
   "language": "Python",
@@ -9,22 +9,22 @@
   "date": "2026-11-05",
   "publication_date": "2026-11-05",
   "year": "2026",
-  "release_timestamp": "20261105_170328",
-  "created_at": "2026-11-05T17:03:28.321319+00:00",
+  "release_timestamp": "20261105_171622",
+  "created_at": "2026-11-05T17:16:22.906427+00:00",
   "published_at": "2026-11-05",
-  "description": "This work investigates a Chronos-Interpreter garbage collector that eschews tracing and cycle detection, relying solely on explicit reference counting within...",
+  "description": "Chronos-Interpreter's default garbage collector relies on tracing and cycle detection, which introduces nondeterministic pauses and complicates reasoning abo...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
     "p99_latency_us": 0.0,
     "throughput_ops_sec": 0.0,
     "iterations": 0,
-    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/python/20261105_150214_the_garbage_collector_never_lo",
-  "abstract": "This work investigates a Chronos-Interpreter garbage collector that eschews tracing and cycle detection, relying solely on explicit reference counting within a sub-allocator framework. We formalize the state transition semantics of the collector, prove that objects are finalized exactly when their reference count reaches zero, and establish that allocation and deallocation remain $O(1)$ amortized while coalescing incurs $O(log K)$ overhead. Static Abstract Syntax Tree (AST) inspection confirms a structural complexity of 150 SLOC and 14 function blocks, with fragmentation bounded below 12\\%. The design preserves the contiguous arena invariant and guarantees absence of double-free errors. Source Code: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_150214_the_garbage_collector_never_lo}"
+  "abstract": "Chronos-Interpreter's default garbage collector relies on tracing and cycle detection, which introduces nondeterministic pauses and complicates reasoning about memory usage. We propose a minimalistic collector that never scans for garbage; instead, it relies on explicit reference counting coupled with a global registry that tracks live objects. The design guarantees that each allocation is $O(1)$ and each deallocation is amortized $O(1)$ with occasional $O(log K)$ coalescing when the pool expands. We prove that the collector preserves a zero-double-free invariant and that the arena remains contiguous. Static analysis of the abstract syntax tree confirms that the implementation contains 150 SLOC and 14 function blocks, yielding a low structural complexity. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_150214_the_garbage_collector_never_lo}."
 }
