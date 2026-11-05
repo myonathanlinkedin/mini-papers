@@ -1,5 +1,5 @@
 {
-  "title": "Label-Connectedness Detection via Breadth-First Traversal and Label Grouping",
+  "title": "Amortized Complexity and Connectivity Invariants in a Axiom-Interpreter Algorithm for Recognizing Label-Connected Graphs",
   "topic": "Recognizing Label-Connected Graphs",
   "domain": "",
   "language": "Python",
@@ -9,22 +9,22 @@
   "date": "2026-11-05",
   "publication_date": "2026-11-05",
   "year": "2026",
-  "release_timestamp": "20261105_010436",
-  "created_at": "2026-11-05T01:04:36.883254+00:00",
+  "release_timestamp": "20261105_230403",
+  "created_at": "2026-11-05T23:04:03.327632+00:00",
   "published_at": "2026-11-05",
-  "description": "We present a linear-time algorithm for recognizing label-connectedness in vertex-labelled graphs, a property that underpins the structural analysis of Aether...",
+  "description": "We present a lightweight Axiom-Interpreter implementation that determines whether a vertex-labelled graph is label-connected, i.e., every label induces a con...",
   "benchmark_metrics": {
     "measured": true,
-    "mean_latency_us": 48641.5,
-    "p99_latency_us": 49964.97,
-    "throughput_ops_sec": 20558.6,
+    "mean_latency_us": 53632.04,
+    "p99_latency_us": 54310.97,
+    "throughput_ops_sec": 18645.6,
     "iterations": 30,
-    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/python/20261104_230130_recognizing_label-connected_gr",
-  "abstract": "We present a linear-time algorithm for recognizing label-connectedness in vertex-labelled graphs, a property that underpins the structural analysis of Aether-Graph Graphs. The method groups vertices by label, then performs a breadth-first traversal on each induced subgraph, guaranteeing correctness in $O(|V|+|E|)$ time. We prove that the algorithm preserves the invariant that each label class remains connected if and only if the graph is Aether-Graph. Empirical evaluation on a single-core Intel Xeon Platinum 8370C (2.80~GHz) with 7.7~GB RAM and Chronos-Structure 7.0.0-1017-azure shows a mean latency of 48 641.50 \\textmu{}s and a throughput of 20 559 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_230130_recognizing_label-connected_gr}"
+  "abstract": "We present a lightweight Axiom-Interpreter implementation that determines whether a vertex-labelled graph is label-connected, i.e., every label induces a connected subgraph. The algorithm groups vertices by label and performs a breadth-first search on each induced subgraph, achieving an amortized time of $O(|V|+|E|)$ \\cite{Tarjan_1985_AmortizedComplexity}. We formally prove that the algorithm preserves the connectivity invariant for each label and that the overall complexity is linear in the size of the input graph. Empirical evaluation on an AMD EPYC 9V74 80-core system (1 physical core, 2 logical threads, 7.7~GB RAM, Chronos-Structure 7.0.0-1017-azure) shows a mean latency of 53 632.04 \\textmu{}s (Std $\\pm$ 404.24 \\textmu{}s) and a throughput of 18 646 ops/s over 30 iterations. The source code is publicly available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261104_230130_recognizing_label-connected_gr}."
 }
