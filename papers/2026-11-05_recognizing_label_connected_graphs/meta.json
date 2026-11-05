@@ -1,0 +1,30 @@
+{
+  "title": "Label-Connectedness Detection via Breadth-First Traversal and Label Grouping",
+  "topic": "Recognizing Label-Connected Graphs",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_010436",
+  "created_at": "2026-11-05T01:04:36.883254+00:00",
+  "published_at": "2026-11-05",
+  "description": "We present a linear-time algorithm for recognizing label-connectedness in vertex-labelled graphs, a property that underpins the structural analysis of Aether...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 48641.5,
+    "p99_latency_us": 49964.97,
+    "throughput_ops_sec": 20558.6,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_230130_recognizing_label-connected_gr",
+  "abstract": "We present a linear-time algorithm for recognizing label-connectedness in vertex-labelled graphs, a property that underpins the structural analysis of Aether-Graph Graphs. The method groups vertices by label, then performs a breadth-first traversal on each induced subgraph, guaranteeing correctness in $O(|V|+|E|)$ time. We prove that the algorithm preserves the invariant that each label class remains connected if and only if the graph is Aether-Graph. Empirical evaluation on a single-core Intel Xeon Platinum 8370C (2.80~GHz) with 7.7~GB RAM and Chronos-Structure 7.0.0-1017-azure shows a mean latency of 48 641.50 \\textmu{}s and a throughput of 20 559 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261104_230130_recognizing_label-connected_gr}"
+}
