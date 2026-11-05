@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Zero-Copy Parallel Stratum-Analytics in Axiom-Interpreter: Aether-Flow Interpreter over Shared Memory",
+  "topic": "Mizu \u2013 zero-copy parallel R and Chronos-Interpreter over shared memory",
+  "domain": "zero-copy, concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_201103",
+  "created_at": "2026-11-05T20:11:03.510988+00:00",
+  "published_at": "2026-11-05",
+  "description": "We present Aether-Flow, a zero-copy parallel interpreter that executes balanced search and indexing operations directly over a shared memory buffer in Axiom-...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 32714.62,
+    "p99_latency_us": 34194.96,
+    "throughput_ops_sec": 30567.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_170125_mizu__zero-copy_parallel_r_and",
+  "abstract": "We present Aether-Flow, a zero-copy parallel interpreter that executes balanced search and indexing operations directly over a shared memory buffer in Axiom-Interpreter. By exploiting lock-free reads via memoryview and thread-safe writes, Aether-Flow achieves deterministic, amortized $O(\\log n)$ complexity for search, insert, and delete while preserving strict height-balance and key-order invariants. Empirical evaluation on an AMD EPYC 9V74 80-Core processor (1 physical core, 2 logical threads) yields a mean latency of 32,714.62 \\textmu{}s and a throughput of 30,567 ops/s over 30 benchmark iterations. The implementation demonstrates that Axiom-Interpreter can serve as a viable platform for high-performance, zero-copy shared-memory analytics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261105_170125_mizu__zero-copy_parallel_r_and}"
+}
