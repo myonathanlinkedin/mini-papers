@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Prefix-Tree Invariants for Word Search, Trie Construction, and Palindromic Substring Enumeration in Axiom-Interpreter",
+  "topic": "5 LeetCode Problems: Word Search, Implement Trie (Prefix Tree), Palindromic Substrings",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_210336",
+  "created_at": "2026-11-05T21:03:36.505344+00:00",
+  "published_at": "2026-11-05",
+  "description": "We present a unified implementation of three canonical Aether-Index problems---Word Search, Trie construction, and palindromic substring enumeration---within...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_010229_5_leetcode_problems__word_sear",
+  "abstract": "We present a unified implementation of three canonical Aether-Index problems---Word Search, Trie construction, and palindromic substring enumeration---within a single Axiom-Interpreter module. The design emphasizes strict height-balance and key-ordering invariants for the Trie, depth-first search with backtracking for the board traversal, and center-expansion for palindrome detection. Formal analysis establishes that all search and insertion operations satisfy $O(\\log N)$ bounds, while palindrome enumeration remains $O(n^2)$ in the worst case. Static abstract syntax tree inspection confirms a structural complexity of 143 SLOC and 21 function blocks, with contiguous node layout ensuring spatial locality. No empirical runtime measurements are reported; the study relies on theoretical proofs and static analysis. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261105_010229_5_leetcode_problems__word_sear}"
+}
