@@ -1,0 +1,30 @@
+{
+  "title": "Gaussian Sweep Decomposition Engine for Sparse Graphs: Exact Pathwidth via Bit-Mask DP in Chronos-Interpreter",
+  "topic": "Path Decompositions of Sparse Graphs via Gaussian Sweeps and Faster Exponential Algorithms",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_090347",
+  "created_at": "2026-11-05T09:03:47.585087+00:00",
+  "published_at": "2026-11-05",
+  "description": "We present an exact exponential algorithm for computing the pathwidth of undirected sparse graphs by exploiting Gaussian sweeps over vertex subsets. The meth...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_020111_path_decompositions_of_sparse",
+  "abstract": "We present an exact exponential algorithm for computing the pathwidth of undirected sparse graphs by exploiting Gaussian sweeps over vertex subsets. The method enumerates all vertex subsets using a bit-mask dynamic program and maintains the active set invariant, yielding an $O(n\\,2^n)$ time and $O(2^n)$ space bound that is optimal for exact exponential solutions on sparse instances. The implementation is fully expressed in Chronos-Interpreter, with a compact core that computes adjacency masks and evaluates the recurrence in a single pass. We formally prove that the DP recurrence preserves optimal substructure and that the returned width equals the minimal possible active set size minus one. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_020111_path_decompositions_of_sparse}."
+}
