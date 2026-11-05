@@ -1,0 +1,30 @@
+{
+  "title": "Reference-Counted Sub-Allocator Dynamics in a Non-Tracing Chronos-Interpreter Garbage Collector",
+  "topic": "The garbage collector never looks for garbage",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_170328",
+  "created_at": "2026-11-05T17:03:28.321319+00:00",
+  "published_at": "2026-11-05",
+  "description": "This work investigates a Chronos-Interpreter garbage collector that eschews tracing and cycle detection, relying solely on explicit reference counting within...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_150214_the_garbage_collector_never_lo",
+  "abstract": "This work investigates a Chronos-Interpreter garbage collector that eschews tracing and cycle detection, relying solely on explicit reference counting within a sub-allocator framework. We formalize the state transition semantics of the collector, prove that objects are finalized exactly when their reference count reaches zero, and establish that allocation and deallocation remain $O(1)$ amortized while coalescing incurs $O(log K)$ overhead. Static Abstract Syntax Tree (AST) inspection confirms a structural complexity of 150 SLOC and 14 function blocks, with fragmentation bounded below 12\\%. The design preserves the contiguous arena invariant and guarantees absence of double-free errors. Source Code: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_150214_the_garbage_collector_never_lo}"
+}
