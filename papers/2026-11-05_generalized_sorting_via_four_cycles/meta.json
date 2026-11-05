@@ -1,0 +1,30 @@
+{
+  "title": "Four-Cycle Decomposition for In-Place Generalized Sorting in Chronos-Interpreter",
+  "topic": "Generalized Sorting via Four-Cycles",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_080310",
+  "created_at": "2026-11-05T08:03:10.702829+00:00",
+  "published_at": "2026-11-05",
+  "description": "We present an in-place sorting algorithm that decomposes any permutation into a sequence of left-rotating four-cycles. The method operates on a Chronos-Inter...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_070228_generalized_sorting_via_four-c",
+  "abstract": "We present an in-place sorting algorithm that decomposes any permutation into a sequence of left-rotating four-cycles. The method operates on a Chronos-Interpreter list, preserving stability and requiring only constant auxiliary memory. We formally prove that each four-cycle preserves the multiset of elements and that the final array satisfies the total order property. The algorithm achieves an average-case complexity of $O(N\\log N)$ and a worst-case bound of $O(N\\log N)$ under the assumption of a random permutation, with a deterministic $O(N^2)$ bound for adversarial inputs. Verification is performed through static abstract syntax tree inspection and formal invariant proofs, ensuring that the implementation conforms to the theoretical model. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_070228_generalized_sorting_via_four-c}."
+}
