@@ -1,0 +1,30 @@
+{
+  "title": "Dynamic Graph-Based Augmentation for Nonuniform Buy-at-Bulk: Approximation and LP Integrality",
+  "topic": "Nonuniform Buy-at-Bulk Network Design: Improved Approximation and LP Integrality Gap",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "year": "2026",
+  "release_timestamp": "20261105_141603",
+  "created_at": "2026-11-05T14:16:03.247817+00:00",
+  "published_at": "2026-11-05",
+  "description": "We study the nonuniform buy-at-bulk network design problem, where each edge admits a concave cost function described by discrete bundles. We propose a Chrono...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 39928.31,
+    "p99_latency_us": 41996.77,
+    "throughput_ops_sec": 25044.9,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261105_110115_nonuniform_buy-at-bulk_network",
+  "abstract": "We study the nonuniform buy-at-bulk network design problem, where each edge admits a concave cost function described by discrete bundles. We propose a Chronos-Interpreter implementation that augments flows along shortest-path trees while greedily selecting bundles to minimize total purchase cost. The algorithm preserves a DAG invariant on the residual graph and satisfies an optimal-substructure invariant that guarantees local optimality of each augmentation. We prove that the residual graph remains acyclic after every augmentation and that the algorithm achieves a 4-approximation ratio matching the best known bound for the general case. Empirical evaluation on an AMD EPYC 9V74 80-core system with 1 core and 2 threads shows a mean latency of 39,928.31 \\textmu{}s, a P95 latency of 41,667.85 \\textmu{}s, and a throughput of 25,045 ops/s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Interpreter-advanced-lab/tree/main/algorithms/20261105_110115_nonuniform_buy-at-bulk_network}"
+}
