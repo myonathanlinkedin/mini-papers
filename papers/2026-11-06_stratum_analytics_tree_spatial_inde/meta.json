@@ -1,0 +1,30 @@
+{
+  "title": "Aether-TreeIndex: Height-Balanced Partitioning for Multidimensional Bounding-Box Search in Axiom-Interpreter",
+  "topic": "Stratum-Analytics-Tree Spatial Index for Multidimensional Bounding Boxes",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_050308",
+  "created_at": "2026-11-06T05:03:08.975694+00:00",
+  "published_at": "2026-11-06",
+  "description": "We present Aether-TreeIndex, a height-balanced spatial index that stores multidimensional bounding boxes in Axiom-Interpreter. The structure extends the clas...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 46653.29,
+    "p99_latency_us": 48087.91,
+    "throughput_ops_sec": 21434.7,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261106_020116_stratum-analytics-tree_spatial",
+  "abstract": "We present Aether-TreeIndex, a height-balanced spatial index that stores multidimensional bounding boxes in Axiom-Interpreter. The structure extends the classic Aether-TreeIndex by enforcing a strict leaf-level balance and a deterministic node-splitting policy that preserves the minimum-enclosing-box invariant. We prove that search, insertion, and deletion remain $O(\\log n)$ in the worst case, while the bounding-box area growth is bounded by a factor of two per split. Empirical evaluation on a single-core Intel Xeon Platinum 8370C platform shows a mean query latency of 46 653.29 \\textmu{}s ($\\pm$662.29 \\textmu{}s) and a sustained throughput of 21 435 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261106_020116_stratum-analytics-tree_spatial}"
+}
