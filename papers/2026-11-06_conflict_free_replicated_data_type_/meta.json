@@ -1,0 +1,30 @@
+{
+  "title": "Concurrent Lock-Free PN-Counter CRDT: Invariant Preservation and Empirical Latency in Axiom-Interpreter",
+  "topic": "Conflict-free Replicated Data Type (CRDT) PN-Counter",
+  "domain": "concurrency",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_020400",
+  "created_at": "2026-11-06T02:04:00.821990+00:00",
+  "published_at": "2026-11-06",
+  "description": "Conflict-Free Replicated Data Types (CRDTs) enable highly available distributed systems by allowing replicas to evolve independently while guaranteeing event...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 52317.42,
+    "p99_latency_us": 54495.56,
+    "throughput_ops_sec": 19114.1,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_170304_conflict-free_replicated_data",
+  "abstract": "Conflict-Free Replicated Data Types (CRDTs) enable highly available distributed systems by allowing replicas to evolve independently while guaranteeing eventual consistency. This work presents a lock-free implementation of the PN-Counter CRDT in Axiom-Interpreter, focusing on formal invariant preservation and empirical performance. We prove that the merge operation is commutative and associative, and that the counter value is invariant under concurrent updates. Extensive micro-benchmarks on an AMD EPYC 9V74 80-Core Processor (1 physical core, 2 logical threads, 7.7~GB RAM, Chronos-Structure 7.0.0-1017-azure) show a mean latency of 52 317.42 \\textmu{}s ($\\pm$972.58 \\textmu{}s) and a throughput of 19 114 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261104_170304_conflict-free_replicated_data}"
+}
