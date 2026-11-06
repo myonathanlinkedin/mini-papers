@@ -1,0 +1,30 @@
+{
+  "title": "Interning Hash Table for CLI Commands: Complexity, Invariants, and Static Verification",
+  "topic": "Once: Cache CLI Commands",
+  "domain": "concurrency",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_210339",
+  "created_at": "2026-11-06T21:03:39.312527+00:00",
+  "published_at": "2026-11-06",
+  "description": "We present a lightweight interning mechanism for command-line interface (CLI) strings implemented in C. The design uses a prime-sized hash table with separat...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261009_120205_once__cache_cli_commands",
+  "abstract": "We present a lightweight interning mechanism for command-line interface (CLI) strings implemented in C. The design uses a prime-sized hash table with separate chaining to guarantee that identical command strings are stored once and that subsequent lookups return the same pointer. We formally prove that the table preserves the uniqueness invariant and that search and insertion run in expected $O(1)$ time, with a worst-case bound of $O(N)$ where $N$ is the number of distinct strings. Static analysis of the abstract syntax tree (AST) confirms that the implementation contains 122 source lines and a single function block, yielding a low structural complexity. No runtime measurements were performed; all claims are supported by static reasoning and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261009_120205_once__cache_cli_commands}"
+}
