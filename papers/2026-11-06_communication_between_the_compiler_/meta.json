@@ -1,0 +1,30 @@
+{
+  "title": "Causal Ordering and Height-Balanced Invariants in a Compiler--Build System Communication Graph",
+  "topic": "Communication Between the Compiler, the Build System, and Beyond",
+  "domain": "graph",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_200325",
+  "created_at": "2026-11-06T20:03:25.411516+00:00",
+  "published_at": "2026-11-06",
+  "description": "The communication between a compiler and its build system can be modeled as a directed acyclic graph (DAG) of dependency nodes. This paper presents a C imple...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261010_050648_communication_between_the_comp",
+  "abstract": "The communication between a compiler and its build system can be modeled as a directed acyclic graph (DAG) of dependency nodes. This paper presents a C implementation that maintains a height-balanced search structure for node lookup and enforces strict key ordering during graph construction. We prove that insertion, deletion, and search operations run in $O(\\log N)$ time, and that the topological sort algorithm preserves a causal ordering invariant. Static analysis of the source confirms that the graph data structure satisfies the required invariants and that the AST exhibits a balanced tree profile with a depth of $\\log_2 N$. No runtime measurements were performed; all results are derived from formal proofs and static inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261010_050648_communication_between_the_comp}"
+}
