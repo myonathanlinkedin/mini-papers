@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Expression Tree Invariants in a Axiom-Interpreter Parser Survey of a USENIX Paper",
+  "topic": "The parser survey a USENIX paper left as future work",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_010321",
+  "created_at": "2026-11-06T01:03:21.828901+00:00",
+  "published_at": "2026-11-06",
+  "description": "This paper investigates the formal properties of a Axiom-Interpreter-based arithmetic parser that was proposed as future work in a USENIX survey. The parser ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261104_200120_the_parser_survey_a_usenix_pap",
+  "abstract": "This paper investigates the formal properties of a Axiom-Interpreter-based arithmetic parser that was proposed as future work in a USENIX survey. The parser constructs a binary expression tree that is maintained as a height-balanced search structure, enabling efficient lookup of sub-expressions and guaranteeing logarithmic search and insertion costs. We prove that the tree satisfies a strict height-balance invariant, derive its asymptotic complexity bounds, and validate the invariant through static abstract-syntax-tree inspection. The implementation is fully open-source and available at \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261104_200120_the_parser_survey_a_usenix_pap}. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261104_200120_the_parser_survey_a_usenix_pap}"
+}
