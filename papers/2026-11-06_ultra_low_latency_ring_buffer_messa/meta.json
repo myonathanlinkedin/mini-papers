@@ -1,5 +1,5 @@
 {
-  "title": "Linearizability and Amortized O(1) Guarantees for a TypeScript Ring Buffer Pipeline",
+  "title": "Deterministic Synchronous Propagation and Cycle-Free Topology Invariants in a TypeScript Stream Processing Graph",
   "topic": "Ultra Low-Latency Ring Buffer Message Pipeline",
   "domain": "concurrency, graph",
   "language": "TypeScript",
@@ -9,22 +9,22 @@
   "date": "2026-11-06",
   "publication_date": "2026-11-06",
   "year": "2026",
-  "release_timestamp": "20261106_170432",
-  "created_at": "2026-11-06T17:04:32.495057+00:00",
+  "release_timestamp": "20261106_170500",
+  "created_at": "2026-11-06T17:05:00.491003+00:00",
   "published_at": "2026-11-06",
-  "description": "We present a lock-free ring buffer pipeline implemented in TypeScript that guarantees linearizability of message propagation while achieving amortized consta...",
+  "description": "Ultra-low-latency message pipelines require strict ordering guarantees and bounded propagation costs to support real-time perception systems. This work prese...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
     "p99_latency_us": 0.0,
     "throughput_ops_sec": 0.0,
     "iterations": 0,
-    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/typescript/20261011_084925_ultra_low_latency_ring_pipeline",
-  "abstract": "We present a lock-free ring buffer pipeline implemented in TypeScript that guarantees linearizability of message propagation while achieving amortized constant-time enqueue and dequeue operations. The design leverages atomic indices and a bounded circular array to avoid dynamic allocation and pointer indirection during runtime. Formal invariants are established over the buffer state, ensuring that each event is processed exactly once and in the order of arrival. Static analysis of the source yields a structural complexity of 199 SLOC and 11 function blocks, with a worst-case contention bound of $O(P)$ for P concurrent producers. Theoretical bounds are derived from the Michael--Scott queue model \\cite{Michael_1996_SimpleFast} and adapted to the ring buffer context. No empirical wall-clock measurements are reported; all claims are supported by static AST inspection and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261011_084925_ultra_low_latency_ring_pipeline}"
+  "abstract": "Ultra-low-latency message pipelines require strict ordering guarantees and bounded propagation costs to support real-time perception systems. This work presents LowLatencyOrderPipeline, a pure TypeScript stream processing framework that enforces deterministic synchronous event propagation over a directed acyclic graph (DAG). Unlike asynchronous or lock-free concurrent queue implementations, LowLatencyOrderPipeline eliminates race conditions by design through synchronous execution and compile-time topology validation. We formally define the state transition semantics of the graph orchestrator and prove that cycle detection at connection time preserves the acyclic invariant, ensuring termination of all event traversals. We derive the asymptotic complexity of event propagation as $O(V + E)$, where $V$ is the number of visited nodes and $E$ is the number of traversed edges. Static Abstract Syntax Tree (AST) analysis confirms the structural integrity of the implementation, verifying 199 lines of code and 11 function blocks with no external dependencies. This investigation addresses three research questions regarding structural bounds, invariant preservation, and static profile dynamics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/typescript-design-patterns/tree/main/algorithms/20261011_084925_ultra_low_latency_ring_pipeline}."
 }
