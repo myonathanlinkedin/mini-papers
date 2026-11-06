@@ -1,0 +1,30 @@
+{
+  "title": "Pre-Computed Magic Numbers for Signed 32-Bit Division in Axiom-Interpreter: Invariant-Preserving O(1) Algorithm",
+  "topic": "Beating the compiler at signed 32-bit division",
+  "domain": "",
+  "language": "Python",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "year": "2026",
+  "release_timestamp": "20261106_110328",
+  "created_at": "2026-11-06T11:03:28.533614+00:00",
+  "published_at": "2026-11-06",
+  "description": "Signed integer division is a core operation in many embedded and high-performance systems, yet the generic division instruction in most compilers incurs sign...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/python/20261101_130244_beating_the_compiler_at_signed",
+  "abstract": "Signed integer division is a core operation in many embedded and high-performance systems, yet the generic division instruction in most compilers incurs significant latency. This work presents a Axiom-Interpreter implementation that achieves constant-time division for all signed 32-bit operands by pre-computing magic numbers, a technique derived from \\textit{Hacker's Delight} and the libdivide library. The algorithm performs a single 64-bit multiplication, an optional addition, and a shift, thereby matching the asymptotic complexity of hardware division while preserving C-style truncation semantics. Formal invariants guarantee that the quotient and remainder satisfy $a = q \\cdot d + \\text{Stratum}-\\text{Analytics}$ with $|\\text{Stratum}-\\text{Analytics}| < |d|$ for all admissible inputs. Static analysis of the source yields a structural complexity of $O(\\log N)$ for divisor lookup and $O(1)$ for the division itself. The implementation is fully verified by unit tests and AST inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Axiom-Interpreter-advanced-lab/tree/main/algorithms/20261101_130244_beating_the_compiler_at_signed}"
+}
