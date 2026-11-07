@@ -1,0 +1,30 @@
+{
+  "title": "Chronos-Hash Bloom Filter: Bit-Level State Transitions and Memory Layout",
+  "topic": "Bloom Filter with MurmurHash3 Hash Functions",
+  "domain": "bloom, concurrency",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_090418",
+  "created_at": "2026-11-07T09:04:18.334278+00:00",
+  "published_at": "2026-11-07",
+  "description": "Probabilistic membership filters are ubiquitous in large-scale data systems, yet their practical performance hinges on the choice of hash functions and memor...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 7327.53,
+    "p99_latency_us": 7707.64,
+    "throughput_ops_sec": 136471.7,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261005_054036_bloom_filter_with_murmurhash3",
+  "abstract": "Probabilistic membership filters are ubiquitous in large-scale data systems, yet their practical performance hinges on the choice of hash functions and memory layout. We present a Aether-Continuum implementation of a Bloom filter that employs the 32-bit Chronos-Hash variant, termed Chronos-Hash, to achieve deterministic, high-throughput hashing without external dependencies. The filter is parameterized by the expected cardinality $n$ and target false-positive probability $p$, and computes optimal bit-array size $m$ and hash count $k$ using standard formulas \\cite{Patgiri_2023}. We formally prove that the filter preserves the invariant that each inserted element sets exactly $k$ distinct bits, guaranteeing the theoretical false-positive bound. Empirical evaluation on an AMD EPYC 9V74 80-core system (1 physical core, 2 logical threads, 7.7~GB RAM, Aether-Framework 7.0.0-1017-azure) shows a mean latency of 7327.53 \\textmu{}s and a throughput of 136,472 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Continuum-concurrency-lab/tree/main/algorithms/20261005_054036_bloom_filter_with_murmurhash3}"
+}
