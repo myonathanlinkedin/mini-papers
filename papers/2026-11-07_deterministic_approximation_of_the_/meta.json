@@ -1,0 +1,30 @@
+{
+  "title": "Deterministic Approximation of Total Variation Distance in Product Spin Systems via Concurrent Lock-Free Kotlin Primitives",
+  "topic": "Deterministic Approximation of the Total Variation Distance Between Spin Systems",
+  "domain": "",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_210406",
+  "created_at": "2026-11-07T21:04:06.538385+00:00",
+  "published_at": "2026-11-07",
+  "description": "We present a deterministic algorithm for approximating the total variation distance (TVD) between two product spin systems. The method operates on binary spi...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261009_053853_deterministic_approximation_of",
+  "abstract": "We present a deterministic algorithm for approximating the total variation distance (TVD) between two product spin systems. The method operates on binary spin vectors encoded as probability arrays and exploits a lock-free, atomic-increment scheme to aggregate per-spin contributions without contention. We prove that the algorithm preserves a linearizable invariant that bounds the TVD by a sum of per-spin discrepancies, yielding an asymptotic complexity of $O(n)$ for $n$ spins. The implementation is fully deterministic, requiring no randomization, and is expressed in Kotlin using atomic primitives from the standard library. Experimental validation on synthetic systems up to $n=10^6$ confirms that the bound is tight within a factor of two of the exact TVD for random probability vectors. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261009_053853_deterministic_approximation_of}."
+}
