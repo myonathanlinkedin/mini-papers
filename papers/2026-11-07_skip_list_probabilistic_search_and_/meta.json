@@ -1,0 +1,30 @@
+{
+  "title": "Probabilistic Height Distribution and Key-Ordered Invariant Preservation in C++ Skip List Chronos-Search",
+  "topic": "Skip List Probabilistic Search and Insertion Engine",
+  "domain": "probabilistic, skip list",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_110409",
+  "created_at": "2026-11-07T11:04:09.996792+00:00",
+  "published_at": "2026-11-07",
+  "description": "Skip lists provide a probabilistic alternative to balanced binary search trees, offering logarithmic expected search complexity with simpler insertion mechan...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261006_161200_skip_list_probabilistic_search",
+  "abstract": "Skip lists provide a probabilistic alternative to balanced binary search trees, offering logarithmic expected search complexity with simpler insertion mechanics. This work presents a rigorous structural analysis of a C++ implementation of Skip List Chronos-Search, focusing on the preservation of the strict height-balanced and key-ordered invariants during state transitions. We formalize the probabilistic promotion mechanism and derive the expected asymptotic bounds for point and range search operations. Unlike empirical performance studies, this investigation relies exclusively on static Abstract Syntax Tree (AST) inspection and formal invariant proofs to verify algorithmic correctness and structural complexity. We demonstrate that the contiguous node layout and hierarchical pointer indirection maintain $O(\\log N)$ expected time complexity for search and insertion, with $O(N)$ auxiliary memory overhead. The analysis confirms that the probabilistic nature of the structure does not compromise the deterministic ordering of keys, ensuring reliable retrieval semantics. This work contributes a verified structural profile of the Skip List Chronos-Search, establishing a baseline for reproducible algorithmic verification in systems programming. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261006_161200_skip_list_probabilistic_search}."
+}
