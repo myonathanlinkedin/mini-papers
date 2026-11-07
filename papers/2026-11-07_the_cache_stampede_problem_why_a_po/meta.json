@@ -1,0 +1,30 @@
+{
+  "title": "Concurrent Dog-Pile Protection via Mutex-Guarded Computation Entries in Ruby",
+  "topic": "The Cache Stampede Problem: Why a Popular Cache Key Can Take Down Your Backend",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_170444",
+  "created_at": "2026-11-07T17:04:44.159299+00:00",
+  "published_at": "2026-11-07",
+  "description": "The cache stampede problem arises when a popular cache key triggers simultaneous recomputation by multiple threads, overwhelming the backend. This paper pres...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261008_135507_the_cache_stampede_problem__wh",
+  "abstract": "The cache stampede problem arises when a popular cache key triggers simultaneous recomputation by multiple threads, overwhelming the backend. This paper presents a Ruby implementation that guarantees at most one thread computes a missing or expired entry while others wait, using a per-key mutex and a lightweight entry state machine. We formally prove that the algorithm preserves a height-balanced, key-ordered invariant of the underlying balanced search tree and that the entry state transitions are safe under concurrent access. Static abstract syntax tree inspection confirms a structural complexity of $O(\\log N)$ for search and insertion, with 134 SLOC and 16 function blocks. Theoretical bounds are derived from the balanced search archetype. Source Code: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261008_135507_the_cache_stampede_problem__wh}."
+}
