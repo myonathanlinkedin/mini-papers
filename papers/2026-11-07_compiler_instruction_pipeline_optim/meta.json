@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Union-Find Invariants for Ruby-Based Compiler Instruction Pipeline Optimization",
+  "topic": "Compiler Instruction Pipeline Optimization Engine",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_020414",
+  "created_at": "2026-11-07T02:04:14.106598+00:00",
+  "published_at": "2026-11-07",
+  "description": "Compiler instruction pipelines benefit from dynamic scheduling that preserves data-flow dependencies while minimizing stalls. We present a Ruby-based optimiz...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 97607.01,
+    "p99_latency_us": 102737.82,
+    "throughput_ops_sec": 10245.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261013_230105_compiler_instruction_pipeline_optimizer",
+  "abstract": "Compiler instruction pipelines benefit from dynamic scheduling that preserves data-flow dependencies while minimizing stalls. We present a Ruby-based optimizer that models instruction dependencies as a disjoint-set forest and applies union-by-rank with path compression to maintain a height-balanced structure. The optimizer guarantees that each union and find operation runs in amortized $O(\\alpha(n))$ time, where $\\alpha$ is the inverse Ackermann function. Empirical evaluation on an AMD EPYC 9V74 80-Core Processor (1 physical core, 2 logical threads) yields a mean latency of 97 607.01 \\textmu{}s and a throughput of 10 245 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261013_230105_compiler_instruction_pipeline_optimizer}."
+}
