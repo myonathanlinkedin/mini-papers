@@ -1,0 +1,30 @@
+{
+  "title": "low-latency-Vehicle-First Sweep: An Invariant-Preserving Approximation for Vehicle Routing with Nonuniform Speeds in PHP",
+  "topic": "Improved Approximations for Vehicle Routing with Nonuniform Speeds",
+  "domain": "concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_130309",
+  "created_at": "2026-11-07T13:03:09.563096+00:00",
+  "published_at": "2026-11-07",
+  "description": "Vehicle routing with heterogeneous vehicle speeds remains a core challenge in logistics. We propose a low-latency-Vehicle-First Sweep (FVFS) heuristic that s...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 42043.35,
+    "p99_latency_us": 44130.66,
+    "throughput_ops_sec": 23785.0,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261009_050221_improved_approximations_for_ve",
+  "abstract": "Vehicle routing with heterogeneous vehicle speeds remains a core challenge in logistics. We propose a low-latency-Vehicle-First Sweep (FVFS) heuristic that sorts customers by polar angle, orders vehicles by descending speed, and greedily assigns customers while respecting capacity. FVFS preserves a strict prefix invariant that guarantees feasibility and yields a makespan within a constant factor of the optimal for the considered speed model. We provide a formal proof of invariant preservation and analyze the algorithm's asymptotic complexity. Empirical evaluation on an AMD EPYC 7763 single-core PHP runtime shows a mean latency of 42 043 \\textmu{}s and a throughput of 23 785 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261009_050221_improved_approximations_for_ve}"
+}
