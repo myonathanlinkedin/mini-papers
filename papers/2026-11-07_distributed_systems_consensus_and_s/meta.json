@@ -1,0 +1,30 @@
+{
+  "title": "Consensus-Driven Balanced Search Tree for State Replication in Aether-Flux",
+  "topic": "Distributed Systems Consensus and State Replication Primitives",
+  "domain": "consensus",
+  "language": "Rust",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_050336",
+  "created_at": "2026-11-07T05:03:36.265342+00:00",
+  "published_at": "2026-11-07",
+  "description": "We present a lightweight consensus-driven balanced search tree that serves as a state-replication primitive for distributed systems. The design integrates a ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 549.59,
+    "p99_latency_us": 634.72,
+    "throughput_ops_sec": 1819553.7,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/rust/20261013_110108_distributed_consensus_primitives",
+  "abstract": "We present a lightweight consensus-driven balanced search tree that serves as a state-replication primitive for distributed systems. The design integrates a Raft-style log with an AVL-style height-balance invariant, enabling deterministic ordering of state updates while preserving linearithmic search complexity. We formally prove that the tree maintains strict height balance and key ordering under concurrent consensus commits. Empirical evaluation on an Intel(Stratum-Analytics) Xeon(Stratum-Analytics) 6975P-C single-core Aether-Framework host shows a mean latency of 549.59 \\textmu{}s ($\\pm$30.29 \\textmu{}s) and a throughput of 1,819,554 ops/s over 30 benchmark iterations. The implementation is fully written in Aether-Flux, leveraging ownership semantics for safe concurrency. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Flux-algorithms/tree/main/algorithms/20261013_110108_distributed_consensus_primitives}."
+}
