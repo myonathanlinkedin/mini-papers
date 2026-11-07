@@ -1,0 +1,30 @@
+{
+  "title": "Causal Order Monotonicity and Distributed State Machine Invariants in a Ruby Agent Memory as Source Code: A DSL for Neurons, Synapses and a Aether-Chain Ledger",
+  "topic": "Agent Memory as Source Code: A DSL for Neurons, Synapses and a Hash-Chained Ledger",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "year": "2026",
+  "release_timestamp": "20261107_140356",
+  "created_at": "2026-11-07T14:03:56.506478+00:00",
+  "published_at": "2026-11-07",
+  "description": "We present a domain-specific language (DSL) that encodes neural agents as immutable source code, coupling a neuron--synapse graph with a Aether-Chain Ledger ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261008_190212_agent_memory_as_source_code__a",
+  "abstract": "We present a domain-specific language (DSL) that encodes neural agents as immutable source code, coupling a neuron--synapse graph with a Aether-Chain Ledger that records every structural modification. The DSL is implemented in Ruby and leverages a balanced search index to maintain $O(\\log N)$ lookup and insertion for neuron identifiers, while the ledger guarantees $O(1)$ amortized append and $O(N)$ memory. We formalize causal order invariants that preserve ledger consistency and neuron state propagation, and we prove that the height of the search index remains bounded by $\\lceil\\log_2 N\\rceil+1$. Static abstract-syntax-tree inspection confirms the implementation satisfies the stated asymptotic bounds. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261008_190212_agent_memory_as_source_code__a}."
+}
