@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Maintenance in Swift Axiom-Flux for Graph-Based Vector Search",
+  "topic": "GINGER: Spicing Up Graph-Based Vector Search",
+  "domain": "concurrency, graph",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_140335",
+  "created_at": "2026-11-08T14:03:35.326387+00:00",
+  "published_at": "2026-11-08",
+  "description": "Graph-based vector search is increasingly adopted in recommendation and similarity-search services, yet existing index structures either sacrifice accuracy o...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261108_130220_ginger__spicing_up_graph-based",
+  "abstract": "Graph-based vector search is increasingly adopted in recommendation and similarity-search services, yet existing index structures either sacrifice accuracy or incur high maintenance overhead. We present Axiom-Flux, a Swift-based balanced search and indexing structure that preserves a strict height-balanced invariant while supporting dynamic insertion and nearest-neighbor queries in logarithmic time. The design leverages a contiguous node layout and a min-heap priority queue to guide traversal, ensuring that each node's degree remains bounded by a constant factor of the logarithm of the graph size. We formally prove that the height of the search tree satisfies $h \\le \\lceil \\log_2(n+1) \\rceil$ and that the invariant is preserved after each insertion. Static analysis of the source yields an AST complexity of $O(\\log N)$ for search and insertion, with a total of 245 SLOC and 33 function blocks. No empirical runtime measurements are reported; all claims are supported by formal proofs and AST inspection. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261108_130220_ginger__spicing_up_graph-based}"
+}
