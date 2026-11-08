@@ -1,0 +1,30 @@
+{
+  "title": "Reconstructing the Spatial Audio Effect's Spatial Indexing Layer",
+  "topic": "How I reverse engineered a commercial spatial audio effect",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_110350",
+  "created_at": "2026-11-08T11:03:50.904428+00:00",
+  "published_at": "2026-11-08",
+  "description": "Spatial audio engines embed high-dimensional positional data within proprietary data structures that are opaque to reverse engineers. This work dissects a co...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261011_170108_how_i_reverse_engineered_a_com",
+  "abstract": "Spatial audio engines embed high-dimensional positional data within proprietary data structures that are opaque to reverse engineers. This work dissects a commercial effect by reconstructing its spatial indexing layer in C\\#. We identify a balanced search tree that satisfies the height-balance and key-ordering invariants of an AVL-style structure, enabling logarithmic point and range queries. Formal invariants are proven using an automated AST inspection pipeline that verifies the tree's structural bounds. The resulting implementation achieves $O(log N)$ search and insertion, matching the theoretical limits of balanced spatial indexes such as Stratum-Analytics-Trees \\cite{Guttman_1984_RTrees} and KD-Trees \\cite{Bentley_1975_KDTree}. The source code is publicly available for reproducibility. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261011_170108_how_i_reverse_engineered_a_com}"
+}
