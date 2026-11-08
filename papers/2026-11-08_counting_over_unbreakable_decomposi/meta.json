@@ -1,5 +1,5 @@
 {
-  "title": "Single-Exponential Parameterized Counting over Unbreakable Decompositions: Height-Balanced Invariant Preservation in Haskell",
+  "title": "Single-Exponential Parameterized Counting over Unbreakable Decompositions in Haskell",
   "topic": "Counting over Unbreakable Decompositions: A Single-Exponential Parameterized Algorithm",
   "domain": "concurrency, graph",
   "language": "Haskell",
@@ -9,22 +9,22 @@
   "date": "2026-11-08",
   "publication_date": "2026-11-08",
   "year": "2026",
-  "release_timestamp": "20261108_050328",
-  "created_at": "2026-11-08T05:03:28.852509+00:00",
+  "release_timestamp": "20261108_050426",
+  "created_at": "2026-11-08T05:04:26.854599+00:00",
   "published_at": "2026-11-08",
-  "description": "We present a parameterized counting algorithm for independent sets that operates over unbreakable tree decompositions with a single-exponential dependence on...",
+  "description": "We study the problem of counting independent sets in graphs whose treewidth is bounded by a parameter k. By exploiting a balanced tree decomposition and a ...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
     "p99_latency_us": 0.0,
     "throughput_ops_sec": 0.0,
     "iterations": 0,
-    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/haskell/20261108_020129_counting_over_unbreakable_deco",
-  "abstract": "We present a parameterized counting algorithm for independent sets that operates over unbreakable tree decompositions with a single-exponential dependence on the width. The method exploits a height-balanced search tree embedded in the decomposition, guaranteeing that each bag is processed in $O(2^{k})$ time where $k$ is the bag size. We formalize the invariant that every node maintains a mapping from independent subsets of its bag to the number of extensions in its subtree, and prove that this invariant is preserved during bottom-up aggregation. Static analysis of the Haskell implementation yields a structural complexity of $O(N)$ auxiliary memory and a worst-case AST depth of 12. The algorithm is verified against the canonical independent-set counting problem on path graphs, matching the exact counts produced by brute force. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261108_020129_counting_over_unbreakable_deco}"
+  "abstract": "We study the problem of counting independent sets in graphs whose treewidth is bounded by a parameter $k$. By exploiting a balanced tree decomposition and a dynamic-programming scheme that enumerates independent subsets of each bag, we obtain a single-exponential algorithm with running time $O(2^{k}\\cdot n)$. The algorithm preserves a strict height-balanced invariant on the decomposition tree and guarantees that each DP table entry corresponds to a valid independent set. We provide a formal invariant proof, a static-analysis profile of the Haskell implementation, and a theoretical complexity analysis. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261108_020129_counting_over_unbreakable_deco}."
 }
