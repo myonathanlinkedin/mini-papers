@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Glyph Retrieval and Rendering in a C++ JIT Bitmap Engine for Microcontrollers",
+  "topic": "JIT bitmap text rendering for microcontrollers",
+  "domain": "concurrency",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_200324",
+  "created_at": "2026-11-08T20:03:24.922207+00:00",
+  "published_at": "2026-11-08",
+  "description": "This paper presents a lightweight JIT bitmap text rendering engine tailored for microcontrollers. The engine stores glyphs in a height-balanced binary search...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261108_170304_jit_bitmap_text_rendering_for",
+  "abstract": "This paper presents a lightweight JIT bitmap text rendering engine tailored for microcontrollers. The engine stores glyphs in a height-balanced binary search tree, enabling $O(\\log N)$ lookup and insertion while preserving strict key order and height balance. Rendering proceeds by traversing the tree to fetch glyph bitmaps and composing them into a framebuffer with per-pixel clipping. We formally prove that the tree invariant guarantees bounded search depth and that the rendering loop respects spatial memory hierarchy constraints. No empirical timing data is reported; instead, we provide static analysis of the source AST and asymptotic complexity bounds. The implementation is available in C++ and is fully reproducible from the public repository. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261108_170304_jit_bitmap_text_rendering_for}"
+}
