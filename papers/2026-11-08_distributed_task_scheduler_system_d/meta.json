@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Enforcement in a C# Distributed Task Scheduler: Jobs, Retries, Leases, and Failures",
+  "topic": "Distributed Task Scheduler System Design: Jobs, Retries, Leases, and Failures",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_090400",
+  "created_at": "2026-11-08T09:04:00.365000+00:00",
+  "published_at": "2026-11-08",
+  "description": "Distributed task schedulers must reconcile dynamic job admission, lease-based ownership, and failure recovery while preserving deterministic ordering guarant...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261015_170118_distributed_task_scheduler_sys",
+  "abstract": "Distributed task schedulers must reconcile dynamic job admission, lease-based ownership, and failure recovery while preserving deterministic ordering guarantees. We present a height-balanced binary search tree (BST) as the core indexing structure for a C\\# scheduler that tracks job metadata, retry counts, and lease expirations. The tree guarantees $O(\\log N)$ point and range queries, $O(\\log N)$ insertions, and $O(\\log N)$ rebalancing, as proven by static abstract syntax tree (AST) inspection and formal invariant proofs. The scheduler's state machine enforces strict height-balance and key-order invariants, ensuring that concurrent lease renewals and failure notifications do not violate ordering semantics. No empirical runtime measurements are reported; all claims are supported by static analysis and formal reasoning. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261015_170118_distributed_task_scheduler_sys}"
+}
