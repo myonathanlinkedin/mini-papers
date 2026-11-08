@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Queue Invariants for PHP-Based Notification Systems",
+  "topic": "Designing a Notification System: Queues, Retries, Rate Limiting & Scale",
+  "domain": "concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_080421",
+  "created_at": "2026-11-08T08:04:21.834337+00:00",
+  "published_at": "2026-11-08",
+  "description": "Notification delivery in distributed PHP services demands precise control over ordering, retry, and rate-limiting. We present a compact design that models th...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261016_030130_designing_a_notification_syste",
+  "abstract": "Notification delivery in distributed PHP services demands precise control over ordering, retry, and rate-limiting. We present a compact design that models the notification queue as a height-balanced binary search tree, enabling $O(\\log N)$ insertion, deletion, and lookup while preserving a strict key-ordered invariant. The system integrates exponential back-off retries and a token-bucket rate limiter, all expressed in pure PHP classes. Formal invariants are proven for the tree height and for the retry state machine, and static analysis confirms the absence of memory-leak or race-condition patterns. Theoretical bounds are corroborated by an AST profile that reports 253 SLOC and 46 function blocks. This investigation addresses three research questions: (1) What asymptotic complexity guarantees can be established for the queue operations? (2) How can we formally preserve the height-balanced and key-ordered invariants during concurrent retries? (3) What is the impact of the retry policy on the overall throughput under a token-bucket constraint? Source Code: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261016_030130_designing_a_notification_syste}"
+}
