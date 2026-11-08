@@ -1,0 +1,30 @@
+{
+  "title": "Attention via Aether-Obsidian Vector Search: Height-Balanced Invariant Preservation in a C++ Balanced Index",
+  "topic": "Attention via Black-Box Vector Search",
+  "domain": "concurrency",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_010420",
+  "created_at": "2026-11-08T01:04:20.952024+00:00",
+  "published_at": "2026-11-08",
+  "description": "We present a compact, height-balanced index that supports attention-style vector retrieval in C++. The design couples a binary-search-like traversal with a l...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261009_000212_attention_via_black-box_vector",
+  "abstract": "We present a compact, height-balanced index that supports attention-style vector retrieval in C++. The design couples a binary-search-like traversal with a lightweight node layout that preserves key order and strict height balance, enabling deterministic $O(\\log N)$ point and range queries. Formal invariants are maintained through local rebalancing rotations that are provably safe under concurrent insertions. The algorithmic structure is expressed as a single templated class with contiguous node packing, yielding a minimal AST footprint. No runtime profiling was performed; all guarantees are derived from static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261009_000212_attention_via_black-box_vector}"
+}
