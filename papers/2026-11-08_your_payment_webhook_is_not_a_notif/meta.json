@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Indexing for Idempotent Payment Webhook Processing in C#",
+  "topic": "Your Payment Webhook Is Not a Notification. It s a Distributed Systems Problem.",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "year": "2026",
+  "release_timestamp": "20261108_230312",
+  "created_at": "2026-11-08T23:03:12.404815+00:00",
+  "published_at": "2026-11-08",
+  "description": "Payment webhooks are often treated as simple notifications, yet their idempotent processing in distributed environments imposes strict ordering and duplicate...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261108_210232_your_payment_webhook_is_not_a",
+  "abstract": "Payment webhooks are often treated as simple notifications, yet their idempotent processing in distributed environments imposes strict ordering and duplicate-suppression constraints. We present a height-balanced binary search tree that records webhook identifiers and timestamps, guaranteeing $O(\\log N)$ insertion, deletion, and range queries while preserving a strict height-balance invariant. The tree is embedded in a C\\# service that verifies signatures, enforces causal order via Lamport timestamps, and rejects duplicate events in constant time. Formal invariants are proven using a simple height-balance theorem, and static analysis confirms the absence of race conditions in the concurrent update path. Theoretical bounds are corroborated by an AST profile that shows a single function block and linear auxiliary memory. This work demonstrates that webhook handling can be modeled as a distributed state machine with provable safety properties. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261108_210232_your_payment_webhook_is_not_a}"
+}
