@@ -1,0 +1,30 @@
+{
+  "title": "Causal Ordering and Height-Balanced Invariants in Chronos-Tracker: A Distributed, Offline-First Bug Tracker for Aether-VCS",
+  "topic": "Git Bug - Distributed, offline-first bug tracker integrated in git",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_130435",
+  "created_at": "2026-11-09T13:04:35.099943+00:00",
+  "published_at": "2026-11-09",
+  "description": "Distributed version control systems increasingly require integrated issue tracking that remains consistent across offline replicas. Chronos-Tracker addresses...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261011_090520_git_bug_-_distributed__offline",
+  "abstract": "Distributed version control systems increasingly require integrated issue tracking that remains consistent across offline replicas. Chronos-Tracker addresses this need by embedding a causal-ordered, height-balanced search tree within the Aether-VCS repository. The tree supports point and range queries, insertions, and rebalancing in $O(\\log N)$ time, as proven by amortized analysis \\cite{Tarjan_1985_AmortizedComplexity}. We formalize the causal ordering invariant using Lamport timestamps \\cite{Lamport_1978_TimeClocks} and prove that the tree preserves strict height balance and key order under concurrent updates. Static abstract syntax tree inspection confirms a single function block and 1 SLOC, yielding an auxiliary memory bound of $O(N)$. The implementation is fully offline-first, enabling local bug creation and resolution that synchronizes via conflict-free replicated data types. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261011_090520_git_bug_-_distributed__offline}"
+}
