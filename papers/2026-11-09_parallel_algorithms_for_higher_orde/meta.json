@@ -1,0 +1,30 @@
+{
+  "title": "Concurrent Height-Balanced Indexing for Temporal H-Index Evaluation in C#",
+  "topic": "Parallel Algorithms for Higher-Order Temporal H-Index Computation",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_110418",
+  "created_at": "2026-11-09T11:04:18.200070+00:00",
+  "published_at": "2026-11-09",
+  "description": "We present a parallel algorithm for computing higher-order temporal H-indices that operates on a height-balanced search tree implemented in C#. The design p...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261109_090216_parallel_algorithms_for_higher",
+  "abstract": "We present a parallel algorithm for computing higher-order temporal H-indices that operates on a height-balanced search tree implemented in C\\#. The design preserves strict height-balance and key-ordered invariants under concurrent insertions and deletions by employing fine-grained atomic updates and a lock-free rebalancing protocol. Static abstract syntax tree inspection confirms that the implementation satisfies the required invariants, and structural complexity profiling demonstrates that point and range queries, as well as node insertion and rebalancing, run in $O(\\log N)$ time. The algorithm achieves these bounds without relying on external synchronization primitives beyond atomic primitives provided by the .NET runtime. Source Code: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261109_090216_parallel_algorithms_for_higher}"
+}
