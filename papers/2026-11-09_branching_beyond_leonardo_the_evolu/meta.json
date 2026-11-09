@@ -1,0 +1,30 @@
+{
+  "title": "Branching Beyond Leonardo: Height-Balanced Key-Ordered Trees in Swift",
+  "topic": "Branching Beyond Leonardo: The Evolution of Tree Architecture Theory",
+  "domain": "",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_080426",
+  "created_at": "2026-11-09T08:04:26.933611+00:00",
+  "published_at": "2026-11-09",
+  "description": "We present a Swift implementation of a height-balanced, key-ordered tree that generalizes classical B-tree concepts to a purely functional node layout. The d...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261109_050217_branching_beyond_leonardo__the",
+  "abstract": "We present a Swift implementation of a height-balanced, key-ordered tree that generalizes classical B-tree concepts to a purely functional node layout. The design preserves the invariant that every internal node has between $b$ and $2b$ children, guaranteeing $O(\\log_b N)$ search, insertion, and deletion. We formally prove the height bound and key-ordering invariant, and we analyze the static abstract syntax tree (AST) to confirm that the implementation satisfies the claimed $O(N)$ auxiliary memory and $O(\\log N)$ amortized rebalancing cost. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261109_050217_branching_beyond_leonardo__the}."
+}
