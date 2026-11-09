@@ -1,0 +1,30 @@
+{
+  "title": "Lossless Concatenated Huffman Encoding for Web Streams: Invariant Preservation and Asymptotic Bounds",
+  "topic": "Compression and Concatenation on the Web",
+  "domain": "concurrency, huffman",
+  "language": "Haskell",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_010325",
+  "created_at": "2026-11-09T01:03:25.314823+00:00",
+  "published_at": "2026-11-09",
+  "description": "We present a lightweight Haskell implementation of concatenated Huffman encoding tailored for web-streaming contexts. The design preserves the Shannon entrop...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/haskell/20261011_130229_compression_and_concatenation",
+  "abstract": "We present a lightweight Haskell implementation of concatenated Huffman encoding tailored for web-streaming contexts. The design preserves the Shannon entropy reconstruction invariant while enabling linear-time forward encoding and inverse decoding. Static abstract syntax tree inspection confirms a structural complexity of 79 SLOC and a single function block, yielding an auxiliary memory footprint of $O(|\\Sigma|)$. Formal invariant proofs establish that decompression of a concatenated stream reproduces the original payload exactly. The algorithmic bounds are $O(N)$ for both encoding and decoding, where $N$ is the input length. No empirical runtime measurements are reported; all claims are supported by static analysis and formal reasoning. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261011_130229_compression_and_concatenation}"
+}
