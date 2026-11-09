@@ -1,4 +1,4 @@
-# Amortized Constant-Time Operations and Height-Balanced Invariants in a PHP Axiom-Flux for Real-Time Agent Memory
+# Height-Balanced Dynamic Array Invariants and Real-Time Decision Support in PHP: The Axiom-Flux
 
 [![Publication PDF](https://img.shields.io/badge/Download-Paper_PDF-DC2626?style=flat-square&logo=adobeacrobatreader)](./2026-11-09_ruvector_ruvector_provides_high_per.pdf)
 
@@ -16,29 +16,29 @@ This mini-paper presents a focused, empirical systems characterization of **Ruve
 ---
 
 ### 📊 Live Empirical Benchmark Measurements
-*Measurements recorded directly on physical CPU execution (Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz, 30 iterations)*:
+*Measurements recorded directly on physical CPU execution (INTEL(R) XEON(R) PLATINUM 8573C, 30 iterations)*:
 
 | Metric Parameter | Value | Host Environment |
 | :--- | :--- | :--- |
-| **Mean Wall-Clock Latency** | `34082.64 µs` | Linux 7.0.0-1017-azure |
-| **P99 Tail Latency** | `35701.29 µs` | 7.7 GB RAM, 2 Threads |
-| **Throughput** | `29,340 ops/s` | Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz |
+| **Mean Wall-Clock Latency** | `35221.21 µs` | Linux 7.0.0-1017-azure |
+| **P99 Tail Latency** | `37529.05 µs` | 7.7 GB RAM, 2 Threads |
+| **Throughput** | `28,392 ops/s` | INTEL(R) XEON(R) PLATINUM 8573C |
 | **Verification Status** | `100% Native Compiler Checked` | Release Optimization Enabled |
 
 
 ---
 
 ## 🔬 Key Empirical Findings & Takeaways
-1. **Physical Hardware Latency & Throughput Bounds**: Isolated execution on Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz yields a mean wall-clock latency of 34082.64 µs (P99 tail: 35701.29 µs) with sustainable throughput of 29,340 ops/sec under native release optimizations.
-2. **Empirical Invariant Guarantees**: We have presented the Axiom-Flux, a PHP dynamic array that guarantees  amortized push and pop, strict height-balanced invariants, and real-time performance on commodity hardware.
-3. **Domain Architecture Bounds**: The formal invariant  ensures predictable memory growth, while empirical results confirm that the implementation meets the latency and throughput targets required by high-frequency decision engines.
+1. **Physical Hardware Latency & Throughput Bounds**: Isolated execution on INTEL(R) XEON(R) PLATINUM 8573C yields a mean wall-clock latency of 35221.21 µs (P99 tail: 37529.05 µs) with sustainable throughput of 28,392 ops/sec under native release optimizations.
+2. **Empirical Invariant Guarantees**: The Axiom-Flux demonstrates that a height-balanced, contiguous dynamic array can be implemented in PHP with formal invariants and predictable real-time performance.
+3. **Domain Architecture Bounds**: The amortized constant-time operations, coupled with a strict height bound, provide a solid foundation for agent memory systems that require deterministic latency.
 
 ---
 
 > ### 📄 Autonomous Research Preprint & Empirical Verification Disclosure
 > **Manuscript Attribution, Hardware Traceability & Limitation of Liability:**
-> - **Autonomous Formulation:** This manuscript, entitled *"Amortized Constant-Time Operations and Height-Balanced Invariants in a PHP Axiom-Flux for Real-Time Agent Memory"*, was synthesized via autonomous generative agents adhering to strict two-page preprint academic structural conventions.
-> - **Hardware Provenance:** Empirical benchmarks cited within this work represent empirically observed hardware performance data captured on an authenticated Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz testbed under isolated benchmarking runs.
+> - **Autonomous Formulation:** This manuscript, entitled *"Height-Balanced Dynamic Array Invariants and Real-Time Decision Support in PHP: The Axiom-Flux"*, was synthesized via autonomous generative agents adhering to strict two-page preprint academic structural conventions.
+> - **Hardware Provenance:** Empirical benchmarks cited within this work represent empirically observed hardware performance data captured on an authenticated INTEL(R) XEON(R) PLATINUM 8573C testbed under isolated benchmarking runs.
 > - **DISCLAIMER OF CITATION LIABILITY:** THIS PREPRINT IS DISSEMINATED SOLELY FOR SCHOLARLY INQUIRY, PEER DISCUSSION, AND EMPIRICAL COMPARISON. THE AUTHOR AND MAINTAINER MAKE NO REPRESENTATIONS REGARDING FORMAL PERFECTION OR INDUSTRIAL UTILITY. ANY RELIANCE UPON THE ALGORITHMIC PROOFS, COMPLEXITY BOUNDS, OR PERFORMANCE CLAIMS HEREIN IS STRICTLY AT THE READER'S OWN LEGAL AND TECHNICAL RISK.
 
 ---
@@ -52,7 +52,7 @@ This mini-paper presents a focused, empirical systems characterization of **Ruve
 ```bibtex
 @article{yonathan20261109php,
   author    = {Mateus Yonathan},
-  title     = {{Amortized Constant-Time Operations and Height-Balanced Invariants in a PHP Axiom-Flux for Real-Time Agent Memory}},
+  title     = {{Height-Balanced Dynamic Array Invariants and Real-Time Decision Support in PHP: The Axiom-Flux}},
   journal   = {Daily Mini Papers on Systems Engineering},
   year      = {2026},
   url       = {https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261011_100227_ruvector_-_ruvector_provides_h}

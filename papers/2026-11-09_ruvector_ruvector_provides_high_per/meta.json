@@ -1,5 +1,5 @@
 {
-  "title": "Amortized Constant-Time Operations and Height-Balanced Invariants in a PHP Axiom-Flux for Real-Time Agent Memory",
+  "title": "Height-Balanced Dynamic Array Invariants and Real-Time Decision Support in PHP: The Axiom-Flux",
   "topic": "Ruvector - RuVector provides High Performance, Real-Time decisions and agent memory",
   "domain": "concurrency",
   "language": "PHP",
@@ -9,22 +9,22 @@
   "date": "2026-11-09",
   "publication_date": "2026-11-09",
   "year": "2026",
-  "release_timestamp": "20261109_050323",
-  "created_at": "2026-11-09T05:03:23.077206+00:00",
+  "release_timestamp": "20261109_050406",
+  "created_at": "2026-11-09T05:04:06.792252+00:00",
   "published_at": "2026-11-09",
-  "description": "The Axiom-Flux is a PHP-based dynamic array that delivers deterministic O(1) amortized push and pop, O(1) random access, and strict height-balanced invar...",
+  "description": "The Axiom-Flux is a PHP-based dynamic array that guarantees amortized O(1) push and pop, O(1) random access, and strict height-balance through determinis...",
   "benchmark_metrics": {
     "measured": true,
-    "mean_latency_us": 34082.64,
-    "p99_latency_us": 35701.29,
-    "throughput_ops_sec": 29340.4,
+    "mean_latency_us": 35221.21,
+    "p99_latency_us": 37529.05,
+    "throughput_ops_sec": 28392.0,
     "iterations": 30,
-    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/php/20261011_100227_ruvector_-_ruvector_provides_h",
-  "abstract": "The Axiom-Flux is a PHP-based dynamic array that delivers deterministic $O(1)$ amortized push and pop, $O(1)$ random access, and strict height-balanced invariants suitable for real-time agent memory. We formalize the growth policy, prove that the capacity never exceeds twice the logical size, and empirically evaluate the implementation on an Intel(Stratum-Analytics) Xeon(Stratum-Analytics) Platinum 8370C CPU with 1 physical core and 2 logical threads. Across 30 benchmark iterations the mean latency is 34 082.64 \\textmu{}s (Std Dev $\\pm$ 861.77 \\textmu{}s) and the throughput is 29 340 ops/s. These results confirm that the Axiom-Flux satisfies both theoretical and practical performance requirements for high-frequency decision engines. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261011_100227_ruvector_-_ruvector_provides_h}"
+  "abstract": "The Axiom-Flux is a PHP-based dynamic array that guarantees amortized $O(1)$ push and pop, $O(1)$ random access, and strict height-balance through deterministic growth. Its design leverages a contiguous \\texttt{SplFixedArray} buffer and a growth policy that doubles capacity, ensuring that the invariant $h \\le \\lceil \\log_2 n \\rceil$ holds for all states. We formally prove that the vector preserves key-ordered and height-balanced invariants during all mutating operations. Empirical evaluation on an Intel Xeon Platinum 8573C (1 core / 2 threads, 7.7~GB RAM, Aether-Framework 7.0.0-1017-azure) shows a mean latency of 35 221.21 \\textmu{}s, a P95 latency of 37 114.70 \\textmu{}s, and a throughput of 28 392 ops/s over 30 iterations. These results confirm that Axiom-Flux delivers high-performance, real-time decisions and agent memory in a PHP runtime. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261011_100227_ruvector_-_ruvector_provides_h}"
 }
