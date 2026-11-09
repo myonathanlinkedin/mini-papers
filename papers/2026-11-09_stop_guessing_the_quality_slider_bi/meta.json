@@ -1,0 +1,30 @@
+{
+  "title": "Monotonic Invariant Preservation and Logarithmic Convergence Bounds in Binary-Searching JPEG Quality for Exact File Sizes",
+  "topic": "Stop Guessing the Quality Slider \u2014 Binary-Searching JPEG Quality for Exact File Sizes",
+  "domain": "concurrency",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_170413",
+  "created_at": "2026-11-09T17:04:13.552463+00:00",
+  "published_at": "2026-11-09",
+  "description": "Deterministic image compression pipelines require precise control over output file sizes to satisfy strict network bandwidth or storage constraints. Traditio...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261011_084635_stop_guessing_the_quality_slid",
+  "abstract": "Deterministic image compression pipelines require precise control over output file sizes to satisfy strict network bandwidth or storage constraints. Traditional manual adjustment of JPEG quality parameters is inefficient and lacks formal guarantees. This work introduces a Swift-based algorithmic utility that binary-searches the discrete quality domain to identify the optimal compression level for a target file size. We formalize the monotonic-decreasing invariant between quality parameters and encoded byte sizes, establishing that the search space admits a unique optimal solution under strict tolerance constraints. We provide a formal proof of the logarithmic time complexity bound and verify the structural integrity of the search state transitions. The implementation is validated through static abstract syntax tree (AST) inspection and formal invariant analysis, confirming the preservation of key-ordered search properties. This approach eliminates heuristic guessing, providing a reproducible, mathematically grounded method for exact-size image encoding. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261011_084635_stop_guessing_the_quality_slid}."
+}
