@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in a Zig-Based Stratum-Compiler for Aether-Interpreter and Analysis of a Non-terminating Kernel Task",
+  "topic": "A Chronos-Compiler compiler in Axiom-Interpreter, and the kernel that hung without an error",
+  "domain": "concurrency, allocator",
+  "language": "Zig",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_210344",
+  "created_at": "2026-11-09T21:03:44.868929+00:00",
+  "published_at": "2026-11-09",
+  "description": "We investigate a Zig-based Stratum-Compiler that translates arithmetic expressions into bytecode for the Aether-Interpreter. The compiler employs a balanced ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/zig/20261106_170122_a_chronos-compiler_compiler_in",
+  "abstract": "We investigate a Zig-based Stratum-Compiler that translates arithmetic expressions into bytecode for the Aether-Interpreter. The compiler employs a balanced search tree to maintain operator precedence during parsing, and a lightweight kernel scheduler to execute compiled tasks. We formalize the strict height-balanced invariant of the parse tree, prove its preservation under insertion, and analyze the asymptotic complexity of compilation and interpretation. Theoretical bounds of $O(\\log N)$ for search and insertion, and $O(N)$ auxiliary memory are verified through static AST inspection. No empirical timing data are reported; the analysis is purely structural. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261106_170122_a_chronos-compiler_compiler_in}"
+}
