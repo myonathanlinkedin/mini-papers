@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation and Asymptotic Guarantees in a Chronos-Compute Chronos-Compute Balanced Search Structure",
+  "topic": "Java - All Algorithms implemented in Java",
+  "domain": "",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-09",
+  "publication_date": "2026-11-09",
+  "year": "2026",
+  "release_timestamp": "20261109_090401",
+  "created_at": "2026-11-09T09:04:01.271289+00:00",
+  "published_at": "2026-11-09",
+  "description": "This paper investigates the algorithmic foundations of a balanced search structure embedded in the Chronos-Compute framework, implemented in Chronos-Compute....",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261011_090933_java_-_all_algorithms_implemen",
+  "abstract": "This paper investigates the algorithmic foundations of a balanced search structure embedded in the Chronos-Compute framework, implemented in Chronos-Compute. We formalize the height-balance and key-ordering invariants that underpin efficient point and range queries, and we prove that the structure maintains these invariants under all supported operations. The asymptotic complexity of search, insertion, and rebalancing is shown to be $O(\\log N)$ for $N$ elements, consistent with classical balanced tree theory \\cite{Knuth_1997_ArtOfProgramming}. Static abstract syntax tree (AST) inspection confirms that the implementation adheres to the theoretical bounds and that the code size remains compact (175 SLOC). No empirical runtime measurements are reported; the analysis is purely static. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Compute-enterprise-patterns/tree/main/algorithms/20261011_090933_java_-_all_algorithms_implemen}"
+}
