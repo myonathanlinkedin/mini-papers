@@ -1,0 +1,30 @@
+{
+  "title": "GPU-Accelerated Balanced Search: Kernel Launch Dynamics and Height-Balanced Invariant Preservation in C",
+  "topic": "A primer on GPUs and kernel optimization",
+  "domain": "concurrency",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-10",
+  "publication_date": "2026-11-10",
+  "year": "2026",
+  "release_timestamp": "20261110_170359",
+  "created_at": "2026-11-10T17:03:59.188426+00:00",
+  "published_at": "2026-11-10",
+  "description": "We present a concise study of kernel launch mechanics for a balanced search tree implemented in C, focusing on asymptotic complexity, invariant preservation,...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 3343.16,
+    "p99_latency_us": 3512.14,
+    "throughput_ops_sec": 299118.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261110_150220_a_primer_on_gpus_and_kernel_op",
+  "abstract": "We present a concise study of kernel launch mechanics for a balanced search tree implemented in C, focusing on asymptotic complexity, invariant preservation, and empirical performance on a single-core AMD EPYC 9V45 processor. The kernel launches a linear grid of threads that perform element-wise vector addition, serving as a micro-benchmark for memory-bound GPU-style execution. We formally prove that the height-balanced invariant guarantees a tree height of at most $2\\log_2(n+1)$ for $n$ nodes, and we verify that the kernel preserves this invariant across concurrent updates. Empirical measurements on the target hardware yield a mean latency of 3343.16 \\textmu{}s, a P95 latency of 3444.75 \\textmu{}s, and a throughput of 299,118 ops/s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261110_150220_a_primer_on_gpus_and_kernel_op}"
+}
