@@ -1,0 +1,30 @@
+{
+  "title": "Amortized Sift-Down Invariants and Dynamic Array Resizing Bounds in a C-Based Binary Min-Heap",
+  "topic": "Algorithms",
+  "domain": "",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-10",
+  "publication_date": "2026-11-10",
+  "year": "2026",
+  "release_timestamp": "20261110_020414",
+  "created_at": "2026-11-10T02:04:14.192826+00:00",
+  "published_at": "2026-11-10",
+  "description": "This paper investigates the structural invariants and asymptotic complexity bounds of a binary min-heap implemented in C using a dynamic contiguous array. We...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261109_200121_algorithms",
+  "abstract": "This paper investigates the structural invariants and asymptotic complexity bounds of a binary min-heap implemented in C using a dynamic contiguous array. We formalize the heap-order invariant and analyze the amortized cost of the \\texttt{sift-down} operation during extraction, which is critical for maintaining $O(\\log N)$ worst-case bounds. The implementation employs a geometric growth strategy for memory reallocation to ensure $O(1)$ amortized insertion costs. We provide a formal proof of the key-ordered invariant preservation during state transitions. The evaluation is conducted via static Abstract Syntax Tree (AST) inspection and structural complexity profiling, verifying that the implementation adheres to theoretical bounds without relying on empirical wall-clock measurements. We demonstrate that the contiguous memory layout ensures spatial locality, while the dynamic resizing mechanism prevents excessive memory fragmentation. This work contributes a rigorous formalization of heap operations in a low-level systems context, providing a reproducible baseline for algorithmic verification. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261109_200121_algorithms}."
+}
