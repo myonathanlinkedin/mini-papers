@@ -1,0 +1,30 @@
+{
+  "title": "Distributed Error Handling State Machine for Balanced Search Structures in Chronos-Compute",
+  "topic": "The Distributed Systems Error Handling Handbook",
+  "domain": "concurrency",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-10",
+  "publication_date": "2026-11-10",
+  "year": "2026",
+  "release_timestamp": "20261110_130406",
+  "created_at": "2026-11-10T13:04:06.954754+00:00",
+  "published_at": "2026-11-10",
+  "description": "Distributed systems frequently encounter transient failures that must be handled without compromising data consistency or system availability. This work pres...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6973P-C",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261110_110115_the_distributed_systems_error",
+  "abstract": "Distributed systems frequently encounter transient failures that must be handled without compromising data consistency or system availability. This work presents a lightweight error handling framework that couples a circuit-breaker state machine with an exponential-backoff retry policy, embedded within a balanced search tree implementation. The framework preserves the strict height-balance and key-ordered invariants of the tree while guaranteeing that point and range queries remain $O(\\log N)$ and that node insertions and rebalancings also execute in $O(\\log N)$. Formal proofs establish that the circuit-breaker transitions do not violate the tree invariants, and static AST analysis confirms the absence of unchecked exceptions. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Compute-enterprise-patterns/tree/main/algorithms/20261110_110115_the_distributed_systems_error}."
+}
