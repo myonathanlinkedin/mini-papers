@@ -1,0 +1,30 @@
+{
+  "title": "Maintaining Top-10 Suggestion Invariants in a Swift Trie for Typeahead Search",
+  "topic": "Design Typeahead Search Step by Step: Why the Trie Stores the Top 10 at Every Node",
+  "domain": "",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-10",
+  "publication_date": "2026-11-10",
+  "year": "2026",
+  "release_timestamp": "20261110_050407",
+  "created_at": "2026-11-10T05:04:07.417285+00:00",
+  "published_at": "2026-11-10",
+  "description": "Typeahead search systems rely on rapid retrieval of the most relevant completions for a given prefix. We study a trie variant that stores, at every node, the...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261110_020122_design_typeahead_search_step_b",
+  "abstract": "Typeahead search systems rely on rapid retrieval of the most relevant completions for a given prefix. We study a trie variant that stores, at every node, the top-10 suggestions ranked by a user-defined weight. The design preserves a strict invariant: each node's list contains the highest-weighted words that descend from that node. We prove that insertion and query operations run in $O(\\log N)$ time, where $N$ is the number of distinct words, and that the invariant is maintained after each update. Static abstract-syntax-tree inspection confirms a structural complexity of 117 SLOC and 19 function blocks. The implementation is available in Swift on GitHub: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261110_020122_design_typeahead_search_step_b}."
+}
