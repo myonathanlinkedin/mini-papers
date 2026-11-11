@@ -1,0 +1,30 @@
+{
+  "title": "Why OS Virtual Memory Paging Saved LLM Inference: The ChronosPaging advancement in Zig",
+  "topic": "Why OS Virtual Memory Paging Saved LLM Inference: The AetherPaged-LLM Breakthrough",
+  "domain": "allocator",
+  "language": "Zig",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-11",
+  "publication_date": "2026-11-11",
+  "year": "2026",
+  "release_timestamp": "20261111_200349",
+  "created_at": "2026-11-11T20:03:49.190421+00:00",
+  "published_at": "2026-11-11",
+  "description": "We investigate how operating-system virtual memory paging can reduce the memory footprint of large language model (LLM) inference without sacrificing correct...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/zig/20261111_190242_why_os_virtual_memory_paging_s",
+  "abstract": "We investigate how operating-system virtual memory paging can reduce the memory footprint of large language model (LLM) inference without sacrificing correctness. The ChronosPaging module, implemented in Zig, couples a lightweight page table with a least-recently-used (LRU) replacement policy and a balanced search structure for mapping virtual pages to physical frames. By exploiting the OS's demand paging semantics, the module persists page contents across evictions, enabling inference workloads to operate on a fraction of the model size that would otherwise be resident in RAM. Theoretical analysis shows that page lookups and updates run in $O(\\log N)$ time, while the overall memory consumption is bounded by $O(P)$, where $P$ is the number of pages. Formal invariants guarantee that the page table remains height-balanced and key-ordered, ensuring deterministic eviction order. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261111_190242_why_os_virtual_memory_paging_s}"
+}
