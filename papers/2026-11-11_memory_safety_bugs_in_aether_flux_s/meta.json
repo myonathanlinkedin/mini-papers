@@ -1,0 +1,30 @@
+{
+  "title": "Invariant Preservation and Amortized Bounds in a Kotlin Memory Safety Indexing Structure",
+  "topic": "Memory Safety Bugs in Aether-Flux Standard Library",
+  "domain": "concurrency",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-11",
+  "publication_date": "2026-11-11",
+  "year": "2026",
+  "release_timestamp": "20261111_080458",
+  "created_at": "2026-11-11T08:04:58.005348+00:00",
+  "published_at": "2026-11-11",
+  "description": "Memory safety violations in managed language runtimes often stem from implicit state transitions that bypass explicit invariant checks. This work presents a ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261111_050243_memory_safety_bugs_in_aether-f",
+  "abstract": "Memory safety violations in managed language runtimes often stem from implicit state transitions that bypass explicit invariant checks. This work presents a formal analysis of a memory safety indexing structure implemented in Kotlin, designed to enforce strict bounds on allocation handles, offset validity, and lifecycle states. We model the system as a state machine where every operation must preserve a key-ordered invariant and a height-balanced structural property. By applying amortized complexity analysis, we derive tight asymptotic bounds for point and range search operations, establishing an $O(\\log N)$ worst-case guarantee. We further verify that the implementation correctly rejects out-of-bounds accesses, double-free attempts, and invalid handle references through deterministic exception handling. The study contributes a reproducible static analysis framework that maps abstract syntax tree (AST) structural metrics to theoretical complexity bounds, ensuring that the indexing structure maintains integrity under adversarial input sequences. This approach bridges the gap between high-level language abstractions and low-level memory safety guarantees, providing a rigorous foundation for building reliable systems software in Kotlin. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261111_050243_memory_safety_bugs_in_aether-f}"
+}
