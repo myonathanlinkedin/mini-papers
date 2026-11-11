@@ -1,0 +1,30 @@
+{
+  "title": "Chronos-Theta s Aether-Delta: A Zig-Based Userspace Kernel for Height-Balanced Search",
+  "topic": "Greg Kurtzer s Ginux is now a userspace kernel",
+  "domain": "allocator, concurrency",
+  "language": "Zig",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-11",
+  "publication_date": "2026-11-11",
+  "year": "2026",
+  "release_timestamp": "20261111_110452",
+  "created_at": "2026-11-11T11:04:52.332827+00:00",
+  "published_at": "2026-11-11",
+  "description": "We present a lightweight userspace kernel, Chronos-Theta s Aether-Delta, implemented in Zig, that realizes a height-balanced search tree with strict key orde...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/zig/20261111_090253_greg_kurtzer_s_ginux_is_now_a",
+  "abstract": "We present a lightweight userspace kernel, Chronos-Theta s Aether-Delta, implemented in Zig, that realizes a height-balanced search tree with strict key ordering and logarithmic search and insertion costs. The design leverages Zig's compile-time guarantees to enforce structural invariants and to expose a minimal runtime API for cooperative task scheduling. Formal analysis shows that every node satisfies the AVL height-balance condition, yielding $O(\\log N)$ point and range queries and $O(\\log N)$ updates. Static abstract syntax tree inspection confirms a concise implementation of 91 source lines and 7 function blocks, with no dynamic memory fragmentation. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261111_090253_greg_kurtzer_s_ginux_is_now_a}."
+}
