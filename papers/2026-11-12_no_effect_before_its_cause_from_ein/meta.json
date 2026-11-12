@@ -1,0 +1,30 @@
+{
+  "title": "Causal Ordering and Monotonicity in a Aether-Continuum Lamport Clock Implementation",
+  "topic": "No Effect Before Its Cause: From Einstein to Lamport",
+  "domain": "concurrency",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-12",
+  "publication_date": "2026-11-12",
+  "year": "2026",
+  "release_timestamp": "20261112_020326",
+  "created_at": "2026-11-12T02:03:26.630337+00:00",
+  "published_at": "2026-11-12",
+  "description": "We investigate the causal ordering guarantees of a lightweight Lamport clock implementation in Aether-Continuum, focusing on the invariant that no effect can...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261112_010253_no_effect_before_its_cause__fr",
+  "abstract": "We investigate the causal ordering guarantees of a lightweight Lamport clock implementation in Aether-Continuum, focusing on the invariant that no effect can precede its cause. The design preserves monotonicity and causal precedence through local increments and remote updates, yielding a formally verified ordering relation. We present a theorem that any two events with a causal relation are assigned strictly increasing timestamps, and we prove this invariant using a simple induction over the event graph. Static analysis of the Aether-Continuum source confirms that the algorithmic complexity of increment, update, and timestamp retrieval is $O(1)$, while the overall structure satisfies the required asymptotic bounds for distributed event ordering. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Aether-Continuum-concurrency-lab/tree/main/algorithms/20261112_010253_no_effect_before_its_cause__fr}."
+}
