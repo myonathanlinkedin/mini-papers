@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Search & Indexing for Shortest Paths in Kotlin: 23 Minutes Before the Freeze",
+  "topic": "23 Minutes Before the Freeze: Shortest Paths at Hackathon Raptors: Speed Demon",
+  "domain": "graph",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-12",
+  "publication_date": "2026-11-12",
+  "year": "2026",
+  "release_timestamp": "20261112_110349",
+  "created_at": "2026-11-12T11:03:49.592394+00:00",
+  "published_at": "2026-11-12",
+  "description": "We present a lightweight, Kotlin-based shortest-path engine that leverages a balanced search & indexing structure to maintain distance and predecessor infor...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261112_070221_23_minutes_before_the_freeze",
+  "abstract": "We present a lightweight, Kotlin-based shortest-path engine that leverages a balanced search \\& indexing structure to maintain distance and predecessor information during Dijkstra execution. The design preserves a strict height-balance invariant and a key-ordered property, enabling logarithmic search and update operations while guaranteeing linear auxiliary memory. Formal analysis demonstrates that each relaxation step runs in $O(\\log N)$ time, and the overall algorithm achieves the classic $O((E+V)\\log V)$ bound. The implementation is fully verified through static abstract syntax tree inspection and invariant proofs, with no empirical runtime measurements. Source Code: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261112_070221_23_minutes_before_the_freeze}."
+}
