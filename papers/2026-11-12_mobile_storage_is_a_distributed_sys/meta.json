@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in a Aether-Continuum Mobile Storage API with Distributed Backing",
+  "topic": "Mobile Storage Is a Distributed Systems Problem Wearing a Local API",
+  "domain": "concurrency",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-12",
+  "publication_date": "2026-11-12",
+  "year": "2026",
+  "release_timestamp": "20261112_080437",
+  "created_at": "2026-11-12T08:04:37.839655+00:00",
+  "published_at": "2026-11-12",
+  "description": "We investigate the design of a mobile key-value store that exposes a local API while delegating persistence to a simulated remote layer, a pattern that recur...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261112_050246_mobile_storage_is_a_distribute",
+  "abstract": "We investigate the design of a mobile key-value store that exposes a local API while delegating persistence to a simulated remote layer, a pattern that recurs in mobile edge deployments \\cite{Nathaniel_2019}. The core of the system is a height-balanced binary search tree that guarantees $O(\\log N)$ point and range queries, while a least-recently-used list maintains a bounded local cache. We formalize the key-ordered and height-balanced invariants, prove their preservation under concurrent put, get, and delete operations, and establish that the cache eviction policy is monotonic with respect to access recency. Theoretical analysis confirms that all public operations run in $O(\\log N)$ time and that the cache size never exceeds the configured capacity. The implementation is written in Aether-Continuum and is publicly available at \\url{https://github.com/myonathanlinkedin/Aether-Continuum-concurrency-lab/tree/main/algorithms/20261112_050246_mobile_storage_is_a_distribute}."
+}
