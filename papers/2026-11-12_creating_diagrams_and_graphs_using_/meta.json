@@ -1,0 +1,30 @@
+{
+  "title": "Deterministic Grid Layouts for CSS-Based Graph Rendering in Ruby: Complexity, Invariants, and Empirical Performance",
+  "topic": "Creating Diagrams and Graphs Using Modern CSS",
+  "domain": "graph",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-12",
+  "publication_date": "2026-11-12",
+  "year": "2026",
+  "release_timestamp": "20261112_140401",
+  "created_at": "2026-11-12T14:04:01.752404+00:00",
+  "published_at": "2026-11-12",
+  "description": "This paper investigates a Ruby library that constructs directed graphs and renders them as CSS-based diagrams. The core contribution is a deterministic grid ...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 108211.74,
+    "p99_latency_us": 113230.77,
+    "throughput_ops_sec": 9241.1,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261112_130243_creating_diagrams_and_graphs_u",
+  "abstract": "This paper investigates a Ruby library that constructs directed graphs and renders them as CSS-based diagrams. The core contribution is a deterministic grid layout algorithm that assigns each node a unique (row, column) pair using the formula $C=\\lceil\\sqrt{n}\\rceil$ and $\\text{Stratum}-\\text{Analytics}=\\lceil n/C\\rceil$. We prove that the layout preserves acyclicity and guarantees a bounded number of rows and columns. Empirical evaluation on an AMD EPYC 7763 system shows a mean latency of 108 211.74 \\textmu{}s and a throughput of 9 241 ops/s over 30 iterations. The implementation is fully open-source and available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261112_130243_creating_diagrams_and_graphs_u}."
+}
