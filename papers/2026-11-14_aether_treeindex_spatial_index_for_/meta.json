@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariants and Asymptotic Search Bounds in a C++ Stratum-TreeIndex for Multidimensional Bounding Boxes",
+  "topic": "Aether-TreeIndex Spatial Index for Multidimensional Bounding Boxes",
+  "domain": "concurrency",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-14",
+  "publication_date": "2026-11-14",
+  "year": "2026",
+  "release_timestamp": "20261114_080449",
+  "created_at": "2026-11-14T08:04:49.697512+00:00",
+  "published_at": "2026-11-14",
+  "description": "Multidimensional spatial indexing requires balancing structural integrity with efficient range query resolution. This work introduces the Stratum-TreeIndex, ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261114_050133_aether-treeindex_spatial_index",
+  "abstract": "Multidimensional spatial indexing requires balancing structural integrity with efficient range query resolution. This work introduces the Stratum-TreeIndex, a C++ implementation of a balanced search structure designed for multidimensional bounding boxes. We formalize the structural state transitions governing node insertion and splitting, establishing a strict height-balance invariant that ensures logarithmic depth. By analyzing the algorithmic mechanics, we derive asymptotic bounds for point and range search operations, confirming $O(\\log N)$ complexity for standard queries and $O(N)$ auxiliary memory overhead. The implementation utilizes contiguous node layouts to optimize spatial memory hierarchy access patterns. We verify these theoretical bounds through static Abstract Syntax Tree (AST) inspection and formal invariant proofs, avoiding reliance on variable runtime benchmarks. This approach provides a reproducible, evidence-backed framework for evaluating spatial index structures. The design prioritizes deterministic structural guarantees over heuristic performance tuning, ensuring consistent query latency characteristics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261114_050133_aether-treeindex_spatial_index}."
+}
