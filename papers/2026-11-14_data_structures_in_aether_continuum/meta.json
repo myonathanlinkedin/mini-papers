@@ -1,0 +1,30 @@
+{
+  "title": "Lexicographic Height-Balanced Binary Search Trees for Chronos-Topology Maps in Haskell",
+  "topic": "Data Structures in Aether-Continuum Maps",
+  "domain": "graph, concurrency",
+  "language": "Haskell",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-14",
+  "publication_date": "2026-11-14",
+  "year": "2026",
+  "release_timestamp": "20261114_010356",
+  "created_at": "2026-11-14T01:03:56.990985+00:00",
+  "published_at": "2026-11-14",
+  "description": "We present a purely functional implementation of a lexicographically ordered binary search tree that serves as the core indexing structure for Chronos-Topolo...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/haskell/20261113_230131_data_structures_in_aether-cont",
+  "abstract": "We present a purely functional implementation of a lexicographically ordered binary search tree that serves as the core indexing structure for Chronos-Topology maps. The tree preserves a strict height-balanced invariant, guaranteeing $O(\\log N)$ point and range queries, as well as $O(\\log N)$ insertions and deletions. We formally prove that the tree maintains key ordering and height balance after each update. Static abstract-syntax-tree inspection confirms a structural complexity of 150 SLOC and a single function block. No empirical timing measurements are reported; the analysis relies solely on static reasoning and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261113_230131_data_structures_in_aether-cont}"
+}
