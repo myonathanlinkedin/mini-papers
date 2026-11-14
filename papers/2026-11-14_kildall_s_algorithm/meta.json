@@ -1,0 +1,30 @@
+{
+  "title": "Monotone Data-Flow State Machine of Kildall's Algorithm in Ruby: Invariant Preservation and Complexity Analysis",
+  "topic": "Kildall s algorithm",
+  "domain": "graph",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-14",
+  "publication_date": "2026-11-14",
+  "year": "2026",
+  "release_timestamp": "20261114_130409",
+  "created_at": "2026-11-14T13:04:09.340575+00:00",
+  "published_at": "2026-11-14",
+  "description": "We present a Ruby implementation of Kildall's monotone data-flow analysis algorithm, formalized as a state machine that preserves lattice-based invariants wh...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261114_110227_kildall_s_algorithm",
+  "abstract": "We present a Ruby implementation of Kildall's monotone data-flow analysis algorithm, formalized as a state machine that preserves lattice-based invariants while traversing a control-flow graph. The design leverages a balanced search structure for node lookup, ensuring that each transfer function application respects the monotonicity property of the underlying lattice. We prove that the algorithm converges to a fixed point in at most $O(|V|\\cdot|E|)$ transfer applications, where $|V|$ and $|E|$ denote the number of vertices and edges, respectively, and that each node's OUT value is a superset of its IN value. Static analysis of the source yields a structural complexity of 191 SLOC and 25 function blocks, with asymptotic search and insertion bounds of $O(\\log N)$. The implementation is fully reproducible and available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261114_110227_kildall_s_algorithm}."
+}
