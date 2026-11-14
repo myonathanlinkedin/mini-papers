@@ -1,0 +1,30 @@
+{
+  "title": "Probabilistic Topology Filters: Invariant-Preserving Bloom Structures for Chronos-Topology Graph Engines",
+  "topic": "Probabilistic data structures in Aether-Graph",
+  "domain": "concurrency, bloom, probabilistic, graph",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-14",
+  "publication_date": "2026-11-14",
+  "year": "2026",
+  "release_timestamp": "20261114_200446",
+  "created_at": "2026-11-14T20:04:46.410399+00:00",
+  "published_at": "2026-11-14",
+  "description": "Efficient membership testing is a core requirement for graph traversal and network flow engines that operate over large, dynamic topologies. We introduce a B...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261114_190239_probabilistic_data_structures",
+  "abstract": "Efficient membership testing is a core requirement for graph traversal and network flow engines that operate over large, dynamic topologies. We introduce a Bloom-filter--based structure integrated into the Chronos-Topology framework, designed to preserve key invariants while offering sub-linear space overhead. The filter employs deterministic djb2 and sdbm hash functions combined with a double-hashing scheme, guaranteeing that every inserted element is reported present (no false negatives) and bounding the false-positive rate by a user-specified parameter. We formally prove the invariant preservation property and analyze the asymptotic complexity of the filter operations, showing $O(1)$ expected time per query and $O(n)$ construction time for $n$ expected items. The implementation is written in C and verified through static abstract syntax tree inspection and formal invariant proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261114_190239_probabilistic_data_structures}"
+}
