@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Search and Indexing for a Hierarchical Software Job Title Tree in PHP",
+  "topic": "A Family Tree of Software Job Titles",
+  "domain": "concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-14",
+  "publication_date": "2026-11-14",
+  "year": "2026",
+  "release_timestamp": "20261114_230359",
+  "created_at": "2026-11-14T23:03:59.926436+00:00",
+  "published_at": "2026-11-14",
+  "description": "We present a PHP implementation of a balanced search tree that models a hierarchical family of software job titles. The data structure supports insertion, lo...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261114_210235_a_family_tree_of_software_job",
+  "abstract": "We present a PHP implementation of a balanced search tree that models a hierarchical family of software job titles. The data structure supports insertion, lookup, and ancestor retrieval while preserving a strict height-balanced invariant and key-ordered property. Formal analysis shows that point and range queries execute in $O(\\log N)$ time, and insertions maintain balance in $O(\\log N)$ time. Static abstract syntax tree inspection confirms a source-level complexity of 187 SLOC and 20 function blocks. The implementation is publicly available at \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261114_210235_a_family_tree_of_software_job}. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261114_210235_a_family_tree_of_software_job}"
+}
