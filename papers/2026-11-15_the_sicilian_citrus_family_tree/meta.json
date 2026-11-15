@@ -1,0 +1,30 @@
+{
+  "title": "Ancestral Path Traversal and Depth Invariants in a Kotlin-Implemented Citrus Taxonomy Index",
+  "topic": "The Sicilian Citrus Family Tree",
+  "domain": "",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-15",
+  "publication_date": "2026-11-15",
+  "year": "2026",
+  "release_timestamp": "20261115_110405",
+  "created_at": "2026-11-15T11:04:05.708308+00:00",
+  "published_at": "2026-11-15",
+  "description": "This paper investigates the algorithmic properties of a hierarchical data structure representing the Sicilian citrus family tree, implemented in Kotlin. The ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261115_090211_the_sicilian_citrus_family_tre",
+  "abstract": "This paper investigates the algorithmic properties of a hierarchical data structure representing the Sicilian citrus family tree, implemented in Kotlin. The system models botanical lineage using a directed acyclic graph where nodes represent citrus varieties and edges denote parent-child relationships. We formalize the structural invariants governing node insertion, depth calculation, and ancestor retrieval. Specifically, we analyze the asymptotic complexity of point queries and range traversals within this balanced search structure. The implementation utilizes a hash-map index for $O(1)$ node lookup, combined with pointer-based traversal for lineage resolution. We verify that the depth invariant holds strictly for all valid tree configurations, ensuring that the root node maintains depth zero and child nodes increment depth by exactly one. Static analysis confirms the structural integrity of the 127-line implementation, validating the theoretical bounds of $O(\\log N)$ for balanced operations and $O(N)$ for auxiliary memory. This work provides a reproducible baseline for evaluating hierarchical indexing in managed runtime environments. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261115_090211_the_sicilian_citrus_family_tre}."
+}
