@@ -1,0 +1,30 @@
+{
+  "title": "Amortized Complexity and Invariant Preservation in a Ruby Fibonacci Heap Implementation",
+  "topic": "Advanced Algorithms",
+  "domain": "graph, concurrency",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-15",
+  "publication_date": "2026-11-15",
+  "year": "2026",
+  "release_timestamp": "20261115_080416",
+  "created_at": "2026-11-15T08:04:16.519671+00:00",
+  "published_at": "2026-11-15",
+  "description": "We present a Ruby implementation of the Fibonacci Heap, a balanced search and indexing structure that supports insert, extract-min, and decrease-key in amort...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 113754.93,
+    "p99_latency_us": 118910.5,
+    "throughput_ops_sec": 8790.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261115_070238_advanced_algorithms",
+  "abstract": "We present a Ruby implementation of the Fibonacci Heap, a balanced search and indexing structure that supports insert, extract-min, and decrease-key in amortized $O(1)$, $O(\\log n)$, and $O(1)$ time respectively. The design preserves strict height-balance and key-ordered invariants through root consolidation and cascading cuts. We formally prove that the heap maintains a logarithmic bound on the maximum root degree and that all operations respect the heap order. Empirical evaluation on an AMD EPYC 9V74 80-core processor (1 physical core, 2 logical threads) yields a mean latency of 113 754.93 \\textmu{}s and a throughput of 8 791 ops/s over 30 iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261115_070238_advanced_algorithms}."
+}
