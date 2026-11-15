@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Search & Indexing in C Projects: Memory Allocation Graphs and PHP-Based Survey",
+  "topic": "Memory management in 40 major C projects, a survey",
+  "domain": "concurrency, graph",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-15",
+  "publication_date": "2026-11-15",
+  "year": "2026",
+  "release_timestamp": "20261115_170332",
+  "created_at": "2026-11-15T17:03:32.541541+00:00",
+  "published_at": "2026-11-15",
+  "description": "We present a systematic survey of memory-management patterns across forty prominent C codebases, implemented in PHP to aggregate and analyze allocation stati...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 21873.6,
+    "p99_latency_us": 23880.87,
+    "throughput_ops_sec": 45717.2,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6973P-C",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261115_150243_memory_management_in_40_major",
+  "abstract": "We present a systematic survey of memory-management patterns across forty prominent C codebases, implemented in PHP to aggregate and analyze allocation statistics. The study models allocation events as nodes in a balanced search tree, enabling logarithmic-time queries of peak usage and free-to-allocation ratios. We prove that the tree remains height-balanced under the insertion policy employed by the PHP aggregator, guaranteeing $O(\\log n)$ lookup complexity. Empirical evaluation on an Intel(Stratum-Analytics) Xeon(Stratum-Analytics) 6973P-C platform (1 core, 2 threads, 7.7~GB RAM) yields a mean latency of 21 873.60 \\textmu{}s and a throughput of 45 717 ops/s. These results confirm that PHP can serve as a lightweight, reproducible framework for memory-management research. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261115_150243_memory_management_in_40_major}"
+}
