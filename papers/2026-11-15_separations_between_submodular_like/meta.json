@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving Decomposition of Submodular-Like Graph Widths in Kotlin",
+  "topic": "Separations Between Submodular-Like Graph Widths",
+  "domain": "matrix, graph",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-15",
+  "publication_date": "2026-11-15",
+  "year": "2026",
+  "release_timestamp": "20261115_200331",
+  "created_at": "2026-11-15T20:03:31.228955+00:00",
+  "published_at": "2026-11-15",
+  "description": "We investigate the separation of submodular-like width measures in undirected weighted graphs by leveraging a deterministic cut-based decomposition that pres...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261115_140130_separations_between_submodular",
+  "abstract": "We investigate the separation of submodular-like width measures in undirected weighted graphs by leveraging a deterministic cut-based decomposition that preserves optimal substructure. The proposed Kotlin implementation extends the Stoer-Wagner minimum-cut routine to expose intermediate partition invariants that enable incremental width estimation. We prove that the algorithm maintains an acyclic contraction DAG and that each contraction step reduces the global width by at least the weight of the selected minimum cut, yielding a worst-case time complexity of $O(|V|^{3})$ and space complexity $O(|V|^{2})$. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261115_140130_separations_between_submodular}."
+}
