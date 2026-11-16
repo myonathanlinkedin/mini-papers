@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving Flood Fill in Shared Memory: A Balanced Search Perspective on Aether-Canvas",
+  "topic": "Paint in the memory of other programs",
+  "domain": "concurrency",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-16",
+  "publication_date": "2026-11-16",
+  "year": "2026",
+  "release_timestamp": "20261116_130456",
+  "created_at": "2026-11-16T13:04:56.515732+00:00",
+  "published_at": "2026-11-16",
+  "description": "Flood fill is a canonical operation for manipulating two-dimensional data structures in shared memory, yet its formal safety guarantees and asymptotic behavi...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261116_110128_paint_in_the_memory_of_other_p",
+  "abstract": "Flood fill is a canonical operation for manipulating two-dimensional data structures in shared memory, yet its formal safety guarantees and asymptotic behavior are rarely examined in isolation. This paper presents a concise C++ implementation of flood fill that operates on a grid of arbitrary size while preserving key invariants: (i) only cells connected to the start point via the original color are recolored, and (ii) the algorithm terminates without modifying the grid when the new color equals the original. We prove that the frontier queue never exceeds the number of grid cells, yielding an $O(N)$ time bound and $O(N)$ auxiliary space, where $N$ is the total number of cells. Static abstract syntax tree inspection confirms that the implementation contains 92 SLOC and a single function block, matching the theoretical bounds. The source code is publicly available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261116_110128_paint_in_the_memory_of_other_p}."
+}
