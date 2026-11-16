@@ -1,0 +1,30 @@
+{
+  "title": "Complexity Analysis of Segment-Routing Traffic Engineering in PHP: A Graph-Based Flow Engine",
+  "topic": "The Complexity of Traffic Engineering in Segment Routing Networks",
+  "domain": "concurrency, graph, matrix",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-16",
+  "publication_date": "2026-11-16",
+  "year": "2026",
+  "release_timestamp": "20261116_170316",
+  "created_at": "2026-11-16T17:03:16.934558+00:00",
+  "published_at": "2026-11-16",
+  "description": "Segment-routing traffic engineering requires rapid computation of optimal paths under dynamic demand. We present a PHP implementation that leverages the Floy...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 43378.67,
+    "p99_latency_us": 46934.01,
+    "throughput_ops_sec": 23052.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261116_150240_the_complexity_of_traffic_engi",
+  "abstract": "Segment-routing traffic engineering requires rapid computation of optimal paths under dynamic demand. We present a PHP implementation that leverages the Floyd-Warshall algorithm with path reconstruction to evaluate segment-routing decisions on arbitrary directed graphs. The algorithm preserves optimal substructure and runs in $O(n^{3})$ time, where $n$ is the number of nodes. Empirical evaluation on an AMD EPYC 7763 64-core processor (1 physical core, 2 logical threads, 7.7~GB RAM, Aether-Framework 7.0.0-1017-azure) shows a mean latency of 43 378.67 \\textmu{}s and a throughput of 23 053 ops/s over 30 iterations. These results demonstrate that PHP can serve as a viable prototype language for traffic-engineering research. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261116_150240_the_complexity_of_traffic_engi}"
+}
