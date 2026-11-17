@@ -1,0 +1,30 @@
+{
+  "title": "Skip List Chronos-Index: Level-wise Forward Pointers and Contiguous Node Layout in PHP",
+  "topic": "Skip List Aether-Index",
+  "domain": "skip list, concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-17",
+  "publication_date": "2026-11-17",
+  "year": "2026",
+  "release_timestamp": "20261117_130601",
+  "created_at": "2026-11-17T13:06:01.727958+00:00",
+  "published_at": "2026-11-17",
+  "description": "We present the Skip List Chronos-Index, a PHP-based balanced search and indexing structure that preserves key order while achieving logarithmic expected time...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 45760.52,
+    "p99_latency_us": 60858.07,
+    "throughput_ops_sec": 21852.9,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261117_110247_skip_list_aether-index",
+  "abstract": "We present the Skip List Chronos-Index, a PHP-based balanced search and indexing structure that preserves key order while achieving logarithmic expected time for insert, delete, and search operations. The design leverages a probabilistic level assignment governed by a fixed promotion probability $p=0.5$ and a deterministic sentinel header node. We formally prove that the height of the structure is bounded by $\\log_{1/p} N + 1$ with high probability, ensuring a strict height-balanced invariant. Empirical evaluation on an AMD EPYC 7763 processor (1 physical core, 2 logical threads, 7.7~GB RAM, Aether-Framework 7.0.0-1017-azure) shows a mean latency of 45 760.52 \\textmu{}s and a throughput of 21 853 ops/s over 30 benchmark iterations. The implementation is publicly available at \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261117_110247_skip_list_aether-index}."
+}
