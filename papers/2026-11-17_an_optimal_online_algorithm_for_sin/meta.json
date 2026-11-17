@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Online Scheduling for Two Agents on a Single Machine Using a Balanced Search Tree in C",
+  "topic": "An Optimal Online Algorithm for Single-machine Scheduling with Two Agents",
+  "domain": "",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-17",
+  "publication_date": "2026-11-17",
+  "year": "2026",
+  "release_timestamp": "20261117_170347",
+  "created_at": "2026-11-17T17:03:47.018495+00:00",
+  "published_at": "2026-11-17",
+  "description": "We present an online scheduler for a single machine that serves two agents with arbitrary arrival times and processing requirements. The scheduler maintains ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261117_140135_an_optimal_online_algorithm_fo",
+  "abstract": "We present an online scheduler for a single machine that serves two agents with arbitrary arrival times and processing requirements. The scheduler maintains a height-balanced binary search tree that stores pending jobs keyed by their release times, enabling $O(\\log N)$ insertion and $O(\\log N)$ selection of the next job to execute. A key invariant guarantees that the tree remains strictly height-balanced and that the key order reflects the chronological order of job releases, ensuring that the scheduler always selects the earliest admissible job. We prove that the algorithm achieves the optimal competitive ratio for the two-agent setting by preserving the invariant across all state transitions. The implementation is written in ANSI C and is fully verified through static abstract syntax tree inspection and formal invariant proofs. No empirical timing measurements are reported; all guarantees are derived from the algorithmic structure. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261117_140135_an_optimal_online_algorithm_fo}"
+}
