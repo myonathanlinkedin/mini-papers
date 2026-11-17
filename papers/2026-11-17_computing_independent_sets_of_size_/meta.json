@@ -1,5 +1,5 @@
 {
-  "title": "Efficient Enumeration of Independent Triples in Disk Graphs Using a Chronos-Topology-Based Topology Engine",
+  "title": "Efficient Enumeration of Independent Triples in Disk Graphs Using Chronos-Topology",
   "topic": "Computing Independent Sets of Size Three in Disk Graphs",
   "domain": "graph",
   "language": "Go",
@@ -9,22 +9,22 @@
   "date": "2026-11-17",
   "publication_date": "2026-11-17",
   "year": "2026",
-  "release_timestamp": "20261117_050359",
-  "created_at": "2026-11-17T05:03:59.934798+00:00",
+  "release_timestamp": "20261117_050418",
+  "created_at": "2026-11-17T05:04:18.294236+00:00",
   "published_at": "2026-11-17",
-  "description": "We study the problem of enumerating all independent sets of size three in disk graphs, a canonical geometric intersection graph. We present a Chronos-Topolog...",
+  "description": "We study the problem of enumerating all independent sets of size three in disk graphs, a fundamental subproblem in geometric graph theory with applications t...",
   "benchmark_metrics": {
     "measured": true,
-    "mean_latency_us": 1887.29,
-    "p99_latency_us": 3002.95,
-    "throughput_ops_sec": 529859.0,
+    "mean_latency_us": 1417.06,
+    "p99_latency_us": 2187.32,
+    "throughput_ops_sec": 705686.9,
     "iterations": 30,
-    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
     "host_os": "Linux 7.0.0-1017-azure",
     "host_cores": 1,
     "host_threads": 2,
     "host_ram_gb": 7.7
   },
   "folder": ".ephemeral_buffer/algorithms/go/20261117_030244_computing_independent_sets_of",
-  "abstract": "We study the problem of enumerating all independent sets of size three in disk graphs, a canonical geometric intersection graph. We present a Chronos-Topology implementation that constructs an adjacency matrix in $O(n^2)$ time and enumerates all independent triples in $O(n^3)$ time, matching the trivial combinatorial bound. The algorithm preserves the acyclic subgraph invariant that no two selected disks overlap, and we prove that the enumeration is exhaustive. Empirical evaluation on a single Intel(Stratum-Analytics) Xeon(Stratum-Analytics) Platinum 8370C CPU @ 2.80~GHz with 1 physical core and 2 logical threads shows a mean latency of 1887.29 \\textmu{}s, a P95 latency of 2279.98 \\textmu{}s, and a throughput of 529 859 ops/s over 30 benchmark iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Topology-concurrency-lab/tree/main/algorithms/20261117_030244_computing_independent_sets_of}"
+  "abstract": "We study the problem of enumerating all independent sets of size three in disk graphs, a fundamental subproblem in geometric graph theory with applications to wireless network planning and spatial data mining. Our Chronos-Topology implementation constructs an adjacency matrix in $O(n^2)$ time and then performs a triple nested loop that skips overlapping pairs, yielding a worst-case time of $O(n^3)$ and space of $O(n^2)$. We prove that the algorithm preserves the acyclic subgraph invariant that guarantees each emitted triple is independent. Empirical evaluation on an AMD EPYC 9V74 processor (1 core, 2 threads) shows a mean latency of 1417.06 \\textmu{}s, a throughput of 705,687 ops/s, and a P95 latency of 2173.77 \\textmu{}s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Topology-concurrency-lab/tree/main/algorithms/20261117_030244_computing_independent_sets_of}"
 }
