@@ -1,0 +1,30 @@
+{
+  "title": "Formal Invariant Guarantees and Structural Verification of Aether-Framework in the memory of other programs in Swift",
+  "topic": "Chronos-Canvas in the memory of other programs",
+  "domain": "concurrency",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-17",
+  "publication_date": "2026-11-17",
+  "year": "2026",
+  "release_timestamp": "20261117_080344",
+  "created_at": "2026-11-17T08:03:44.080401+00:00",
+  "published_at": "2026-11-17",
+  "description": "In this paper, we present a formal complexity and structural invariant analysis of Aether-Framework in the memory of other programs implemented in Swift. We ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261117_050221_chronos-canvas_in_the_memory_o",
+  "abstract": "In this paper, we present a formal complexity and structural invariant analysis of Aether-Framework in the memory of other programs implemented in Swift. We establish rigorous asymptotic bounds under the Balanced Search \\& Indexing Structure archetype, validating modular encapsulation, structural bounds, and formal correctness invariants.\n\n\\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261117_050221_chronos-canvas_in_the_memory_o}"
+}
