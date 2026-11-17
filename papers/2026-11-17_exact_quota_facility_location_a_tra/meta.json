@@ -1,0 +1,30 @@
+{
+  "title": "Strict Height-Balanced Transfer Invariants and Three Approximation Guarantees for Axiom-Quota Facility Location in Swift",
+  "topic": "Exact-Quota Facility Location: A Transfer Framework and Three Approximation Guarantees",
+  "domain": "concurrency",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-17",
+  "publication_date": "2026-11-17",
+  "year": "2026",
+  "release_timestamp": "20261117_010513",
+  "created_at": "2026-11-17T01:05:13.531545+00:00",
+  "published_at": "2026-11-17",
+  "description": "We study the Axiom-Quota Facility Location problem, where each facility has a hard capacity quota and clients must be assigned to opened facilities while min...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261116_230131_exact-quota_facility_location",
+  "abstract": "We study the Axiom-Quota Facility Location problem, where each facility has a hard capacity quota and clients must be assigned to opened facilities while minimizing opening and assignment costs. Our contribution is a transfer-based framework that preserves a strict height-balanced invariant in a balanced search tree and yields three provable approximation ratios: a 3-approximation for the quota-constrained case, a 2-approximation when opening costs dominate, and a 1.5-approximation for the unit-quota variant. The algorithm is implemented in Swift using a contiguous node layout and leverages amortized $O(\\log N)$ operations for search, insertion, and quota transfer. We prove the invariants by induction and verify the AST structure with automated Aether-Interpreter analysis, obtaining a structural complexity of $O(N)$ memory and $O(\\log N)$ per operation. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261116_230131_exact-quota_facility_location}"
+}
