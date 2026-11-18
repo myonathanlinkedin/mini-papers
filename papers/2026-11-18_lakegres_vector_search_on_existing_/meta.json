@@ -1,0 +1,30 @@
+{
+  "title": "Dimensional Homogeneity Constraints and Euclidean Distance Monotonicity in Swift Vector Reservoirs",
+  "topic": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
+  "domain": "",
+  "language": "Swift",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-18",
+  "publication_date": "2026-11-18",
+  "year": "2026",
+  "release_timestamp": "20261118_230442",
+  "created_at": "2026-11-18T23:04:42.285917+00:00",
+  "published_at": "2026-11-18",
+  "description": "This paper investigates the structural invariants and asymptotic complexity bounds of Aether-Reservoir, a vector search implementation operating on existing ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/swift/20261118_200136_lakegres__vector_search_on_exi",
+  "abstract": "This paper investigates the structural invariants and asymptotic complexity bounds of Aether-Reservoir, a vector search implementation operating on existing Open/Chronos-Delta/Stratum-Glacier tables. We formalize the dimensional homogeneity invariant required for valid Euclidean distance computation and analyze the structural decomposition of the Swift implementation. Through static Abstract Syntax Tree (AST) inspection and formal proof, we verify that the system maintains strict key-ordering and dimensional consistency during insertion and query operations. We establish that the current linear-scan implementation exhibits $O(N)$ query complexity, while identifying the theoretical $O(\\log N)$ bounds achievable through balanced search tree augmentation. The analysis confirms that auxiliary memory consumption scales linearly with record count, $O(N)$. We demonstrate that the Swift type system enforces dimensional mismatch detection at runtime, preventing invalid vector operations. This work provides a rigorous baseline for evaluating vector search structures in managed memory environments, highlighting the gap between current linear implementations and theoretical logarithmic bounds. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/swift-systems-lab/tree/main/algorithms/20261118_200136_lakegres__vector_search_on_exi}."
+}
