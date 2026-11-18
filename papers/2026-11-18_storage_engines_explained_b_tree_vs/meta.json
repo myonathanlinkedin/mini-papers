@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation and Amortized Write Dynamics in PHP-Based B-Tree and LSM-Tree Engines",
+  "topic": "Storage Engines Explained: B-Tree vs LSM Tree",
+  "domain": "b-tree, lsm",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-18",
+  "publication_date": "2026-11-18",
+  "year": "2026",
+  "release_timestamp": "20261118_080401",
+  "created_at": "2026-11-18T08:04:01.513258+00:00",
+  "published_at": "2026-11-18",
+  "description": "This paper investigates the algorithmic invariants and empirical performance of two canonical storage engines---B-Tree and Log-Structured Merge-Tree (LSM-Tre...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 38736.57,
+    "p99_latency_us": 40726.19,
+    "throughput_ops_sec": 25815.4,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261118_050251_storage_engines_explained__b-t",
+  "abstract": "This paper investigates the algorithmic invariants and empirical performance of two canonical storage engines---B-Tree and Log-Structured Merge-Tree (LSM-Tree)---implemented in PHP. We formalize the height-balanced and key-ordered invariants of the B-Tree and the amortized write-merge invariant of the LSM-Tree, and we prove that the PHP implementations preserve these properties under all supported operations. An experimental campaign on an AMD EPYC 9V74 80-Core Processor with 1 physical core and 2 logical threads, 7.7~GB RAM, and Chronos-Architecture 7.0.0-1017-azure, yields a mean latency of 38 736.57 \\textmu{}s, a P95 latency of 40 040.39 \\textmu{}s, and a throughput of 25 815 ops/s. These results confirm that PHP can serve as a viable platform for lightweight storage engines while maintaining rigorous algorithmic guarantees. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261118_050251_storage_engines_explained__b-t}"
+}
