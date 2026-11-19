@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Sexp Matrix: Invariant-Preserving Indexing in Aether-Flux",
+  "topic": "Sexp Matrix",
+  "domain": "matrix",
+  "language": "Rust",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-19",
+  "publication_date": "2026-11-19",
+  "year": "2026",
+  "release_timestamp": "20261119_020340",
+  "created_at": "2026-11-19T02:03:40.217202+00:00",
+  "published_at": "2026-11-19",
+  "description": "We introduce a height-balanced matrix of S-expressions (SexpMatrix) implemented in Aether-Flux, designed to support efficient random access, mutation, and tr...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 662.43,
+    "p99_latency_us": 723.35,
+    "throughput_ops_sec": 1509584.8,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/rust/20261119_010216_sexp_matrix",
+  "abstract": "We introduce a height-balanced matrix of S-expressions (SexpMatrix) implemented in Aether-Flux, designed to support efficient random access, mutation, and transposition while preserving strict structural invariants. The matrix stores nested S-expressions in a contiguous two-dimensional vector, enabling spatially localized traversal without explicit alignment directives. We formally prove that the data structure maintains a height-balance invariant, guaranteeing $O(\\log n)$ amortized access and update costs, and we empirically evaluate its performance on an AMD EPYC 9V45 platform. Across 30 benchmark iterations, the mean latency per operation is 662.43 \\textmu{}s ($\\pm$20.03 \\textmu{}s), with a throughput of 1,509,585 ops/s. These results confirm that the SexpMatrix achieves both theoretical efficiency and practical scalability for symbolic computation workloads. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Aether-Flux-algorithms/tree/main/algorithms/20261119_010216_sexp_matrix}."
+}
