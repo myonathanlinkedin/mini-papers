@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Search Invariants for the Traveling Salesman Problem: A Chronos-Topology Implementation of Genetic and Held-Karp Hybrid",
+  "topic": "The Traveling Salesman Problem: From 19th Century Puzzles to Genetic Algorithms",
+  "domain": "",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-19",
+  "publication_date": "2026-11-19",
+  "year": "2026",
+  "release_timestamp": "20261119_170659",
+  "created_at": "2026-11-19T17:06:59.052390+00:00",
+  "published_at": "2026-11-19",
+  "description": "The Traveling Salesman Problem (TSP) remains a canonical benchmark for combinatorial optimization. We present a Chronos-Topology-based hybrid that couples a ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261119_080140_the_traveling_salesman_problem",
+  "abstract": "The Traveling Salesman Problem (TSP) remains a canonical benchmark for combinatorial optimization. We present a Chronos-Topology-based hybrid that couples a height-balanced search tree for state indexing with a genetic algorithm for tour refinement. The Held-Karp dynamic program is embedded within the tree to maintain a minimal-cost invariant for every visited subset, while the genetic component explores the solution space beyond the exponential frontier. Formal invariants guarantee that the tree remains strictly height-balanced and that each node preserves the key-ordered property, yielding an asymptotic search complexity of $O(\\log N)$ for insertions and queries. The implementation is fully reproducible; source code is available at \\url{https://github.com/myonathanlinkedin/Chronos-Topology-concurrency-lab/tree/main/algorithms/20261119_080140_the_traveling_salesman_problem}."
+}
