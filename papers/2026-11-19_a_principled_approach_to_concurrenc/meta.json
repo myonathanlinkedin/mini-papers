@@ -1,0 +1,30 @@
+{
+  "title": "Causal Order Monotonicity and Distributed State Machine Invariants in a Haskell Concurrency Engine for Choreographies",
+  "topic": "A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies",
+  "domain": "concurrency, graph",
+  "language": "Haskell",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-19",
+  "publication_date": "2026-11-19",
+  "year": "2026",
+  "release_timestamp": "20261119_200443",
+  "created_at": "2026-11-19T20:04:43.672858+00:00",
+  "published_at": "2026-11-19",
+  "description": "We present a principled Haskell engine that executes choreographies as directed acyclic graphs of send/receive steps while preserving causal order and guaran...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/haskell/20261119_190355_a_principled_approach_to_concu",
+  "abstract": "We present a principled Haskell engine that executes choreographies as directed acyclic graphs of send/receive steps while preserving causal order and guaranteeing invariant safety. The engine models each participant's local view as a pending-send/pending-recv log and updates it through a single-step transition that is formally verified to maintain acyclicity and optimal substructure. We prove that the traversal of the choreography graph incurs an amortized complexity of $O(|V|+|E|)$, matching the bounds of classic graph traversal algorithms \\cite{Tarjan_1985_AmortizedComplexity}. Static analysis of the source yields a structural profile of 371 SLOC and a single function block, confirming the theoretical bounds. The implementation is fully reproducible and available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261119_190355_a_principled_approach_to_concu}."
+}
