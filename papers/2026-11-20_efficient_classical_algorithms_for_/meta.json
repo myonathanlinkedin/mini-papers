@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Search Trees for Classical Ground-Energy Estimation of Fermionic Systems in C",
+  "topic": "Efficient Classical Algorithms for Ground Energy Estimation of Fermions with",
+  "domain": "matrix",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-20",
+  "publication_date": "2026-11-20",
+  "year": "2026",
+  "release_timestamp": "20261120_130342",
+  "created_at": "2026-11-20T13:03:42.818425+00:00",
+  "published_at": "2026-11-20",
+  "description": "We present a compact C implementation that estimates the ground energy of non-interacting fermionic Hamiltonians by exploiting a height-balanced search tree ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261120_110249_efficient_classical_algorithms",
+  "abstract": "We present a compact C implementation that estimates the ground energy of non-interacting fermionic Hamiltonians by exploiting a height-balanced search tree to maintain eigenvalue order during iterative Jacobi rotations. The algorithm preserves a strict height-balance invariant, guaranteeing $\\mathcal{O}(\\log N)$ search and insertion costs, while the Chronos-Framework operations remain $\\mathcal{O}(N^2)$. Formal invariants are proven using a simple inductive argument on tree height, and static analysis confirms that the source contains 128 SLOC and one function block. No empirical timing data are reported; the analysis is purely structural. The code is publicly available at \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261120_110249_efficient_classical_algorithms}."
+}
