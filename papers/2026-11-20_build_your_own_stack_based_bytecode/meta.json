@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Dispatch and Stack Invariants in a C-Based Stack-Based Bytecode Virtual Machine",
+  "topic": "Build Your Own Stack-Based Bytecode Virtual Machine in C",
+  "domain": "concurrency",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-20",
+  "publication_date": "2026-11-20",
+  "year": "2026",
+  "release_timestamp": "20261120_010429",
+  "created_at": "2026-11-20T01:04:29.555054+00:00",
+  "published_at": "2026-11-20",
+  "description": "We present a compact, formally analyzable stack-based bytecode virtual machine (VM) implemented in C. The VM employs a height-balanced binary search tree to ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261119_170533_build_your_own_stack-based_byt",
+  "abstract": "We present a compact, formally analyzable stack-based bytecode virtual machine (VM) implemented in C. The VM employs a height-balanced binary search tree to index opcode handlers, guaranteeing $O(\\log M)$ dispatch time for $M$ distinct opcodes, while stack operations remain $O(1)$. We prove that the stack depth never exceeds the allocated capacity and that the tree height satisfies the classic red-black bound. Static abstract syntax tree inspection confirms a structural complexity of 186 source lines and a single function block, with an auxiliary memory footprint of $O(N)$. The design is fully reproducible; source code is available at \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261119_170533_build_your_own_stack-based_byt}."
+}
