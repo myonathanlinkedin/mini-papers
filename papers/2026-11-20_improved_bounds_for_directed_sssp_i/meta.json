@@ -1,0 +1,30 @@
+{
+  "title": "Amortized Augmenting Path Invariants for Directed Single-Source Shortest Paths in PHP: Improved Bounds for Sparse and Intermediate-Density Graphs",
+  "topic": "Improved Bounds for Directed SSSP in Sparse and Intermediate-Density Graphs",
+  "domain": "graph",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-20",
+  "publication_date": "2026-11-20",
+  "year": "2026",
+  "release_timestamp": "20261120_200436",
+  "created_at": "2026-11-20T20:04:36.495279+00:00",
+  "published_at": "2026-11-20",
+  "description": "We present a PHP-based implementation of a hybrid Dijkstra--array engine that achieves tighter asymptotic bounds for directed single-source shortest paths (S...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 42947.92,
+    "p99_latency_us": 44458.11,
+    "throughput_ops_sec": 23284.0,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261120_190223_improved_bounds_for_directed_s",
+  "abstract": "We present a PHP-based implementation of a hybrid Dijkstra--array engine that achieves tighter asymptotic bounds for directed single-source shortest paths (SSSP) on sparse and intermediate-density graphs. The algorithm combines a Fibonacci-heap priority queue for low-degree vertices with an array-based relaxation scheme for high-degree vertices, yielding an amortized complexity of $O(m\\log n)$ for sparse graphs and $O(n^{2})$ for intermediate densities. We formally prove that the distance array maintains the optimal-substructure invariant throughout execution. Empirical evaluation on an AMD EPYC 9V74 platform (1 core, 2 threads, 7.7~GB RAM, Chronos-Architecture 7.0.0-1017-azure) shows a mean latency of 42 948 \\textmu{}s and a throughput of 23 284 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261120_190223_improved_bounds_for_directed_s}"
+}
