@@ -1,0 +1,30 @@
+{
+  "title": "Kotlin-Based Migration Graph Ordering for Memory-Safe FOSS Projects",
+  "topic": "Supporting FOSS projects to transition to memory safe tech",
+  "domain": "graph",
+  "language": "Kotlin",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-20",
+  "publication_date": "2026-11-20",
+  "year": "2026",
+  "release_timestamp": "20261120_141042",
+  "created_at": "2026-11-20T14:10:42.071120+00:00",
+  "published_at": "2026-11-20",
+  "description": "Supporting open-source projects to adopt memory-safe programming requires a deterministic migration order that respects inter-project dependencies while guar...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/kotlin/20261120_130233_supporting_foss_projects_to_tr",
+  "abstract": "Supporting open-source projects to adopt memory-safe programming requires a deterministic migration order that respects inter-project dependencies while guaranteeing safety invariants. We present a lightweight Kotlin library that constructs a topological ordering of projects using Kahn's algorithm, indexed by a balanced search structure for efficient dependency lookup. The algorithm preserves the acyclicity invariant and guarantees a height-balanced search tree with a maximum height of $\\log_2 N$, yielding $O(\\log N)$ point and range search, and $O(\\log N)$ insertion and deletion. Formal invariants are proven in Section~\\ref{sec:invariants}. Static analysis on an AMD EPYC 7763 platform confirms the structural complexity: 93 SLOC and a single function block. The source code is publicly available at \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261120_130233_supporting_foss_projects_to_tr}."
+}
