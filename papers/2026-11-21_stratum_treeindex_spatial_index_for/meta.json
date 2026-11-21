@@ -1,5 +1,5 @@
 {
-  "title": "Chronos-TreeIndex: Height-Balanced Spatial Index for Multidimensional Bounding Boxes",
+  "title": "Stratum-TreeIndex: Height-Balanced Spatial Index for Multidimensional Bounding Boxes",
   "topic": "Stratum-TreeIndex Spatial Index for Multidimensional Bounding Boxes",
   "domain": "concurrency",
   "language": "C++",
@@ -12,7 +12,7 @@
   "release_timestamp": "20261121_200327",
   "created_at": "2026-11-21T20:03:27.389762+00:00",
   "published_at": "2026-11-21",
-  "description": "We present Chronos-TreeIndex, a height-balanced spatial index that extends the classic Chronos-TreeIndex architecture with deterministic node-splitting and e...",
+  "description": "We present Stratum-TreeIndex, a height-balanced spatial index that extends the classic R-Tree architecture with deterministic node-splitting and explicit MBR maintenance...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
@@ -26,5 +26,5 @@
     "host_ram_gb": 7.6
   },
   "folder": ".ephemeral_buffer/algorithms/cpp/20261121_170112_stratum-treeindex_spatial_inde",
-  "abstract": "We present Chronos-TreeIndex, a height-balanced spatial index that extends the classic Chronos-TreeIndex architecture with deterministic node-splitting and explicit MBR maintenance to guarantee logarithmic query and insertion costs for arbitrary-dimensional bounding boxes. The design preserves a strict height-balance invariant and a key-ordered child ordering, enabling worst-case $O(\\log N)$ point and range queries and $O(\\log N)$ insertions. We formally prove the invariants and provide an AST-based complexity profile that confirms the theoretical bounds. The implementation is in modern C++ and is publicly available at \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261121_170112_stratum-treeindex_spatial_inde}. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261121_170112_stratum-treeindex_spatial_inde}"
+  "abstract": "We present Stratum-TreeIndex, a height-balanced spatial index that extends the classic R-Tree architecture with deterministic node-splitting and explicit MBR maintenance to guarantee logarithmic query and insertion costs for arbitrary-dimensional bounding boxes. The design preserves a strict height-balance invariant and a key-ordered child ordering, enabling worst-case $O(\\log N)$ point and range queries and $O(\\log N)$ insertions. We formally prove the invariants and provide an AST-based complexity profile that confirms the theoretical bounds. The implementation is in modern C++ and is publicly available at \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261121_170112_stratum-treeindex_spatial_inde}."
 }
