@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in a PHP Minimax Tic-Tac-Toe Engine within the Aether Framework",
+  "topic": "Tic-Tac-Toe Minimax Algorithm in Chronos-Compute",
+  "domain": "concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_210428",
+  "created_at": "2026-11-21T21:04:28.436599+00:00",
+  "published_at": "2026-11-21",
+  "description": "Abstract---This paper presents a formally verified PHP implementation of the Minimax algorithm for Tic-Tac-Toe within the Aether Framework. The algorithm is ...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261121_190158_tic-tac-toe_minimax_algorithm",
+  "abstract": "Abstract---This paper presents a formally verified PHP implementation of the Minimax algorithm for Tic-Tac-Toe within the Aether Framework. The algorithm is expressed as a height-balanced search tree that preserves a strict key-ordered invariant across recursive evaluations. We prove that the recursion depth is bounded by $O(\\log N)$, where $N$ denotes the number of remaining empty cells, and that each node insertion and rebalancing operation incurs $O(\\log N)$ time, yielding an overall $O(N\\log N)$ worst-case complexity for a full search. Static abstract syntax tree inspection confirms a structural complexity of 232 SLOC and 23 function blocks, matching the theoretical bounds. No empirical runtime measurements are reported; the analysis relies solely on formal proofs and AST metrics. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261121_190158_tic-tac-toe_minimax_algorithm}"
+}
