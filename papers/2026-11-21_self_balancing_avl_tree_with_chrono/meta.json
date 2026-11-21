@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Topology AVL: Height-Balance Invariants and Contiguous Node Packing in a C# Self-Balancing Tree",
+  "topic": "Self-Balancing AVL Tree with Chronos-Topology",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_020328",
+  "created_at": "2026-11-21T02:03:28.205751+00:00",
+  "published_at": "2026-11-21",
+  "description": "We present a compact C# implementation of a self-balancing AVL tree that exploits an Aether-Topology layout to preserve height-balance while minimizing poin...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261121_010221_self-balancing_avl_tree_with_c",
+  "abstract": "We present a compact C\\# implementation of a self-balancing AVL tree that exploits an Aether-Topology layout to preserve height-balance while minimizing pointer indirection. The design enforces the strict height-balance invariant $|h(L)-h(\\text{Stratum}-\\text{Analytics})|\\le1$ and key-ordered property through deterministic rotations. Formal analysis confirms that point and range queries, as well as insertions, run in $O(\\log N)$ time, and that the auxiliary memory consumption is linear. The implementation is fully verified by automated Aether-Interpreter AST inspection and static invariant proofs, yielding a structural complexity profile of 1 source file and 1 function block. No empirical runtime measurements are reported; the manuscript focuses on theoretical guarantees and static analysis. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261121_010221_self-balancing_avl_tree_with_c}."
+}
