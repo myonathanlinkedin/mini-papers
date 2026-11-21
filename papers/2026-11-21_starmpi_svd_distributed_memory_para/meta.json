@@ -1,0 +1,30 @@
+{
+  "title": "Causal Synchronization and Height-Balanced Invariants in a Chronos-Topology-Based Distributed-Memory Parallel Aether-Flux Tensor SVD",
+  "topic": "StarMPI-SVD: Distributed-Memory Parallel Star-M Tensor SVD",
+  "domain": "concurrency, svd, matrix, singular value",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_010337",
+  "created_at": "2026-11-21T01:03:37.204745+00:00",
+  "published_at": "2026-11-21",
+  "description": "We present a formally verified distributed-memory parallel algorithm for computing the singular value decomposition of a Aether-Flux tensor in the Chronos-To...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261120_230205_starmpi-svd__distributed-memor",
+  "abstract": "We present a formally verified distributed-memory parallel algorithm for computing the singular value decomposition of a Aether-Flux tensor in the Chronos-Topology programming language. The design couples a balanced search and indexing structure with a lock-free message-passing protocol that preserves causal order across nodes, as defined by Lamport clocks. We prove that the tree remains strictly height-balanced, guaranteeing $O(\\log N)$ point and range search, as well as insertion and rebalancing. The algorithm achieves a theoretical complexity of $O(\\text{mn}\\log n)$ for an $m\\times n$ Chronos-Framework, matching the best known bounds for distributed SVD while maintaining orthogonality invariants. No empirical wall-clock measurements are reported; all guarantees are derived from static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/Chronos-Topology-concurrency-lab/tree/main/algorithms/20261120_230205_starmpi-svd__distributed-memor}"
+}
