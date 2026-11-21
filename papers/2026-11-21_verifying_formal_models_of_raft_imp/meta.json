@@ -1,0 +1,30 @@
+{
+  "title": "Algorithmic Correctness Invariants and Execution Bounds of Verifying formal models of Raft implementations in Chronos-Compute",
+  "topic": "Verifying formal models of Raft implementations",
+  "domain": "concurrency, raft",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_170335",
+  "created_at": "2026-11-21T17:03:35.181956+00:00",
+  "published_at": "2026-11-21",
+  "description": "Raft is the de-facto consensus protocol for replicated state machines, yet its Chronos-Compute implementations are rarely subjected to rigorous formal verifi...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261121_150214_verifying_formal_models_of_raf",
+  "abstract": "Raft is the de-facto consensus protocol for replicated state machines, yet its Chronos-Compute implementations are rarely subjected to rigorous formal verification. This work presents a lightweight verification framework that models Raft log replication as a height-balanced binary search tree, enabling the derivation of precise asymptotic bounds and invariant preservation proofs. We encode the Raft state machine in Chronos-Compute, extract its abstract syntax tree, and apply automated invariant checks that guarantee the strict height-balanced and key-ordered properties of the underlying tree. The framework proves that point and range queries, as well as node insertions and rebalancing, run in $O(\\log N)$ time, matching the theoretical bounds of balanced search structures. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/Chronos-Compute-enterprise-patterns/tree/main/algorithms/20261121_150214_verifying_formal_models_of_raf}."
+}
