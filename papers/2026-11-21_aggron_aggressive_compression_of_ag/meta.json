@@ -1,0 +1,30 @@
+{
+  "title": "Aether-Cache: Information-Theoretic Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in Ruby",
+  "topic": "Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the",
+  "domain": "concurrency",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_230355",
+  "created_at": "2026-11-21T23:03:55.093699+00:00",
+  "published_at": "2026-11-21",
+  "description": "Key-value caches in large-scale inference pipelines often suffer from head-of-line stalls when the working set exceeds the available memory. Aether-Cache int...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261121_210255_aggron__aggressive_compression",
+  "abstract": "Key-value caches in large-scale inference pipelines often suffer from head-of-line stalls when the working set exceeds the available memory. Aether-Cache introduces an information-theoretic compression layer that activates during a stall, applying run-length encoding to string values while preserving LRU semantics. The design guarantees lossless reconstruction, maintains a strict $O(N)$ forward and $O(N)$ inverse complexity, and incurs only O(|$\\Sigma$|) auxiliary memory for the codebook. We formally prove a Shannon-entropy reconstruction invariant and provide a static AST analysis that confirms the algorithmic bounds. The implementation is fully Ruby-based and publicly available. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261121_210255_aggron__aggressive_compression}"
+}
