@@ -1,0 +1,30 @@
+{
+  "title": "TLB-Aware Balanced Search Trees: Effective Memory Access Time Analysis in C",
+  "topic": "The Cost of Virtual Memory: TLBs and Effective Memory Access Time",
+  "domain": "concurrency",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-21",
+  "publication_date": "2026-11-21",
+  "year": "2026",
+  "release_timestamp": "20261121_090320",
+  "created_at": "2026-11-21T09:03:20.868380+00:00",
+  "published_at": "2026-11-21",
+  "description": "Virtual memory systems rely on Translation Lookaside Buffers (TLBs) to amortize page table walks, yet the cost of TLB misses remains a critical bottleneck fo...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 798.55,
+    "p99_latency_us": 2076.77,
+    "throughput_ops_sec": 1252264.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261121_050215_the_cost_of_virtual_memory__tl",
+  "abstract": "Virtual memory systems rely on Translation Lookaside Buffers (TLBs) to amortize page table walks, yet the cost of TLB misses remains a critical bottleneck for search-heavy workloads. This paper presents a lightweight C implementation that analytically models Effective Memory Access Time (EAT) for balanced search trees, incorporating TLB hit rates and page-fault overheads. We validate the model against a micro-benchmark executed on an AMD EPYC 7763 processor, achieving a mean latency of 798.55 \\textmu{}s and a throughput of 1,252,264 ops/s over 30 iterations. The results confirm that the EAT formula accurately predicts observed latencies across a range of TLB hit rates. Source Code: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261121_050215_the_cost_of_virtual_memory__tl}"
+}
