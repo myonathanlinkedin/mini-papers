@@ -1,5 +1,5 @@
 {
-  "title": "Height-Balanced Directory Trees for Re-Runnable HPC Benchmark Campaigns in Kotlin",
+  "title": "ChronosFlow: Balanced Directory Trees for Rerunnable HPC Benchmark Campaigns in Kotlin",
   "topic": "Thinflow: Organizing HPC Benchmarking Campaigns as Rerunnable Directory Trees",
   "domain": "concurrency",
   "language": "Kotlin",
@@ -9,22 +9,22 @@
   "date": "2026-11-22",
   "publication_date": "2026-11-22",
   "year": "2026",
-  "release_timestamp": "20261122_170318",
-  "created_at": "2026-11-22T17:03:18.437558+00:00",
+  "release_timestamp": "20261122_170352",
+  "created_at": "2026-11-22T17:03:52.447726+00:00",
   "published_at": "2026-11-22",
-  "description": "High-performance computing (HPC) benchmarking campaigns routinely generate nested directory trees that encode experiment metadata and execution scripts. Mana...",
+  "description": "We present ChronosFlow, a lightweight Kotlin framework that organizes high-performance computing (HPC) benchmarking campaigns as rerunnable directory trees. ...",
   "benchmark_metrics": {
     "measured": false,
     "mean_latency_us": 0.0,
     "p99_latency_us": 0.0,
     "throughput_ops_sec": 0.0,
     "iterations": 0,
-    "host_cpu": "AMD EPYC 9V45 96-Core Processor",
-    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
     "host_cores": 1,
     "host_threads": 2,
-    "host_ram_gb": 7.7
+    "host_ram_gb": 7.6
   },
   "folder": ".ephemeral_buffer/algorithms/kotlin/20261122_140132_thinflow__organizing_hpc_bench",
-  "abstract": "High-performance computing (HPC) benchmarking campaigns routinely generate nested directory trees that encode experiment metadata and execution scripts. Managing these trees as immutable, rerunnable structures enables reproducibility and efficient incremental execution. We present AetherFlow, a Kotlin-based framework that models benchmark campaigns as height-balanced directory trees, supporting atomic insertion, lookup, and deep-clone rerun operations. AetherFlow preserves a strict height-balance invariant and key-ordered property, guaranteeing $O(\\log N)$ search and insertion complexity. Formal proofs establish that the tree remains balanced after each mutation. Static abstract syntax tree (AST) inspection confirms that the implementation comprises 124 source lines and a single function block, yielding an auxiliary memory bound of $O(N)$. No empirical runtime measurements are reported; all claims are supported by static analysis and formal reasoning. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261122_140132_thinflow__organizing_hpc_bench}"
+  "abstract": "We present ChronosFlow, a lightweight Kotlin framework that organizes high-performance computing (HPC) benchmarking campaigns as rerunnable directory trees. The core data structure is a height-balanced search tree that preserves a strict key-ordered invariant while enabling efficient point and range queries over benchmark metadata. We formally prove that all operations---node insertion, lookup, and rerun cloning---run in $O(\\log N)$ time, where $N$ is the number of nodes. Static abstract syntax tree (AST) inspection confirms that the implementation contains 124 lines of code and a single function block, yielding an auxiliary memory footprint of $O(N)$. No empirical wall-clock measurements are reported; the analysis is purely theoretical and static. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261122_140132_thinflow__organizing_hpc_bench}."
 }

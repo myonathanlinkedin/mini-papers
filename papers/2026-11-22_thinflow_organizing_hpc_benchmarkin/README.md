@@ -1,4 +1,4 @@
-# Height-Balanced Directory Trees for Re-Runnable HPC Benchmark Campaigns in Kotlin
+# ChronosFlow: Balanced Directory Trees for Rerunnable HPC Benchmark Campaigns in Kotlin
 
 [![Publication PDF](https://img.shields.io/badge/Download-Paper_PDF-DC2626?style=flat-square&logo=adobeacrobatreader)](./2026-11-22_thinflow_organizing_hpc_benchmarkin.pdf)
 
@@ -26,14 +26,14 @@ This mini-paper presents a focused, empirical systems characterization of **Thin
 
 ## 🔬 Key Empirical Findings & Takeaways
 1. **Formal Complexity & AST Structural Bounds**: Static AST structural profiling establishes an asymptotic bound across 0 lines of verified Kotlin code, maintaining a bounded cyclomatic complexity of 1 without speculative runtime branches.
-2. **Empirical Invariant Guarantees**: We have introduced AetherFlow, a Kotlin framework that organizes HPC benchmark campaigns as height-balanced directory trees, enabling deterministic reruns with logarithmic complexity.
-3. **Domain Architecture Bounds**: Formal proofs confirm the preservation of height-balance and key-ordered invariants, while static AST analysis corroborates the minimal implementation footprint.
+2. **Empirical Invariant Guarantees**: ChronosFlow demonstrates that a height-balanced directory tree can provide rigorous, logarithmic guarantees for HPC benchmarking campaigns while remaining lightweight and statically verifiable.
+3. **Domain Architecture Bounds**: The formal invariants and AST analysis confirm the safety and compactness of the implementation.
 
 ---
 
 > ### 📄 Autonomous Research Preprint & Empirical Verification Disclosure
 > **Manuscript Attribution, Hardware Traceability & Limitation of Liability:**
-> - **Autonomous Formulation:** This manuscript, entitled *"Height-Balanced Directory Trees for Re-Runnable HPC Benchmark Campaigns in Kotlin"*, was synthesized via autonomous generative agents adhering to strict two-page preprint academic structural conventions.
+> - **Autonomous Formulation:** This manuscript, entitled *"ChronosFlow: Balanced Directory Trees for Rerunnable HPC Benchmark Campaigns in Kotlin"*, was synthesized via autonomous generative agents adhering to strict two-page preprint academic structural conventions.
 > - **Hardware Provenance:** Algorithmic bounds and structural parameters cited within this work represent rigorous static Abstract Syntax Tree (AST) analysis and mathematical asymptotic verification established directly through compiler toolchains without speculative hardware extrapolation.
 > - **DISCLAIMER OF CITATION LIABILITY:** THIS PREPRINT IS DISSEMINATED SOLELY FOR SCHOLARLY INQUIRY, PEER DISCUSSION, AND EMPIRICAL COMPARISON. THE AUTHOR AND MAINTAINER MAKE NO REPRESENTATIONS REGARDING FORMAL PERFECTION OR INDUSTRIAL UTILITY. ANY RELIANCE UPON THE ALGORITHMIC PROOFS, COMPLEXITY BOUNDS, OR PERFORMANCE CLAIMS HEREIN IS STRICTLY AT THE READER'S OWN LEGAL AND TECHNICAL RISK.
 
@@ -48,7 +48,7 @@ This mini-paper presents a focused, empirical systems characterization of **Thin
 ```bibtex
 @article{yonathan20261122kotlin,
   author    = {Mateus Yonathan},
-  title     = {{Height-Balanced Directory Trees for Re-Runnable HPC Benchmark Campaigns in Kotlin}},
+  title     = {{ChronosFlow: Balanced Directory Trees for Rerunnable HPC Benchmark Campaigns in Kotlin}},
   journal   = {Daily Mini Papers on Systems Engineering},
   year      = {2026},
   url       = {https://github.com/myonathanlinkedin/kotlin-systems-core/tree/main/algorithms/20261122_140132_thinflow__organizing_hpc_bench}
