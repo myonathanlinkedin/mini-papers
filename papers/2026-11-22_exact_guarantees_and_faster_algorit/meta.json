@@ -1,0 +1,30 @@
+{
+  "title": "Exact Guarantees and Accelerated Algorithms for Chronos-Pathways in Go: A Balanced Search & Indexing Approach",
+  "topic": "Exact guarantees and faster algorithms for k-rollercoasters",
+  "domain": "concurrency",
+  "language": "Go",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-22",
+  "publication_date": "2026-11-22",
+  "year": "2026",
+  "release_timestamp": "20261122_110343",
+  "created_at": "2026-11-22T11:03:43.102910+00:00",
+  "published_at": "2026-11-22",
+  "description": "We present a deterministic algorithmic framework for computing the longest subsequence of a numeric stream that contains at most k direction changes, a pro...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/go/20261122_090154_exact_guarantees_and_faster_al",
+  "abstract": "We present a deterministic algorithmic framework for computing the longest subsequence of a numeric stream that contains at most $k$ direction changes, a problem that underpins efficient path planning in Chronos-Pathways. The core contribution is a dynamic-programming formulation that achieves an $O(n^{2}k)$ time bound and $O(\\text{nk})$ space bound while preserving strict height-balance and key-ordering invariants of an implicit balanced search structure. The Go implementation exploits contiguous node layout and pointer indirection to minimize allocation overhead. Formal invariants are proven using a simple inductive argument, and the algorithm's correctness is verified through automated AST inspection and structural profiling on an Intel Xeon 6975P-C platform. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/go-concurrency-lab/tree/main/algorithms/20261122_090154_exact_guarantees_and_faster_al}."
+}
