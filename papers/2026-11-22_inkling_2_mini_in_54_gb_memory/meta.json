@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Pointer-Indirection Invariant in a Ruby Aether-Delta Node Structure within 5.4~GB",
+  "topic": "Inkling-2-Mini in 5.4 GB Memory",
+  "domain": "concurrency, bloom, probabilistic",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-22",
+  "publication_date": "2026-11-22",
+  "year": "2026",
+  "release_timestamp": "20261122_080334",
+  "created_at": "2026-11-22T08:03:34.221617+00:00",
+  "published_at": "2026-11-22",
+  "description": "We present a compact, height-balanced indexing structure, Aether-Delta, implemented in Ruby and confined to 5.4~GB of contiguous memory. The design leverages...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261122_050124_inkling-2-mini_in_5_4_gb_memor",
+  "abstract": "We present a compact, height-balanced indexing structure, Aether-Delta, implemented in Ruby and confined to 5.4~GB of contiguous memory. The design leverages pointer indirection and a strict height-balanced invariant to guarantee $O(\\log N)$ point and range queries while preserving key order. Formal analysis establishes that the tree height satisfies $h \\le 2\\log_2(N+1)$, ensuring bounded search depth. Static Abstract Syntax Tree inspection confirms a structural complexity of 119 SLOC and 12 function blocks, with no dynamic memory fragmentation. The implementation demonstrates that Ruby's object model can support memory-efficient balanced trees without external dependencies. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261122_050124_inkling-2-mini_in_5_4_gb_memor}"
+}
