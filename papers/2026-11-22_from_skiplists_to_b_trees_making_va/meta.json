@@ -1,0 +1,30 @@
+{
+  "title": "From Skiplists to B+ Trees: A Memory-Efficient Sorted Set for PHP",
+  "topic": "From Skiplists to B+ Trees: Making Valkey Sorted Sets More Memory Efficient",
+  "domain": "concurrency",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-22",
+  "publication_date": "2026-11-22",
+  "year": "2026",
+  "release_timestamp": "20261122_050329",
+  "created_at": "2026-11-22T05:03:29.215212+00:00",
+  "published_at": "2026-11-22",
+  "description": "We present a PHP implementation that transforms a skiplist-based sorted set into a B+ tree, achieving superior memory locality while preserving logarithmic s...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 29806.22,
+    "p99_latency_us": 31110.91,
+    "throughput_ops_sec": 33550.0,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261122_030234_from_skiplists_to_b__trees__ma",
+  "abstract": "We present a PHP implementation that transforms a skiplist-based sorted set into a B+ tree, achieving superior memory locality while preserving logarithmic search, insertion, and deletion costs. The design retains the skiplist's simplicity but reorganizes nodes into a height-balanced B+ tree with leaf linkage for efficient range queries. Formal invariants guarantee that all leaves reside at the same depth and that each internal node contains between $\\lceil m/2 \\rceil$  and m children, where m is the order. Empirical evaluation on an Intel(R) Xeon(R) 6975P-C single-core Linux host yields a mean latency of 29 806 \\textmu{}s and a throughput of 33 550 ops/s for 30 benchmark iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261122_030234_from_skiplists_to_b__trees__ma}."
+}
