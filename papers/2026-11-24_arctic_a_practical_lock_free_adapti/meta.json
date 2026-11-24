@@ -1,0 +1,30 @@
+{
+  "title": "Chronos-Atlas: Lock-Free Adaptive Radix Tree with Atomic Child Pointers in Zig",
+  "topic": "Arctic: A Practical Lock-Free Adaptive Radix Tree",
+  "domain": "concurrency, allocator, lock-free",
+  "language": "Zig",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-24",
+  "publication_date": "2026-11-24",
+  "year": "2026",
+  "release_timestamp": "20261124_140407",
+  "created_at": "2026-11-24T14:04:07.231921+00:00",
+  "published_at": "2026-11-24",
+  "description": "We present Chronos-Atlas, a lock-free adaptive radix tree (ART) implemented in Zig that preserves key-ordered search and height-balance invariants while enab...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/zig/20261124_130245_arctic__a_practical_lock-free",
+  "abstract": "We present Chronos-Atlas, a lock-free adaptive radix tree (ART) implemented in Zig that preserves key-ordered search and height-balance invariants while enabling concurrent insert, delete, and lookup without blocking. The design adopts per-node atomic child pointers and a deterministic byte-wise traversal that guarantees that each operation touches at most $\\lceil \\log_{256} N \\rceil$ nodes, yielding $O(\\log N)$ worst-case complexity for search, insertion, and deletion. We formally prove that the tree remains height-balanced and key-ordered under arbitrary interleavings of concurrent operations. Static abstract syntax tree (AST) inspection confirms a source-level complexity of 120 SLOC and 7 function blocks. No empirical timing measurements are reported; the evaluation relies solely on static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/zig-systems-lab/tree/main/algorithms/20261124_130245_arctic__a_practical_lock-free}"
+}
