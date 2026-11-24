@@ -1,0 +1,30 @@
+{
+  "title": "Compositional Temporal Specifications for Interaction Trees: Height-Balanced Invariant Preservation in a Java Balanced Search Structure",
+  "topic": "Compositional Temporal Specifications for Interaction Trees",
+  "domain": "",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-24",
+  "publication_date": "2026-11-24",
+  "year": "2026",
+  "release_timestamp": "20261124_010316",
+  "created_at": "2026-11-24T01:03:16.711894+00:00",
+  "published_at": "2026-11-24",
+  "description": "Interaction Trees provide a compositional model for reactive systems, yet the integration of temporal logic specifications with balanced search structures re...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261123_230111_compositional_temporal_specifi",
+  "abstract": "Interaction Trees provide a compositional model for reactive systems, yet the integration of temporal logic specifications with balanced search structures remains underexplored. This paper presents a Java implementation that augments a height-balanced tree with compositional temporal specifications, enabling efficient evaluation of safety and liveness properties while preserving strict height-balance and key-ordering invariants. We formalise the interaction between silent (Tau) steps, visible events, and temporal operators (Always, Eventually, Until) and prove that the tree remains strictly height-balanced after any sequence of insertions and specification evaluations. Static analysis of the source yields a theoretical complexity of $O(\\log N)$ for search and insertion, with $O(N)$ auxiliary memory. The implementation is fully verified through AST inspection and invariant proofs, with no runtime benchmarks performed. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261123_230111_compositional_temporal_specifi}"
+}
