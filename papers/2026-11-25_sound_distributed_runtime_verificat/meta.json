@@ -1,0 +1,30 @@
+{
+  "title": "Sound Distributed Runtime Verification with Incomplete Evidence: A Balanced Search Indexing Approach",
+  "topic": "Sound Distributed Runtime Verification under Incomplete Evidence",
+  "domain": "",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_230315",
+  "created_at": "2026-11-25T23:03:15.706502+00:00",
+  "published_at": "2026-11-25",
+  "description": "Distributed systems frequently emit partial event streams, making runtime verification of safety properties challenging. We present a Java-based verification...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1018-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261125_170139_sound_distributed_runtime_veri",
+  "abstract": "Distributed systems frequently emit partial event streams, making runtime verification of safety properties challenging. We present a Java-based verification engine that aggregates events into a height-balanced binary search tree, enabling sound inference of property satisfaction even when evidence is incomplete. The engine guarantees that each insertion or query executes in $O(\\log N)$ time, where $N$ is the number of distinct predicates observed, and that the tree remains strictly height-balanced and key-ordered. Formal invariants are proven using a structural induction over the tree nodes, and static analysis confirms the absence of race conditions in the event-processing pipeline. The implementation is fully open-source and available at \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261125_170139_sound_distributed_runtime_veri}. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261125_170139_sound_distributed_runtime_veri}"
+}
