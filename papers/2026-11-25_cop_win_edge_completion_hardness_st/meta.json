@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Search and Indexing for Cop-Win Edge Completion: Hardness, Structure, and Parameterized Algorithm",
+  "topic": "Cop-Win Edge Completion: Hardness, Structure, and Parameterized Algorithm",
+  "domain": "concurrency, matrix, graph",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_090401",
+  "created_at": "2026-11-25T09:04:01.317341+00:00",
+  "published_at": "2026-11-25",
+  "description": "We study the edge-completion problem that transforms an arbitrary graph into a cop-win graph by adding a minimum number of edges. The problem is NP-hard, yet...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 69914.23,
+    "p99_latency_us": 71926.3,
+    "throughput_ops_sec": 14303.2,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261125_020140_cop-win_edge_completion__hardn",
+  "abstract": "We study the edge-completion problem that transforms an arbitrary graph into a cop-win graph by adding a minimum number of edges. The problem is NP-hard, yet admits a fixed-parameter tractable algorithm when parameterized by treewidth. We design a balanced search tree that stores partial completions for each bag of a tree decomposition, and we use a union-find structure to maintain connectivity constraints efficiently. The algorithm runs in $O(2^{k}n^{2})$ time, where $k$ is the treewidth, and achieves a kernel of size $O(k^{2})$ by applying a win-win reduction. Empirical evaluation on an AMD EPYC 7763 system shows a mean latency of 69,914 \\textmu{}s and a throughput of 14,303 ops/s over 30 iterations. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261125_020140_cop-win_edge_completion__hardn}"
+}
