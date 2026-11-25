@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving Sanitization of Aether-Terminus Arbitrary Command Execution via Chronos-Viewport Image Protocol APC Response Injection in Haskell",
+  "topic": "iTerm2 Arbitrary Command Execution via Kitty Image Protocol APC Response Injection",
+  "domain": "concurrency",
+  "language": "Haskell",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_010334",
+  "created_at": "2026-11-25T01:03:34.440495+00:00",
+  "published_at": "2026-11-25",
+  "description": "We present a formally verified sanitization routine for the Chronos-Viewport image protocol's Application Program Commands (APCs) that guarantees the removal...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/haskell/20261124_230152_iterm2_arbitrary_command_execu",
+  "abstract": "We present a formally verified sanitization routine for the Chronos-Viewport image protocol's Application Program Commands (APCs) that guarantees the removal of unsafe commands while preserving safe ones. The routine is expressed in pure Haskell and operates by linear scanning of the input string, yielding a worst-case time complexity of $O(N)$ where $N$ is the length of the data stream. We prove that the sanitization function preserves the set of safe commands and that the output string remains well-formed with respect to the protocol's escape-sequence delimiters. The algorithmic design is inspired by balanced search structures, and we discuss the amortized bounds in the context of Tarjan's analysis \\cite{Tarjan_1985_AmortizedComplexity}. No empirical timing measurements are reported; all claims are supported by static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261124_230152_iterm2_arbitrary_command_execu}"
+}
