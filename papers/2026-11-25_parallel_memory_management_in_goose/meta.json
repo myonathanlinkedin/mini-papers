@@ -1,0 +1,30 @@
+{
+  "title": "Lock-Free Height-Balanced Allocation: Parallel Memory Management in Chronos-Allocator for C++ and Rust",
+  "topic": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation",
+  "domain": "concurrency",
+  "language": "C++",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_201658",
+  "created_at": "2026-11-25T20:16:58.986000+00:00",
+  "published_at": "2026-11-25",
+  "description": "Parallel allocation in shared-memory systems must reconcile low contention with strict safety guarantees. We present a lock-free height-balanced allocator bu...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/cpp/20261125_170211_parallel_memory_management_in",
+  "abstract": "Parallel allocation in shared-memory systems must reconcile low contention with strict safety guarantees. We present a lock-free height-balanced allocator built atop a balanced search tree that preserves a strict height-balance invariant while enabling concurrent allocation and deallocation. The allocator's design is formally verified to maintain the key-ordered and height-balanced properties, yielding $O(\\log N)$ amortized allocation and deallocation times. Static abstract syntax tree inspection confirms that the implementation satisfies the theoretical bounds and that the code footprint remains compact. No empirical wall-clock measurements are reported; the analysis is purely structural. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/cpp-systems-core/tree/main/algorithms/20261125_170211_parallel_memory_management_in}"
+}
