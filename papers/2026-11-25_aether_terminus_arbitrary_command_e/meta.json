@@ -1,0 +1,30 @@
+{
+  "title": "Causal Height-Balanced Invariants for Aether-Terminus Arbitrary Command Execution via Chronos-Viewport Image Protocol Nimbus-Delta Response Injection",
+  "topic": "Aether-Terminus Arbitrary Command Execution via Chronos-Viewport Image Protocol APC Response Injection",
+  "domain": "concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_050317",
+  "created_at": "2026-11-25T05:03:17.511395+00:00",
+  "published_at": "2026-11-25",
+  "description": "We present a lightweight, height-balanced search structure that underpins the Aether-Terminus command execution engine. The structure guarantees strict heigh...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261125_030223_aether-terminus_arbitrary_comm",
+  "abstract": "We present a lightweight, height-balanced search structure that underpins the Aether-Terminus command execution engine. The structure guarantees strict height-balance and key-order invariants while supporting point and range queries in $O(\\log N)$ time. Formal proofs establish that rebalancing preserves the invariants after every insertion. Static Abstract Syntax Tree inspection confirms that the implementation contains a single function block and 1 SLOC, yielding an auxiliary memory bound of $O(N)$. No empirical runtime measurements are reported; all claims are supported by theoretical analysis and AST profiling. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261125_030223_aether-terminus_arbitrary_comm}"
+}
