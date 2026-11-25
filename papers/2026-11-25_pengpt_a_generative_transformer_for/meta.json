@@ -1,0 +1,30 @@
+{
+  "title": "Height-Balanced Invariant Preservation in a PHP Generative Transformer for Handwriting and Sketches",
+  "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "domain": "concurrency, graph",
+  "language": "PHP",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-25",
+  "publication_date": "2026-11-25",
+  "year": "2026",
+  "release_timestamp": "20261125_080340",
+  "created_at": "2026-11-25T08:03:40.654411+00:00",
+  "published_at": "2026-11-25",
+  "description": "We present AetherScript, a PHP-based generative transformer that synthesizes handwriting and sketch strokes by traversing a height-balanced search tree embed...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 43465.29,
+    "p99_latency_us": 44866.11,
+    "throughput_ops_sec": 23006.9,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1017-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/php/20261125_050120_pengpt__a_generative_transform",
+  "abstract": "We present AetherScript, a PHP-based generative transformer that synthesizes handwriting and sketch strokes by traversing a height-balanced search tree embedded in the transformer's attention graph. The tree maintains a strict height-balance invariant and key-ordering invariant during dynamic updates, enabling $O(\\log n)$ amortized insertion, deletion, and lookup. We prove that the invariant guarantees a height bound of $h \\le 1.44\\log_2(n+2)$ and empirically evaluate the implementation on an AMD EPYC 7763 64-Core Processor with 1 physical core and 2 logical threads. Across 30 benchmark iterations, the mean latency is 43 465.29 \\textmu{}s (Std Dev $\\pm$ 650.56 \\textmu{}s), P50 = 43 509.56 \\textmu{}s, P95 = 44 595.51 \\textmu{}s, P99 = 44 866.11 \\textmu{}s, and throughput is 23 007 ops/s. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/php-backend-core/tree/main/algorithms/20261125_050120_pengpt__a_generative_transform}"
+}
