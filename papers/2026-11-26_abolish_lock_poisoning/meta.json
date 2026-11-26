@@ -1,0 +1,30 @@
+{
+  "title": "Invariant-Preserving PoisonableLock: A Lock-Free Poisoning Mitigation in Java",
+  "topic": "Abolish Lock Poisoning",
+  "domain": "concurrency",
+  "language": "Java",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-26",
+  "publication_date": "2026-11-26",
+  "year": "2026",
+  "release_timestamp": "20261126_110447",
+  "created_at": "2026-11-26T11:04:47.419958+00:00",
+  "published_at": "2026-11-26",
+  "description": "Lock-free synchronization primitives are essential for high-throughput concurrent systems, yet the common practice of propagating a poisoned state after an e...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1014-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/java/20261126_090244_abolish_lock_poisoning",
+  "abstract": "Lock-free synchronization primitives are essential for high-throughput concurrent systems, yet the common practice of propagating a poisoned state after an exception can permanently disable a lock and degrade availability. This paper introduces PoisonableLock, a Java implementation that isolates exception-induced poisoning from normal execution while preserving linearizability. We formalize the state-transition model, prove that the poisoned flag is monotonic and that each runWithLock invocation is linearizable, and establish that the lock's amortized complexity remains $O(1)$ under contention. The design is verified through automated Abstract Syntax Tree inspection and static invariant checking on an Intel Xeon 6975P-C platform with 1 core and 2 logical threads. Source Code: \\url{https://github.com/myonathanlinkedin/java-enterprise-patterns/tree/main/algorithms/20261126_090244_abolish_lock_poisoning}"
+}
