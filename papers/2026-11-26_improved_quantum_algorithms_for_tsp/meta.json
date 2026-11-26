@@ -1,0 +1,30 @@
+{
+  "title": "Balanced Search & Indexing for Quantum-Enhanced TSP: A C-Based Held-Karp Implementation",
+  "topic": "Improved Quantum Algorithms for TSP and More",
+  "domain": "graph, matrix",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-26",
+  "publication_date": "2026-11-26",
+  "year": "2026",
+  "release_timestamp": "20261126_050359",
+  "created_at": "2026-11-26T05:03:59.277501+00:00",
+  "published_at": "2026-11-26",
+  "description": "We present a compact, C-based implementation of the Held-Karp dynamic-programming algorithm for the Traveling Salesman Problem (TSP) that incorporates a bala...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 431.12,
+    "p99_latency_us": 528.66,
+    "throughput_ops_sec": 2319550.6,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1018-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261126_030235_improved_quantum_algorithms_fo",
+  "abstract": "We present a compact, C-based implementation of the Held-Karp dynamic-programming algorithm for the Traveling Salesman Problem (TSP) that incorporates a balanced search and indexing structure to reduce memory fragmentation and improve spatially localized traversal. The algorithm preserves a strict height-balanced invariant over the implicit binary-mask tree, guaranteeing $O(n^2 2^n)$ time and $O(n 2^n)$ space. Empirical evaluation on an Intel(R) Xeon(R) 6975P-C with 1 physical core and 2 logical threads yields a mean latency of 431.12 \\textmu{}s and a throughput of 2,319,551 ops/s over 30 benchmark iterations. The source code is publicly available at \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261126_030235_improved_quantum_algorithms_fo}."
+}
