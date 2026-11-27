@@ -1,0 +1,30 @@
+{
+  "title": "Distributed Induced Path Detection via Local Counting in a Height-Balanced Search Structure",
+  "topic": "A Local-Counting Approach for Distributed Induced Path Detection",
+  "domain": "graph, concurrency",
+  "language": "C#",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-27",
+  "publication_date": "2026-11-27",
+  "year": "2026",
+  "release_timestamp": "20261127_200351",
+  "created_at": "2026-11-27T20:03:51.163566+00:00",
+  "published_at": "2026-11-27",
+  "description": "We present a lightweight, locality-aware method for detecting induced paths in distributed graphs by leveraging a local counting mechanism atop a height-bala...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+    "host_os": "Linux 7.0.0-1020-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/csharp/20261127_190246_a_local-counting_approach_for",
+  "abstract": "We present a lightweight, locality-aware method for detecting induced paths in distributed graphs by leveraging a local counting mechanism atop a height-balanced search tree. The algorithm maintains a per-node counter that aggregates path participation counts during distributed traversal, enabling each node to decide locally whether it lies on an induced path of a specified length. We prove that the tree remains strictly height-balanced, guaranteeing $O(\\log N)$ point and range queries as well as $O(\\log N)$ insertion and rebalancing, where $N$ is the number of nodes. The implementation in C\\# follows a purely functional style to avoid shared mutable state, and the source code is publicly available at \\url{https://github.com/myonathanlinkedin/csharp-enterprise-lab/tree/main/algorithms/20261127_190246_a_local-counting_approach_for}."
+}
