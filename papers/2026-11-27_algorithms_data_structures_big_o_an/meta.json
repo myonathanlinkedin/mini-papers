@@ -1,0 +1,30 @@
+{
+  "title": "Asymptotic and Empirical Analysis of Stack and Heap Operations in Ruby: Complexity, Invariants, and Throughput",
+  "topic": "Algorithms, Data Structures (Big-O), and Memory Management: Stack vs. Heap",
+  "domain": "",
+  "language": "Ruby",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-27",
+  "publication_date": "2026-11-27",
+  "year": "2026",
+  "release_timestamp": "20261127_050343",
+  "created_at": "2026-11-27T05:03:43.701466+00:00",
+  "published_at": "2026-11-27",
+  "description": "We investigate the algorithmic behavior of stack and heap data structures implemented in Ruby, focusing on asymptotic complexity, invariant preservation, and...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 103093.94,
+    "p99_latency_us": 110198.08,
+    "throughput_ops_sec": 9699.9,
+    "iterations": 30,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1020-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/ruby/20261127_030221_algorithms__data_structures__b",
+  "abstract": "We investigate the algorithmic behavior of stack and heap data structures implemented in Ruby, focusing on asymptotic complexity, invariant preservation, and empirical performance. The stack supports LIFO operations with constant-time push and pop, while the min-heap offers logarithmic-time extraction of the minimum element. We formalize the LIFO invariant and the heap property, proving that both structures maintain their respective orderings under arbitrary sequences of operations. An experimental campaign on an AMD EPYC 7763 64-core processor (1 physical core, 2 logical threads, 7.7~GB RAM, Linux 7.0.0-1020-azure) measured a mean latency of 103 093.94 \\textmu{}s and a throughput of 9 700 ops/s over 30 iterations. These results confirm the theoretical bounds and highlight Ruby's runtime characteristics for memory-bound data structures. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/ruby-algorithms-lab/tree/main/algorithms/20261127_030221_algorithms__data_structures__b}"
+}
