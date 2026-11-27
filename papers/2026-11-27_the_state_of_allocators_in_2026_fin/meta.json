@@ -1,0 +1,30 @@
+{
+  "title": "Sub-Allocator Coalescence and Contiguous Arena Invariants in a C Memory Pool",
+  "topic": "The State of Allocators in 2026 - Finally Stabilised",
+  "domain": "concurrency, allocator",
+  "language": "C",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-27",
+  "publication_date": "2026-11-27",
+  "year": "2026",
+  "release_timestamp": "20261127_210340",
+  "created_at": "2026-11-27T21:03:40.917038+00:00",
+  "published_at": "2026-11-27",
+  "description": "We present a lightweight sub-allocator that operates over a contiguous 64 KiB pool and guarantees zero double-free, contiguous arena, and constant-time amort...",
+  "benchmark_metrics": {
+    "measured": true,
+    "mean_latency_us": 453.66,
+    "p99_latency_us": 511.28,
+    "throughput_ops_sec": 2204298.2,
+    "iterations": 30,
+    "host_cpu": "Intel(R) Xeon(R) 6975P-C",
+    "host_os": "Linux 7.0.0-1018-aws",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.6
+  },
+  "folder": ".ephemeral_buffer/algorithms/c/20261127_200127_the_state_of_allocators_in_202",
+  "abstract": "We present a lightweight sub-allocator that operates over a contiguous 64 KiB pool and guarantees zero double-free, contiguous arena, and constant-time amortized allocation. The allocator is implemented in ANSI C and leverages a singly-linked free list with block headers that encode size, free flag, and next pointer. Empirical evaluation on an Intel Xeon 6975P-C (1 core, 2 threads) under Linux 7.0.0-1018-aws yields a mean latency of 453.66 \\textmu{}s ($\\pm$28.34 \\textmu{}s) and a throughput of 2 204 298 ops/s over 30 iterations. Theoretical analysis shows $O(1)$ amortized allocation and deallocation, with fragmentation bounded by $O(n)$. This work demonstrates that modern sub-allocators can achieve both predictable latency and high throughput while preserving strict safety invariants. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/c-lowlevel-systems/tree/main/algorithms/20261127_200127_the_state_of_allocators_in_202}"
+}
