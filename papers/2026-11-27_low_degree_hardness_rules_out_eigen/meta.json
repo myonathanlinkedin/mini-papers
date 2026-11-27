@@ -1,0 +1,30 @@
+{
+  "title": "Low-Degree Hardness Precludes Eigenvalue Verification while Preserving Eigenvector Detection in a Haskell Balanced Search Index",
+  "topic": "Low-degree hardness rules out eigenvalue tests but not eigenvector tests",
+  "domain": "concurrency, matrix",
+  "language": "Haskell",
+  "author": "Mateus Yonathan",
+  "journal": "Polyglot Systems Lab Agentic Research Preprints",
+  "publisher": "Polyglot Systems Lab",
+  "date": "2026-11-27",
+  "publication_date": "2026-11-27",
+  "year": "2026",
+  "release_timestamp": "20261127_230349",
+  "created_at": "2026-11-27T23:03:49.009850+00:00",
+  "published_at": "2026-11-27",
+  "description": "We investigate the impact of low-degree hardness on spectral verification within a purely functional balanced search index implemented in Haskell. The core r...",
+  "benchmark_metrics": {
+    "measured": false,
+    "mean_latency_us": 0.0,
+    "p99_latency_us": 0.0,
+    "throughput_ops_sec": 0.0,
+    "iterations": 0,
+    "host_cpu": "AMD EPYC 7763 64-Core Processor",
+    "host_os": "Linux 7.0.0-1020-azure",
+    "host_cores": 1,
+    "host_threads": 2,
+    "host_ram_gb": 7.7
+  },
+  "folder": ".ephemeral_buffer/algorithms/haskell/20261127_170113_low-degree_hardness_rules_out",
+  "abstract": "We investigate the impact of low-degree hardness on spectral verification within a purely functional balanced search index implemented in Haskell. The core routine performs exact rational arithmetic to test whether a given vector is an eigenvector of a square matrix, returning the corresponding eigenvalue when it exists. While low-degree tests render eigenvalue determination infeasible, the algorithm retains linear-time eigenvector verification by exploiting the structure of the matrix--vector product. We formally prove that the height-balanced invariant of the search tree guarantees $O(\\log N)$ search and insertion, and we provide a static abstract-syntax-tree (AST) profile that confirms the theoretical bounds. No empirical runtime measurements were conducted; the evaluation relies solely on static analysis and formal proofs. \\textbf{Source Code}: \\url{https://github.com/myonathanlinkedin/haskell-functional-core/tree/main/algorithms/20261127_170113_low-degree_hardness_rules_out}"
+}
